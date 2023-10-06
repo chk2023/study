@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "43bf63f052dae540",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "스프링 (인프런)/스프링 입문/02 스프링 웹 개발 기초.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "6ec9fce19b69f2e0",
             "type": "leaf",
             "state": {
@@ -30,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5d9959ac0fc0af77",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "스프링 (인프런)/스프링 입문/02 스프링 웹 개발 기초.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -60,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "도메인",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -160,10 +161,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "43bf63f052dae540",
+  "active": "1c0057bca8d9013b",
   "lastOpenFiles": [
-    "스프링 (인프런)/스프링 입문/01 프로젝트 환경설정.md",
+    "github test.md",
+    "인텔리제이 단축키.md",
+    "숙제/! 공부 및 숙제 목록.md",
     "스프링 (인프런)/스프링 입문/02 스프링 웹 개발 기초.md",
+    "스프링 (인프런)/스프링 입문/01 프로젝트 환경설정.md",
     "자바의 정석 (유튜브)/10~.md",
     "screenshot/Pasted image 20231006110550.png",
     "screenshot/Pasted image 20231006110520.png",
@@ -175,7 +179,6 @@
     "자바의 정석 (유튜브)/06.md",
     "자바의 정석 (유튜브)/05.md",
     "자바의 정석 (유튜브)/02.md",
-    "인텔리제이 단축키.md",
     "Java/JVM.md",
     "Java/JDK, JIT.md",
     "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/내용/03장 스프링 부트에서 JPA로 데이터베이스를 다뤄보자.md",
@@ -195,8 +198,6 @@
     "CS/프레임워크 vs 라이브러리.md",
     "CS/Rest vs Restful.md",
     "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/내용/02장 스프링 부트에서 테스트 코드를 작성하자.md",
-    "CS/HTTP Method - GET, POST, PUT, DELETE.md",
-    "Java/GET vs POST.md",
     "screenshot/Pasted image 20231004152423.png",
     "screenshot/Pasted image 20231004152318.png",
     "screenshot/Pasted image 20231004145629.png",
