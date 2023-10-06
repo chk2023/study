@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "a557dd975c09f315",
@@ -150,12 +149,12 @@
   },
   "active": "a317883a873ba617",
   "lastOpenFiles": [
-    "Pasted image 20231006164905.png",
+    "인텔리제이 단축키.md",
+    "스프링 (인프런)/스프링 입문/02 스프링 웹 개발 기초.md",
+    "screenshot/Pasted image 20231006164905.png",
     "screenshot/Pasted image 20231006162946.png",
     "스프링 (인프런)/스프링 입문/01 프로젝트 환경설정.md",
-    "스프링 (인프런)/스프링 입문/02 스프링 웹 개발 기초.md",
     "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/내용/02장 스프링 부트에서 테스트 코드를 작성하자.md",
-    "인텔리제이 단축키.md",
     "브라우저에서 서버로 값을 요청하는 방식.md",
     "github test.md",
     "숙제/! 공부 및 숙제 목록.md",
@@ -188,7 +187,6 @@
     "CS/프레임워크 vs 라이브러리.md",
     "screenshot/Pasted image 20231004152423.png",
     "screenshot/Pasted image 20231004152318.png",
-    "screenshot/Pasted image 20231004145629.png",
     "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석",
     "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/내용",
     "스프링 부트와 AWS로 혼자 구현하는 웹 서비스",
