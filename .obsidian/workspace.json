@@ -8,19 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6ec9fce19b69f2e0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "인텔리제이 단축키.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5d9959ac0fc0af77",
+            "id": "a317883a873ba617",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "requestpa",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -82,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "a557dd975c09f315",
@@ -161,13 +147,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5d9959ac0fc0af77",
+  "active": "a317883a873ba617",
   "lastOpenFiles": [
-    "github test.md",
-    "인텔리제이 단축키.md",
-    "숙제/! 공부 및 숙제 목록.md",
-    "스프링 (인프런)/스프링 입문/02 스프링 웹 개발 기초.md",
     "스프링 (인프런)/스프링 입문/01 프로젝트 환경설정.md",
+    "스프링 (인프런)/스프링 입문/02 스프링 웹 개발 기초.md",
+    "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/내용/02장 스프링 부트에서 테스트 코드를 작성하자.md",
+    "인텔리제이 단축키.md",
+    "브라우저에서 서버로 값을 요청하는 방식.md",
+    "github test.md",
+    "숙제/! 공부 및 숙제 목록.md",
     "자바의 정석 (유튜브)/10~.md",
     "screenshot/Pasted image 20231006110550.png",
     "screenshot/Pasted image 20231006110520.png",
@@ -183,7 +171,6 @@
     "Java/JDK, JIT.md",
     "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/내용/03장 스프링 부트에서 JPA로 데이터베이스를 다뤄보자.md",
     "자바의 정석 (유튜브)",
-    "브라우저에서 서버로 값을 요청하는 방식.md",
     "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/controller.md",
     "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/service.md",
     "유효성 체크.md",
@@ -197,7 +184,6 @@
     "screenshot/Pasted image 20231004193602.png",
     "CS/프레임워크 vs 라이브러리.md",
     "CS/Rest vs Restful.md",
-    "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/내용/02장 스프링 부트에서 테스트 코드를 작성하자.md",
     "screenshot/Pasted image 20231004152423.png",
     "screenshot/Pasted image 20231004152318.png",
     "screenshot/Pasted image 20231004145629.png",
