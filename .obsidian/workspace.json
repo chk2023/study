@@ -82,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "a557dd975c09f315",
@@ -161,7 +160,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1c0057bca8d9013b",
+  "active": "5d9959ac0fc0af77",
   "lastOpenFiles": [
     "github test.md",
     "인텔리제이 단축키.md",
