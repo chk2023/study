@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "a557dd975c09f315",
@@ -149,6 +150,7 @@
   },
   "active": "a317883a873ba617",
   "lastOpenFiles": [
+    "screenshot/Pasted image 20231007095241.png",
     "스프링 (인프런)/스프링 입문/02 스프링 웹 개발 기초.md",
     "screenshot/Pasted image 20231006170025.png",
     "인텔리제이 단축키.md",
