@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "스프링 (인프런)/스프링 입문/02 스프링 웹 개발 기초.md",
+                "file": "자바의 정석 (유튜브)/10~.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "a557dd975c09f315",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "스프링 (인프런)/스프링 입문/02 스프링 웹 개발 기초.md",
+                "file": "자바의 정석 (유튜브)/10~.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "스프링 (인프런)/스프링 입문/02 스프링 웹 개발 기초.md",
+                "file": "자바의 정석 (유튜브)/10~.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "스프링 (인프런)/스프링 입문/02 스프링 웹 개발 기초.md"
+                "file": "자바의 정석 (유튜브)/10~.md"
               }
             }
           }
@@ -150,9 +149,9 @@
   },
   "active": "a317883a873ba617",
   "lastOpenFiles": [
+    "스프링 (인프런)/스프링 입문/02 스프링 웹 개발 기초.md",
     "screenshot/Pasted image 20231006170025.png",
     "인텔리제이 단축키.md",
-    "스프링 (인프런)/스프링 입문/02 스프링 웹 개발 기초.md",
     "screenshot/Pasted image 20231006164905.png",
     "screenshot/Pasted image 20231006162946.png",
     "스프링 (인프런)/스프링 입문/01 프로젝트 환경설정.md",
@@ -188,7 +187,6 @@
     "screenshot/Pasted image 20231004193602.png",
     "CS/프레임워크 vs 라이브러리.md",
     "screenshot/Pasted image 20231004152423.png",
-    "screenshot/Pasted image 20231004152318.png",
     "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석",
     "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/내용",
     "스프링 부트와 AWS로 혼자 구현하는 웹 서비스",
