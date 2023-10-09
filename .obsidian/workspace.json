@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "스터디.md",
+                "file": "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/내용/04장 머스테치로 화면 구성하기.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "스택",
+                "query": "id",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,12 +114,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "a557dd975c09f315",
@@ -135,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "스터디.md",
+                "file": "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/내용/04장 머스테치로 화면 구성하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "스터디.md",
+                "file": "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/내용/04장 머스테치로 화면 구성하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "스터디.md"
+                "file": "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/내용/04장 머스테치로 화면 구성하기.md"
               }
             }
           }
@@ -199,8 +199,10 @@
   },
   "active": "ac8bbf1ce89ac5f1",
   "lastOpenFiles": [
-    "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/controller.md",
+    "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/내용/03장 스프링 부트에서 JPA로 데이터베이스를 다뤄보자.md",
+    "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/내용/01장 인텔리제이로 스프링 부트 시작하기.md",
     "스터디.md",
+    "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/controller.md",
     "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/web.md",
     "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/service.md",
     "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/domain.md",
@@ -225,8 +227,6 @@
     "버전 관리 시스템.md",
     "메소드 체이닝.md",
     "깃 플로우.md",
-    "자바의 정석 (유튜브)/chapter 03.md",
-    "자바의 정석 (유튜브)/chapter 02.md",
     "screenshot/Pasted image 20231009121815.png",
     "screenshot/Pasted image 20231009121750.png",
     "screenshot/Pasted image 20231009121710.png",
