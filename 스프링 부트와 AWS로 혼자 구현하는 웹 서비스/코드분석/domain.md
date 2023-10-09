@@ -29,7 +29,12 @@ JpaRepository 인터페이스를 상속한다.
 쿼리문을 작성할 때 사용.
 
 ### BaseTimeEntity
+@MappedSuperclass
 
+@EntityListeners(AuditingEntityListener.class)
 
+@CreatedDate
+
+@LastModifiredDate
 
 

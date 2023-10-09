@@ -8,60 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a317883a873ba617",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/domain.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c74dd4b9dba787da",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/domain.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b7d3fd39f797e9d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/domain.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "b390a6f1d2deffe2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/domain.md",
+                "file": "Java/Spring/Controller, Service, Repository, Entity.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "9aac996535cf491c",
+            "id": "c75259c11ede6699",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Java/메소드와 생성자.md",
+                "file": "JPA 사용법.md",
                 "mode": "source",
                 "source": false
               }
@@ -80,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -146,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/Java/메소드와 생성자.md",
+                "file": "JPA 사용법.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/Java/메소드와 생성자.md",
+                "file": "JPA 사용법.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/Java/메소드와 생성자.md"
+                "file": "JPA 사용법.md"
               }
             }
           }
@@ -208,12 +172,18 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1c0057bca8d9013b",
+  "active": "c75259c11ede6699",
   "lastOpenFiles": [
+    "Java/Spring/Controller, Service, Repository, Entity.md",
+    "JPA 사용법.md",
+    "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/domain.md",
+    "공부노트.md",
+    "학습노트/깃허브 인텔리제이 레포지토리에 등록하기.md",
+    "Java/Java/메소드와 생성자.md",
+    "숙제/! 공부 및 숙제 목록.md",
     "슈퍼 클래스.md",
     "Java/Java",
     "Java/Spring",
-    "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/domain.md",
     "빌더패턴.md",
     "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/service.md",
     "JPA- 엔티티와 매핑.md",
@@ -226,7 +196,6 @@
     "버전 관리 시스템.md",
     "메소드 체이닝.md",
     "깃 플로우.md",
-    "공부노트.md",
     "자바의 정석 (유튜브)/chapter 03.md",
     "자바의 정석 (유튜브)/chapter 02.md",
     "screenshot/Pasted image 20231009121815.png",
@@ -243,10 +212,6 @@
     "screenshot/Pasted image 20231009110341.png",
     "Java/Java/얕은 복사 vs 깊은 복사.md",
     "스프링 (인프런)/스프링 입문/02 스프링 웹 개발 기초.md",
-    "스프링 (인프런)/스프링 입문/01 프로젝트 환경설정.md",
-    "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/내용/02장 스프링 부트에서 테스트 코드를 작성하자.md",
-    "브라우저에서 서버로 값을 요청하는 방식.md",
-    "github test.md",
     "자바의 정석 (유튜브)",
     "스프링 (인프런)/스프링 입문",
     "스프링 (인프런)",
