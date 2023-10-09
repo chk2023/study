@@ -4,47 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "741d73b4d91f1955",
+        "id": "248f8a902d64a9c5",
         "type": "tabs",
         "children": [
           {
-            "id": "b390a6f1d2deffe2",
+            "id": "1597469e3e8138fe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Spring/Controller, Service, Repository, Entity.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c75259c11ede6699",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JPA 사용법.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e2e074a4400a7f44",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/controller.md",
+                "file": "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/domain.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JPA 사용법.md",
+                "file": "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/domain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JPA 사용법.md",
+                "file": "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/domain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JPA 사용법.md"
+                "file": "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/domain.md"
               }
             }
           }
@@ -172,11 +147,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c75259c11ede6699",
+  "active": "1c0057bca8d9013b",
   "lastOpenFiles": [
-    "Java/Spring/Controller, Service, Repository, Entity.md",
-    "JPA 사용법.md",
+    "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/service.md",
     "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/domain.md",
+    "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/controller.md",
+    "Java/Spring/Controller, Service, Repository, Entity.md",
+    "스프링 어노테이션.md",
+    "JAR.md",
+    "JPA 사용법.md",
     "공부노트.md",
     "학습노트/깃허브 인텔리제이 레포지토리에 등록하기.md",
     "Java/Java/메소드와 생성자.md",
@@ -185,13 +164,11 @@
     "Java/Java",
     "Java/Spring",
     "빌더패턴.md",
-    "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/service.md",
     "JPA- 엔티티와 매핑.md",
     "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/templates.md",
     "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/test.md",
     "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/web.md",
     "@GeneratedValue 전략.md",
-    "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/controller.md",
     "트랜잭션.md",
     "버전 관리 시스템.md",
     "메소드 체이닝.md",
@@ -210,8 +187,6 @@
     "screenshot/Pasted image 20231009112047.png",
     "screenshot/Pasted image 20231009110745.png",
     "screenshot/Pasted image 20231009110341.png",
-    "Java/Java/얕은 복사 vs 깊은 복사.md",
-    "스프링 (인프런)/스프링 입문/02 스프링 웹 개발 기초.md",
     "자바의 정석 (유튜브)",
     "스프링 (인프런)/스프링 입문",
     "스프링 (인프런)",
