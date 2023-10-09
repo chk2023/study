@@ -6,6 +6,10 @@
 
 @NoArgsConstructor
 파라미터가 없는 기본 생성자를 생성한다.
+
+@Id
+
+
 ### PostsRepository
 
 
