@@ -12,9 +12,11 @@ PK를 지정하기 위해 @Id를 사용.
 
 @GeneratedValue
 @Id와 함께 사용된다. 생성 전략을 정의하기 위해 @GeneratedValue를 사용한다.
-@GeneratedValue(strategy = GenerationType.IDENTITY) >> 기본키 생성을 데이터베이스에게 위임하는 방식으로 id값을 따로 할당하지 않아도 데이터베이스가 자도
+@GeneratedValue(strategy = GenerationType.IDENTITY) >> 기본키 생성을 데이터베이스에게 위임하는 방식으로 id값을 따로 할당하지 않아도 데이터베이스가 자동으로 AUTO_INCREMENT를 하여 기본키를 생성.
 
 @Column
+객체 필드를 테이블 컬럼에 매핑한다.
+
 ### PostsRepository
 
 

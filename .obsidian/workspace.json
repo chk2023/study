@@ -20,6 +20,30 @@
             }
           },
           {
+            "id": "c74dd4b9dba787da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/domain.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b7d3fd39f797e9d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/domain.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "e2e074a4400a7f44",
             "type": "leaf",
             "state": {
@@ -31,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -81,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "a557dd975c09f315",
@@ -160,15 +184,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a317883a873ba617",
+  "active": "b7d3fd39f797e9d6",
   "lastOpenFiles": [
-    "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/controller.md",
-    "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/domain.md",
     "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/service.md",
-    "트랜잭션.md",
-    "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/web.md",
-    "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/test.md",
+    "JPA- 엔티티와 매핑.md",
+    "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/domain.md",
     "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/templates.md",
+    "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/test.md",
+    "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/web.md",
+    "@GeneratedValue 전략.md",
+    "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/controller.md",
+    "트랜잭션.md",
     "버전 관리 시스템.md",
     "메소드 체이닝.md",
     "깃 플로우.md",
@@ -196,8 +222,6 @@
     "숙제/! 공부 및 숙제 목록.md",
     "자바의 정석 (유튜브)/07.md",
     "자바의 정석 (유튜브)/06.md",
-    "자바의 정석 (유튜브)/05.md",
-    "자바의 정석 (유튜브)/02.md",
     "자바의 정석 (유튜브)",
     "스프링 (인프런)/스프링 입문",
     "스프링 (인프런)",
