@@ -142,8 +142,4 @@ public class ScanfEx1 {
 ![[Pasted image 20231009121750.png]]
 ![[Pasted image 20231009121815.png]]
 
-
-
-
-
 ### 22 타입간의 변환방법
