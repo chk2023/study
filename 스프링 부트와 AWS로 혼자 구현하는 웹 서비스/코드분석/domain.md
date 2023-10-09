@@ -22,14 +22,13 @@ PK를 지정하기 위해 @Id를 사용.
 
 ### PostsRepository
 JpaRepository<Posts, Long>
-JpaRepositor
+JpaRepository 인터페이스를 상속한다.
+상속받을 때는 사용될 Entity 클래스와 ID 값이 들어간다. 
 
 @Query
-
-
+쿼리문을 작성할 때 사용.
 
 ### BaseTimeEntity
-
 
 
 
