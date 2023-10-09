@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "a557dd975c09f315",
@@ -147,7 +148,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a317883a873ba617",
+  "active": "1c0057bca8d9013b",
   "lastOpenFiles": [
     "Pasted image 20231009110745.png",
     "screenshot/Pasted image 20231009110341.png",
