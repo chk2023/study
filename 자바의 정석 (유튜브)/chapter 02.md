@@ -143,3 +143,7 @@ public class ScanfEx1 {
 ![[Pasted image 20231009121815.png]]
 
 ### 22 타입간의 변환방법
+charAt(0)
+Integer.parseInt()
++'0'
+-'0'
