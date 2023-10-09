@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "자바의 정석 (유튜브)/10~.md",
+                "file": "자바의 정석 (유튜브)/chapter 02.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "자바의 정석 (유튜브)/10~.md",
+                "file": "자바의 정석 (유튜브)/chapter 02.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "자바의 정석 (유튜브)/10~.md",
+                "file": "자바의 정석 (유튜브)/chapter 02.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "자바의 정석 (유튜브)/10~.md"
+                "file": "자바의 정석 (유튜브)/chapter 02.md"
               }
             }
           }
@@ -148,8 +148,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a317883a873ba617",
+  "active": "1c0057bca8d9013b",
   "lastOpenFiles": [
+    "자바의 정석 (유튜브)/chapter 03.md",
+    "자바의 정석 (유튜브)/chapter 02.md",
+    "자바의 정석 (유튜브)/chapter 01.md",
     "Pasted image 20231009115156.png",
     "Pasted image 20231009113235.png",
     "Pasted image 20231009112254.png",
@@ -160,17 +163,14 @@
     "screenshot/Pasted image 20231009105042.png",
     "screenshot/Pasted image 20231007101706.png",
     "숙제/얕은 복사 vs 깊은 복사.md",
-    "자바의 정석 (유튜브)/10~.md",
     "screenshot/Pasted image 20231007095241.png",
     "스프링 (인프런)/스프링 입문/02 스프링 웹 개발 기초.md",
-    "screenshot/Pasted image 20231006170025.png",
     "인텔리제이 단축키.md",
     "스프링 (인프런)/스프링 입문/01 프로젝트 환경설정.md",
     "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/내용/02장 스프링 부트에서 테스트 코드를 작성하자.md",
     "브라우저에서 서버로 값을 요청하는 방식.md",
     "github test.md",
     "숙제/! 공부 및 숙제 목록.md",
-    "자바의 정석 (유튜브)/1~9.md",
     "자바의 정석 (유튜브)/07.md",
     "자바의 정석 (유튜브)/06.md",
     "자바의 정석 (유튜브)/05.md",
