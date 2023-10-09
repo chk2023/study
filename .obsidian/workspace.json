@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "자바의 정석 (유튜브)/chapter 03.md",
+                "file": "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/service.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "80aa9738db8b7cdb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/domain.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "자바의 정석 (유튜브)/chapter 03.md",
+                "file": "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/domain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "자바의 정석 (유튜브)/chapter 03.md",
+                "file": "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/domain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "자바의 정석 (유튜브)/chapter 03.md"
+                "file": "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/domain.md"
               }
             }
           }
@@ -147,13 +160,24 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a317883a873ba617",
+  "active": "80aa9738db8b7cdb",
   "lastOpenFiles": [
-    "자바의 정석 (유튜브)/chapter 02.md",
-    "Pasted image 20231009121815.png",
-    "Pasted image 20231009121750.png",
-    "screenshot/Pasted image 20231009121710.png",
+    "트랜잭션.md",
+    "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/service.md",
+    "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/domain.md",
+    "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/controller.md",
+    "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/web.md",
+    "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/test.md",
+    "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/templates.md",
+    "버전 관리 시스템.md",
+    "메소드 체이닝.md",
+    "깃 플로우.md",
+    "공부노트.md",
     "자바의 정석 (유튜브)/chapter 03.md",
+    "자바의 정석 (유튜브)/chapter 02.md",
+    "screenshot/Pasted image 20231009121815.png",
+    "screenshot/Pasted image 20231009121750.png",
+    "screenshot/Pasted image 20231009121710.png",
     "인텔리제이 단축키.md",
     "screenshot/Pasted image 20231009120308.png",
     "자바의 정석 (유튜브)/chapter 01.md",
@@ -174,19 +198,9 @@
     "자바의 정석 (유튜브)/06.md",
     "자바의 정석 (유튜브)/05.md",
     "자바의 정석 (유튜브)/02.md",
-    "Java/JVM.md",
-    "Java/JDK, JIT.md",
-    "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/내용/03장 스프링 부트에서 JPA로 데이터베이스를 다뤄보자.md",
     "자바의 정석 (유튜브)",
-    "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/controller.md",
-    "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/service.md",
-    "유효성 체크.md",
-    "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/web.md",
-    "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/domain.md",
-    "slf4j & logback.md",
     "스프링 (인프런)/스프링 입문",
     "스프링 (인프런)",
-    "CS/주소창에 네이버를 치면 일어나는 일.md",
     "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석",
     "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/내용",
     "스프링 부트와 AWS로 혼자 구현하는 웹 서비스",
