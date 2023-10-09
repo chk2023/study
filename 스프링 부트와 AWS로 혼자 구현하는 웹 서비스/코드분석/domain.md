@@ -17,7 +17,14 @@ PK를 지정하기 위해 @Id를 사용.
 @Column
 객체 필드를 테이블 컬럼에 매핑한다.
 
+@Builder
+클래스 또는 생성자 위에 @Builder를 붙여주면 빌터패턴 코드가 빌드된다.
+
 ### PostsRepository
+JpaRepository<Posts, Long>
+JpaRepositor
+
+@Query
 
 
 
