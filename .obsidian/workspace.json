@@ -13,19 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/domain.md",
+                "file": "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/web.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "598c1969044215ec",
+            "id": "3fd404c4a5998201",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/service.md",
+                "file": "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/domain.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/service.md",
+                "file": "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/web.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/service.md",
+                "file": "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/web.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/service.md"
+                "file": "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/web.md"
               }
             }
           }
@@ -172,11 +171,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "598c1969044215ec",
+  "active": "1597469e3e8138fe",
   "lastOpenFiles": [
-    "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/controller.md",
+    "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/test.md",
+    "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/templates.md",
     "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/service.md",
     "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/domain.md",
+    "트랜잭션.md",
+    "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/controller.md",
     "@CreatedDate, @LastModifiedDate.md",
     "Java/Spring/Controller, Service, Repository, Entity.md",
     "스프링 어노테이션.md",
@@ -191,11 +193,8 @@
     "Java/Spring",
     "빌더패턴.md",
     "JPA- 엔티티와 매핑.md",
-    "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/templates.md",
-    "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/test.md",
     "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/web.md",
     "@GeneratedValue 전략.md",
-    "트랜잭션.md",
     "버전 관리 시스템.md",
     "메소드 체이닝.md",
     "깃 플로우.md",
