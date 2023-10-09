@@ -8,8 +8,13 @@
 파라미터가 없는 기본 생성자를 생성한다.
 
 @Id
+PK를 지정하기 위해 @Id를 사용.
 
+@GeneratedValue
+@Id와 함께 사용된다. 생성 전략을 정의하기 위해 @GeneratedValue를 사용한다.
+@GeneratedValue(strategy = GenerationType.IDENTITY) >> 기본키 생성을 데이터베이스에게 위임하는 방식으로 id값을 따로 할당하지 않아도 데이터베이스가 자도
 
+@Column
 ### PostsRepository
 
 
