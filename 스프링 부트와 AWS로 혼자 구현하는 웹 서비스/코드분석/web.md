@@ -1,10 +1,8 @@
 ## dto
-### HelloResponseDto
-
 ### PostsListResponseDto
-
+entity의 id, title, author, modified date 값을 저장하는 변수.
 ### PostsResponseDto
-
+entity의 id, title, author, content 값을 저장하는 변수.
 ### PostsSaveRequestDto
 
 ### PostsUpdateRequestDto
