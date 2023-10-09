@@ -121,3 +121,29 @@ printf()는 개행문자인 \\n을 붙여줘야 한다.
 
 
 ### 20 화면으로부터 입력받기
+```
+public class ScanfEx1 {  
+    public static void main(String[] args) {  
+        Scanner scanner = new Scanner(System.in);  
+  
+//        int num = scanner.nextInt();  
+//        int num2 = scanner.nextInt();  
+//        System.out.println(num);  
+//        System.out.println(num2);  
+  
+        String input = scanner.nextLine();  
+        int num = Integer.parseInt(input);  
+        System.out.println(num);  
+    }  
+}
+```
+
+### 21 정수형의 오버플로우
+![[Pasted image 20231009121750.png]]
+![[Pasted image 20231009121815.png]]
+
+
+
+
+
+### 22 타입간의 변환방법
