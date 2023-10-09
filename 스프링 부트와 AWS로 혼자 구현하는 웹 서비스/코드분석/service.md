@@ -1,0 +1,5 @@
+### PostsService
+@Service
+
+@Transactional
+

@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "67060c651d6d79bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/service.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/domain.md",
+                "file": "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/service.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/domain.md",
+                "file": "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/service.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/domain.md"
+                "file": "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/service.md"
               }
             }
           }
@@ -149,8 +162,9 @@
   },
   "active": "1c0057bca8d9013b",
   "lastOpenFiles": [
-    "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/service.md",
     "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/domain.md",
+    "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/service.md",
+    "@CreatedDate, @LastModifiedDate.md",
     "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/controller.md",
     "Java/Spring/Controller, Service, Repository, Entity.md",
     "스프링 어노테이션.md",
@@ -180,7 +194,6 @@
     "screenshot/Pasted image 20231009121710.png",
     "인텔리제이 단축키.md",
     "screenshot/Pasted image 20231009120308.png",
-    "자바의 정석 (유튜브)/chapter 01.md",
     "screenshot/Pasted image 20231009115156.png",
     "screenshot/Pasted image 20231009113235.png",
     "screenshot/Pasted image 20231009112254.png",
