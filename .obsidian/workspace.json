@@ -4,71 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "248f8a902d64a9c5",
+        "id": "bcce080c7ae91655",
         "type": "tabs",
         "children": [
           {
-            "id": "1597469e3e8138fe",
+            "id": "14e71e2693d85f3e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/controller.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ac8bbf1ce89ac5f1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/내용/04장 머스테치로 화면 구성하기.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3fd404c4a5998201",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/domain.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "67060c651d6d79bf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/service.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "292631d7568fe75e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/web.md",
+                "file": "자바의 정석 (유튜브)/chapter 03.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -114,13 +65,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "a557dd975c09f315",
@@ -136,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/controller.md",
+                "file": "자바의 정석 (유튜브)/chapter 03.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/controller.md",
+                "file": "자바의 정석 (유튜브)/chapter 03.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/controller.md"
+                "file": "자바의 정석 (유튜브)/chapter 03.md"
               }
             }
           }
@@ -198,12 +147,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "fda14fc677285d11",
+  "active": "14e71e2693d85f3e",
   "lastOpenFiles": [
+    "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/controller.md",
     "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/내용/03장 스프링 부트에서 JPA로 데이터베이스를 다뤄보자.md",
     "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/내용/01장 인텔리제이로 스프링 부트 시작하기.md",
     "스터디.md",
-    "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/controller.md",
     "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/web.md",
     "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/service.md",
     "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/domain.md",
