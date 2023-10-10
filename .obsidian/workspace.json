@@ -18,6 +18,16 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0cb52ec6d629a120",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "screenshot/Pasted image 20231010104706.png"
+              }
+            }
           }
         ]
       }
@@ -149,18 +159,18 @@
   },
   "active": "14e71e2693d85f3e",
   "lastOpenFiles": [
-    "Pasted image 20231010104826.png",
-    "Pasted image 20231010104706.png",
-    "screenshot/Pasted image 20231010093028.png",
+    "Pasted image 20231010105657.png",
+    "screenshot/Pasted image 20231010104706.png",
     "자바의 정석 (유튜브)/chapter 03.md",
+    "screenshot/Pasted image 20231010105545.png",
+    "screenshot/Pasted image 20231010105500.png",
+    "screenshot/Pasted image 20231010104826.png",
+    "screenshot/Pasted image 20231010093028.png",
     "screenshot/Pasted image 20231010104600.png",
     "screenshot/Pasted image 20231010103829.png",
     "screenshot/Pasted image 20231010103144.png",
     "screenshot/Pasted image 20231010102735.png",
     "screenshot/Pasted image 20231010100424.png",
-    "screenshot/Pasted image 20231010100418.png",
-    "screenshot/Pasted image 20231010094652.png",
-    "screenshot/Pasted image 20231010094421.png",
     "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/controller.md",
     "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/내용/03장 스프링 부트에서 JPA로 데이터베이스를 다뤄보자.md",
     "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/내용/01장 인텔리제이로 스프링 부트 시작하기.md",
