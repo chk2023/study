@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "a557dd975c09f315",
@@ -149,6 +150,8 @@
   },
   "active": "14e71e2693d85f3e",
   "lastOpenFiles": [
+    "Pasted image 20231010103144.png",
+    "Pasted image 20231010102735.png",
     "Pasted image 20231010100424.png",
     "Pasted image 20231010100418.png",
     "Pasted image 20231010094652.png",
@@ -185,8 +188,6 @@
     "@GeneratedValue 전략.md",
     "버전 관리 시스템.md",
     "메소드 체이닝.md",
-    "screenshot/Pasted image 20231009121815.png",
-    "screenshot/Pasted image 20231009121750.png",
     "자바의 정석 (유튜브)",
     "스프링 (인프런)/스프링 입문",
     "스프링 (인프런)",
