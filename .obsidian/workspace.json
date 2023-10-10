@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "스프링 (인프런)/스프링 입문/03 회원 관리 예제 - 백엔드 개발.md",
+                "file": "스프링 (인프런)/스프링 입문/04 스프링 빈과 의존관계.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "a557dd975c09f315",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "스프링 (인프런)/스프링 입문/03 회원 관리 예제 - 백엔드 개발.md",
+                "file": "스프링 (인프런)/스프링 입문/04 스프링 빈과 의존관계.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "스프링 (인프런)/스프링 입문/03 회원 관리 예제 - 백엔드 개발.md",
+                "file": "스프링 (인프런)/스프링 입문/04 스프링 빈과 의존관계.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "스프링 (인프런)/스프링 입문/03 회원 관리 예제 - 백엔드 개발.md"
+                "file": "스프링 (인프런)/스프링 입문/04 스프링 빈과 의존관계.md"
               }
             }
           }
@@ -149,8 +150,8 @@
   },
   "active": "14e71e2693d85f3e",
   "lastOpenFiles": [
-    "스프링 (인프런)/스프링 입문/04 스프링 빈과 의존관계.md",
     "스프링 (인프런)/스프링 입문/03 회원 관리 예제 - 백엔드 개발.md",
+    "스프링 (인프런)/스프링 입문/04 스프링 빈과 의존관계.md",
     "스프링 (인프런)/스프링 입문/08 다음으로.md",
     "스프링 (인프런)/스프링 입문/07 AOP.md",
     "스프링 (인프런)/스프링 입문/06 스프링 DB 접근 기술.md",
