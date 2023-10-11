@@ -61,6 +61,8 @@ Math.round는 실수를 소수점 첫 째자리에서 반올림한 정수를 반
 
 ![[Pasted image 20231011163423.png]]
 
+![[Pasted image 20231011163636.png]]
+![[Pasted image 20231011163818.png]]
 
 
 
