@@ -12,7 +12,9 @@ if문 괄호 안에 조건문이 true 면 중괄호 안에 내용을 실행. fal
 
 
 ### 33 if-else if문, 중첩 if문
-
+if-else는 둘 중 하나를 처리한다. if-else if문은 여러 개의 경우의 수를 처리할 때 사용한다.
+![[Pasted image 20231011165154.png]]
+ 
 
 
 
