@@ -17,15 +17,15 @@ if-else는 둘 중 하나를 처리한다. if-else if문은 여러 개의 경우
 
 ![[Pasted image 20231011170421.png]]
 
-
-
-
-
-
-
-
-
 ### 34 switch 문
+경우의 수가 많을 때는 if-else if문 보다 swtich가 사용하기 좋다.
+![[Pasted image 20231011170910.png]]
+
+ 
+
+
+
+
 
 
 ### 35 임의의 정수 만들기
