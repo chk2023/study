@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "스프링 (인프런)/스프링 입문/04 스프링 빈과 의존관계.md",
+                "file": "스프링 (인프런)/스프링 입문/05 회원 관리 예제 - 웹 MVC 개발.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "스프링 (인프런)/스프링 입문/04 스프링 빈과 의존관계.md",
+                "file": "스프링 (인프런)/스프링 입문/05 회원 관리 예제 - 웹 MVC 개발.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "스프링 (인프런)/스프링 입문/04 스프링 빈과 의존관계.md",
+                "file": "스프링 (인프런)/스프링 입문/05 회원 관리 예제 - 웹 MVC 개발.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "스프링 (인프런)/스프링 입문/04 스프링 빈과 의존관계.md"
+                "file": "스프링 (인프런)/스프링 입문/05 회원 관리 예제 - 웹 MVC 개발.md"
               }
             }
           }
@@ -148,10 +148,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "14e71e2693d85f3e",
+  "active": "1c0057bca8d9013b",
   "lastOpenFiles": [
-    "스프링 (인프런)/스프링 입문/05 회원 관리 예제 - 웹 MVC 개발.md",
     "스프링 (인프런)/스프링 입문/04 스프링 빈과 의존관계.md",
+    "스프링 (인프런)/스프링 입문/05 회원 관리 예제 - 웹 MVC 개발.md",
     "자바의 정석 (유튜브)/chapter 04.md",
     "screenshot/Pasted image 20231011163306.png",
     "screenshot/Pasted image 20231011172925.png",
