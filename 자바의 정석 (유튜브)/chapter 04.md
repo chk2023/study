@@ -7,9 +7,18 @@ if문 괄호 안에 조건문이 true 면 중괄호 안에 내용을 실행. fal
 
 조건문 괄호의 조건은 boolean 식으로 나타내야 한다.
 
+![[Pasted image 20231011164435.png]]
+![[Pasted image 20231011164921.png]]
 
 
 ### 33 if-else if문, 중첩 if문
+
+
+
+
+
+
+
 
 
 ### 34 switch 문
