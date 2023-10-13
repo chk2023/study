@@ -39,8 +39,27 @@ int i=0;을 for문 밖으로 빼주고 for( ; ; ) 이런식으로 쓸 수도 있
 
 ![[Pasted image 20231013202943.png]]
 
+```
+for (int i = 1; i <= 5; i++) {  
+    for (int j = 1; j <= i; j++) {  
+        System.out.print("*");  
+    }  
+    System.out.println();  
+}
+--
+*
+**
+***
+****
+*****
+```
+j를 상수인 리터럴 값으로 두면 같은 수의 별이 찍힌다. 하지만 이를 변수인 i로 두면 줄 마다 찍히는 별의 숫자가 달라진다. 
 
 ### 38 while문, do-while문
+![[Pasted image 20231013204145.png]]
+반복 횟수를 모르면 while을 사용.
+
+
 
 
 ### 39 break문, continue문, 이름붙은 반복
