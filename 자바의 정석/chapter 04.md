@@ -59,8 +59,7 @@ j를 상수인 리터럴 값으로 두면 같은 수의 별이 찍힌다. 하지
 ![[Pasted image 20231013204145.png]]
 반복 횟수를 모르면 while을 사용. 조건식이 있다. for와 while은 호환가능.
 
-
-
+![[Pasted image 20231013210659.png]]
 
 ### 39 break문, continue문, 이름붙은 반복
 
