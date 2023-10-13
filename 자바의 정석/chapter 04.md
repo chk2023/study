@@ -62,5 +62,7 @@ j를 상수인 리터럴 값으로 두면 같은 수의 별이 찍힌다. 하지
 ![[Pasted image 20231013210659.png]]
 
 ### 39 break문, continue문, 이름붙은 반복
-
+![[Pasted image 20231013212057.png]]
+while(ture){} 또는 for(;;){} 반복문은 무한반복문이다. 
+break; 되면 반복문을 빠져나온다.
 
