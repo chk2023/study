@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "자바의 정석/chapter 04.md",
+                "file": "자바의 정석/chapter 03.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "a557dd975c09f315",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "자바의 정석/chapter 04.md",
+                "file": "자바의 정석/chapter 03.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "자바의 정석/chapter 04.md",
+                "file": "자바의 정석/chapter 03.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "자바의 정석/chapter 04.md"
+                "file": "자바의 정석/chapter 03.md"
               }
             }
           }
@@ -150,6 +149,8 @@
   },
   "active": "14e71e2693d85f3e",
   "lastOpenFiles": [
+    "자바의 정석/chapter 02.md",
+    "자바의 정석/chapter 04.md",
     "Pasted image 20231013204145.png",
     "Pasted image 20231013202943.png",
     "Pasted image 20231013201012.png",
@@ -169,14 +170,12 @@
     "인프런 강의/스프링 입문/06 스프링 DB 접근 기술.md",
     "인프런 강의/스프링 입문/05 회원 관리 예제 - 웹 MVC 개발.md",
     "인프런 강의/스프링 입문/04 스프링 빈과 의존관계.md",
-    "자바의 정석/chapter 04.md",
     "screenshot/Pasted image 20231011163306.png",
     "screenshot/Pasted image 20231011172925.png",
     "screenshot/Pasted image 20231011172842.png",
     "screenshot/Pasted image 20231011171518.png",
     "screenshot/Pasted image 20231011170910.png",
     "screenshot/Pasted image 20231011170421.png",
-    "screenshot/Pasted image 20231011165154.png",
     "자바의 정석/chapter 03.md",
     "인프런 강의/스프링 입문/03 회원 관리 예제 - 백엔드 개발.md",
     "인프런 강의/스프링 입문/02 스프링 웹 개발 기초.md",
