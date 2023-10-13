@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "자바의 정석/chapter 04.md",
+                "file": "자바의 정석/chapter 11.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "자바의 정석/chapter 04.md",
+                "file": "자바의 정석/chapter 11.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "자바의 정석/chapter 04.md",
+                "file": "자바의 정석/chapter 11.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "자바의 정석/chapter 04.md"
+                "file": "자바의 정석/chapter 11.md"
               }
             }
           }
@@ -150,11 +150,13 @@
   },
   "active": "14e71e2693d85f3e",
   "lastOpenFiles": [
+    "자바의 정석/chapter 04.md",
+    "자바의 정석/chapter 11.md",
+    "자바의 정석/chapter 11",
     "Pasted image 20231013212057.png",
     "Pasted image 20231013210659.png",
     "자바의 정석/chapter 03.md",
     "자바의 정석/chapter 02.md",
-    "자바의 정석/chapter 04.md",
     "Pasted image 20231013204145.png",
     "Pasted image 20231013202943.png",
     "Pasted image 20231013201012.png",
@@ -178,7 +180,6 @@
     "screenshot/Pasted image 20231011172925.png",
     "screenshot/Pasted image 20231011172842.png",
     "screenshot/Pasted image 20231011171518.png",
-    "screenshot/Pasted image 20231011170910.png",
     "인프런 강의/스프링 입문/03 회원 관리 예제 - 백엔드 개발.md",
     "인프런 강의/스프링 입문/02 스프링 웹 개발 기초.md",
     "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/controller.md",
@@ -194,7 +195,6 @@
     "인프런 강의",
     "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석",
     "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/내용",
-    "스프링 부트와 AWS로 혼자 구현하는 웹 서비스",
-    "Excalidraw"
+    "스프링 부트와 AWS로 혼자 구현하는 웹 서비스"
   ]
 }
