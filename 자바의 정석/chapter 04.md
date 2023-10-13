@@ -38,7 +38,7 @@ int i=0;을 for문 밖으로 빼주고 for( ; ; ) 이런식으로 쓸 수도 있
 구구단
 
 ![[Pasted image 20231013202943.png]]
-별찍기
+
 
 ### 38 while문, do-while문
 
