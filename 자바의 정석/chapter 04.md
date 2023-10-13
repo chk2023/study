@@ -34,7 +34,8 @@ Math.random()은 0.0과 1.0사이의 임의의 double 값을 반환한다.
 int i=0;을 for문 밖으로 빼주고 for( ; ; ) 이런식으로 쓸 수도 있다. 이렇게 조건식을 생략하면 true로 간주되어서 무한반복문이 된다. 
 
 ### 37 중첩 for 문
-
+![[Pasted image 20231013201012.png]]
+구구단
 
 ### 38 while문, do-while문
 
