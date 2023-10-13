@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "스프링 (인프런)/스프링 입문/08 다음으로.md",
+                "file": "인프런 강의/스프링 입문/07 AOP.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "a557dd975c09f315",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "스프링 (인프런)/스프링 입문/08 다음으로.md",
+                "file": "인프런 강의/스프링 입문/07 AOP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "스프링 (인프런)/스프링 입문/08 다음으로.md",
+                "file": "인프런 강의/스프링 입문/07 AOP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "스프링 (인프런)/스프링 입문/08 다음으로.md"
+                "file": "인프런 강의/스프링 입문/07 AOP.md"
               }
             }
           }
@@ -148,12 +147,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "14e71e2693d85f3e",
+  "active": "1c0057bca8d9013b",
   "lastOpenFiles": [
-    "스프링 (인프런)/스프링 입문/07 AOP.md",
-    "스프링 (인프런)/스프링 입문/06 스프링 DB 접근 기술.md",
-    "스프링 (인프런)/스프링 입문/05 회원 관리 예제 - 웹 MVC 개발.md",
-    "스프링 (인프런)/스프링 입문/04 스프링 빈과 의존관계.md",
+    "인프런 강의/스프링 핵심 원리 (기본편)",
+    "스프링 (인프런)/스프링 입문/08 다음으로.md",
+    "인프런 강의/스프링 입문/07 AOP.md",
+    "인프런 강의/스프링 입문/06 스프링 DB 접근 기술.md",
+    "인프런 강의/스프링 입문/05 회원 관리 예제 - 웹 MVC 개발.md",
+    "인프런 강의/스프링 입문/04 스프링 빈과 의존관계.md",
     "자바의 정석 (유튜브)/chapter 04.md",
     "screenshot/Pasted image 20231011163306.png",
     "screenshot/Pasted image 20231011172925.png",
@@ -166,9 +167,8 @@
     "screenshot/Pasted image 20231011164435.png",
     "자바의 정석 (유튜브)/chapter 03.md",
     "screenshot/Pasted image 20231011163818.png",
-    "스프링 (인프런)/스프링 입문/03 회원 관리 예제 - 백엔드 개발.md",
-    "스프링 (인프런)/스프링 입문/08 다음으로.md",
-    "스프링 (인프런)/스프링 입문/02 스프링 웹 개발 기초.md",
+    "인프런 강의/스프링 입문/03 회원 관리 예제 - 백엔드 개발.md",
+    "인프런 강의/스프링 입문/02 스프링 웹 개발 기초.md",
     "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석/controller.md",
     "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/내용/03장 스프링 부트에서 JPA로 데이터베이스를 다뤄보자.md",
     "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/내용/01장 인텔리제이로 스프링 부트 시작하기.md",
@@ -188,8 +188,8 @@
     "Java/Java",
     "Java/Spring",
     "자바의 정석 (유튜브)",
-    "스프링 (인프런)/스프링 입문",
-    "스프링 (인프런)",
+    "인프런 강의/스프링 입문",
+    "인프런 강의",
     "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/코드분석",
     "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/내용",
     "스프링 부트와 AWS로 혼자 구현하는 웹 서비스",
