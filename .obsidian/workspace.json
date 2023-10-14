@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8d6c9a59a5ae0c0e",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.16"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -148,7 +159,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "14e71e2693d85f3e",
+  "active": "8d6c9a59a5ae0c0e",
   "lastOpenFiles": [
     "Pasted image 20231014105430.png",
     "자바의 정석/chapter 07.md",
