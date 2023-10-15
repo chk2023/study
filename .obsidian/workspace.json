@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "취업노트/채용공고.md",
+                "file": "CS/windows 포트를 사용중인 프로세스 확인 및 죽이기.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "취업노트/채용공고.md",
+                "file": "CS/windows 포트를 사용중인 프로세스 확인 및 죽이기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "취업노트/채용공고.md",
+                "file": "CS/windows 포트를 사용중인 프로세스 확인 및 죽이기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "취업노트/채용공고.md"
+                "file": "CS/windows 포트를 사용중인 프로세스 확인 및 죽이기.md"
               }
             }
           }
@@ -148,10 +148,21 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2b8ddd9920e7d6a8",
+  "active": "1c0057bca8d9013b",
   "lastOpenFiles": [
-    "screenshot/Pasted image 20231015103321.png",
+    "CS/URL과 URI (2).md",
+    "CS/URL과 URI.md",
+    "CS/MVC.md",
+    "CS/HTTP Method - GET, POST, PUT, DELETE.md",
+    "CS/GET vs POST.md",
+    "CS/DB개요- DDL, DML, DCL, TCL.md",
+    "CS/쿼리 스트링.md",
+    "screenshot/Pasted image 20230927201147.png",
+    "CS/주소창에 네이버를 치면 일어나는 일.md",
+    "CS/인터프리터 vs 컴파일 vs 런타임.md",
+    "CS/데이터 무결성.md",
     "취업노트/채용공고.md",
+    "screenshot/Pasted image 20231015103321.png",
     "screenshot/Pasted image 20231015112633.png",
     "screenshot/Pasted image 20231015112021.png",
     "screenshot/Pasted image 20231015111005.png",
@@ -167,7 +178,6 @@
     "취업노트",
     "s.md",
     "자바의 정석/chapter 06.md",
-    "screenshot/Pasted image 20231014105430.png",
     "자바의 정석/chapter 07.md",
     "인프런 강의/스프링 핵심 원리 (기본편)/01 객체 지향 설계와 스프링.md",
     "자바의 정석/chapter 04.md",
@@ -179,16 +189,7 @@
     "인프런 강의/스프링 핵심 원리 (기본편)/09 빈 스코프.md",
     "인프런 강의/스프링 핵심 원리 (기본편)/08 빈 생명주기 콜백.md",
     "인프런 강의/스프링 핵심 원리 (기본편)/07 의존관계 자동주입.md",
-    "인프런 강의/스프링 핵심 원리 (기본편)/06 컴포넌트 스캔.md",
-    "인프런 강의/스프링 핵심 원리 (기본편)/05 싱글톤 컨테이너.md",
-    "인프런 강의/스프링 핵심 원리 (기본편)/04 스프링 컨테이너와 스프링 빈.md",
-    "인프런 강의/스프링 핵심 원리 (기본편)/02 스프링 핵심 원리 이해 - 예제 만들기.md",
-    "인프런 강의/스프링 입문/07 AOP.md",
     "인프런 강의/스프링 핵심 원리 (기본편)",
-    "스프링 (인프런)/스프링 입문/08 다음으로.md",
-    "인프런 강의/스프링 입문/06 스프링 DB 접근 기술.md",
-    "인프런 강의/스프링 입문/05 회원 관리 예제 - 웹 MVC 개발.md",
-    "인프런 강의/스프링 입문/04 스프링 빈과 의존관계.md",
     "Java/Java",
     "Java/Spring",
     "자바의 정석",
