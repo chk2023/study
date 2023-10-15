@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/windows 포트를 사용중인 프로세스 확인 및 죽이기.md",
+                "file": "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/내용/04장 머스테치로 화면 구성하기.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "a557dd975c09f315",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/windows 포트를 사용중인 프로세스 확인 및 죽이기.md",
+                "file": "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/내용/04장 머스테치로 화면 구성하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/windows 포트를 사용중인 프로세스 확인 및 죽이기.md",
+                "file": "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/내용/04장 머스테치로 화면 구성하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/windows 포트를 사용중인 프로세스 확인 및 죽이기.md"
+                "file": "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/내용/04장 머스테치로 화면 구성하기.md"
               }
             }
           }
@@ -148,8 +147,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1c0057bca8d9013b",
+  "active": "2b8ddd9920e7d6a8",
   "lastOpenFiles": [
+    "CS/windows 포트를 사용중인 프로세스 확인 및 죽이기.md",
     "CS/URL과 URI (2).md",
     "CS/URL과 URI.md",
     "CS/MVC.md",
@@ -188,7 +188,6 @@
     "인프런 강의/스프링 핵심 원리 (기본편)/03 스프링 핵심 원리 이해2 - 객체 지향 원리 적용.md",
     "인프런 강의/스프링 핵심 원리 (기본편)/09 빈 스코프.md",
     "인프런 강의/스프링 핵심 원리 (기본편)/08 빈 생명주기 콜백.md",
-    "인프런 강의/스프링 핵심 원리 (기본편)/07 의존관계 자동주입.md",
     "인프런 강의/스프링 핵심 원리 (기본편)",
     "Java/Java",
     "Java/Spring",
