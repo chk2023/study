@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "자바의 정석/chapter 05.md",
+                "file": "자바의 정석/chapter 06.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "자바의 정석/chapter 05.md",
+                "file": "자바의 정석/chapter 06.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "자바의 정석/chapter 05.md",
+                "file": "자바의 정석/chapter 06.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "자바의 정석/chapter 05.md"
+                "file": "자바의 정석/chapter 06.md"
               }
             }
           }
@@ -150,6 +150,7 @@
   },
   "active": "2b8ddd9920e7d6a8",
   "lastOpenFiles": [
+    "자바의 정석/chapter 05.md",
     "Pasted image 20231016104243.png",
     "Pasted image 20231016103308.png",
     "Pasted image 20231016103047.png",
@@ -161,7 +162,6 @@
     "자바의 정석/chapter 03.md",
     "자바의 정석/chapter 02.md",
     "자바의 정석/chapter 01.md",
-    "자바의 정석/chapter 05.md",
     "Pasted image 20231016092147.png",
     "Pasted image 20231016091829.png",
     "취업노트/채용공고.md",
@@ -178,7 +178,6 @@
     "CS/주소창에 네이버를 치면 일어나는 일.md",
     "CS/인터프리터 vs 컴파일 vs 런타임.md",
     "CS/데이터 무결성.md",
-    "screenshot/Pasted image 20231015103321.png",
     "미분류/@CreatedDate, @LastModifiedDate.md",
     "미분류/깃 플로우.md",
     "학습노트/공부노트.md",
