@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "취업노트/채용공고.md",
+                "file": "자바의 정석/chapter 05.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "취업노트/채용공고.md",
+                "file": "자바의 정석/chapter 05.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "취업노트/채용공고.md",
+                "file": "자바의 정석/chapter 05.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "취업노트/채용공고.md"
+                "file": "자바의 정석/chapter 05.md"
               }
             }
           }
@@ -148,8 +148,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1c0057bca8d9013b",
+  "active": "2b8ddd9920e7d6a8",
   "lastOpenFiles": [
+    "취업노트/채용공고.md",
+    "자바의 정석/chapter 05.md",
     "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/내용/04장 머스테치로 화면 구성하기.md",
     "CS/windows 포트를 사용중인 프로세스 확인 및 죽이기.md",
     "CS/URL과 URI (2).md",
@@ -163,7 +165,6 @@
     "CS/주소창에 네이버를 치면 일어나는 일.md",
     "CS/인터프리터 vs 컴파일 vs 런타임.md",
     "CS/데이터 무결성.md",
-    "취업노트/채용공고.md",
     "screenshot/Pasted image 20231015103321.png",
     "screenshot/Pasted image 20231015112633.png",
     "screenshot/Pasted image 20231015112021.png",
@@ -188,7 +189,6 @@
     "자바의 정석/chapter 03.md",
     "자바의 정석/chapter 02.md",
     "인프런 강의/스프링 핵심 원리 (기본편)/03 스프링 핵심 원리 이해2 - 객체 지향 원리 적용.md",
-    "인프런 강의/스프링 핵심 원리 (기본편)/09 빈 스코프.md",
     "인프런 강의/스프링 핵심 원리 (기본편)",
     "Java/Java",
     "Java/Spring",
