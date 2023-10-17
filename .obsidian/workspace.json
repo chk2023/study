@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "자바의 정석/chapter 07.md",
+                "file": "자바의 정석/chapter 06.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "a557dd975c09f315",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "자바의 정석/chapter 07.md",
+                "file": "자바의 정석/chapter 06.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "자바의 정석/chapter 07.md",
+                "file": "자바의 정석/chapter 06.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "자바의 정석/chapter 07.md"
+                "file": "자바의 정석/chapter 06.md"
               }
             }
           }
@@ -149,12 +150,13 @@
   },
   "active": "2b8ddd9920e7d6a8",
   "lastOpenFiles": [
+    "Pasted image 20231017150709.png",
+    "자바의 정석/chapter 07.md",
     "자바의 정석/chapter 06.md",
     "Pasted image 20231017125919.png",
     "Pasted image 20231017125418.png",
     "Pasted image 20231017124956.png",
     "Pasted image 20231017124654.png",
-    "자바의 정석/chapter 07.md",
     "screenshot/Pasted image 20231017124224.png",
     "screenshot/Pasted image 20231016171403.png",
     "우테코 프리코스",
