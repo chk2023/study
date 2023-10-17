@@ -146,8 +146,10 @@ change 메서드에 올라온 x를 1000으로 대입한 것.
 ![[Pasted image 20231017112856.png]]
 Math.random()은 static 메서드. Math가 클래스 이름이다. 객체를 따로 생성하지 않아도 사용할 수 있다.
 
+![[Pasted image 20231017113610.png]]
+위 static 메서드의 long a, long b는 지역 변수다. 따라서 iv가 아니기 때문에 static 메서드로써 사용됨. return문 뒤 a, b 역시 lv다. iv랑 lv 중 가까운 쪽으로 형태를 갖는다. iv보다는 lv에 가깝기 때문에 lv인 것.
 
-
+즉, static 메서드는 객체 생성 없이 호출이 가능하며 iv를 사용하지 않을 때 사용하는 메서드라고 할 수 있다. 
 
 ### 오버로딩
 
