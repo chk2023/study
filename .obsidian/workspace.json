@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "자바의 정석/chapter 05.md",
+                "file": "인프런 강의/스프링 핵심 원리 (기본편)/01 객체 지향 설계와 스프링.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "자바의 정석/chapter 05.md",
+                "file": "인프런 강의/스프링 핵심 원리 (기본편)/01 객체 지향 설계와 스프링.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "자바의 정석/chapter 05.md",
+                "file": "인프런 강의/스프링 핵심 원리 (기본편)/01 객체 지향 설계와 스프링.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "자바의 정석/chapter 05.md"
+                "file": "인프런 강의/스프링 핵심 원리 (기본편)/01 객체 지향 설계와 스프링.md"
               }
             }
           }
@@ -150,19 +150,20 @@
   },
   "active": "2b8ddd9920e7d6a8",
   "lastOpenFiles": [
-    "Pasted image 20231017165440.png",
-    "Pasted image 20231017164647.png",
-    "Pasted image 20231017164517.png",
-    "Pasted image 20231017162839.png",
-    "screenshot/Pasted image 20231017154011.png",
+    "인프런 강의/스프링 핵심 원리 (기본편)/02 스프링 핵심 원리 이해 - 예제 만들기.md",
+    "인프런 강의/스프링 핵심 원리 (기본편)/01 객체 지향 설계와 스프링.md",
+    "screenshot/Pasted image 20231017162839.png",
+    "자바의 정석/chapter 07.md",
     "자바의 정석/chapter 05.md",
+    "screenshot/Pasted image 20231017165721.png",
+    "screenshot/Pasted image 20231017165651.png",
+    "screenshot/Pasted image 20231017165440.png",
+    "screenshot/Pasted image 20231017164647.png",
+    "screenshot/Pasted image 20231017164517.png",
+    "screenshot/Pasted image 20231017154011.png",
     "screenshot/Pasted image 20231017162808.png",
     "screenshot/Pasted image 20231017162435.png",
     "screenshot/Pasted image 20231017162419.png",
-    "screenshot/Pasted image 20231017162154.png",
-    "screenshot/Pasted image 20231017161651.png",
-    "screenshot/Pasted image 20231017161241.png",
-    "자바의 정석/chapter 07.md",
     "자바의 정석/chapter 06.md",
     "우테코 프리코스",
     "인텔리제이 단축키.md",
@@ -188,7 +189,6 @@
     "학습노트/공부노트.md",
     "미분류",
     "취업노트",
-    "s.md",
     "자바의 정석/chapter 11",
     "인프런 강의/스프링 핵심 원리 (기본편)",
     "Java/Java",
