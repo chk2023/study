@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "자바의 정석/chapter 06.md",
+                "file": "자바의 정석/chapter 05.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "자바의 정석/chapter 06.md",
+                "file": "자바의 정석/chapter 05.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "자바의 정석/chapter 06.md",
+                "file": "자바의 정석/chapter 05.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "자바의 정석/chapter 06.md"
+                "file": "자바의 정석/chapter 05.md"
               }
             }
           }
@@ -150,19 +150,18 @@
   },
   "active": "2b8ddd9920e7d6a8",
   "lastOpenFiles": [
+    "자바의 정석/chapter 07.md",
+    "자바의 정석/chapter 06.md",
     "Pasted image 20231017154429.png",
     "Pasted image 20231017154011.png",
     "screenshot/Pasted image 20231017124654.png",
-    "자바의 정석/chapter 06.md",
     "screenshot/Pasted image 20231017153440.png",
     "screenshot/Pasted image 20231017153049.png",
     "screenshot/Pasted image 20231017152810.png",
     "screenshot/Pasted image 20231017152439.png",
     "screenshot/Pasted image 20231017150709.png",
-    "자바의 정석/chapter 07.md",
     "screenshot/Pasted image 20231017125919.png",
     "screenshot/Pasted image 20231017125418.png",
-    "screenshot/Pasted image 20231017124956.png",
     "우테코 프리코스",
     "인텔리제이 단축키.md",
     "자바의 정석/chapter 05.md",
