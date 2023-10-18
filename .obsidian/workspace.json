@@ -81,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "a557dd975c09f315",
@@ -161,6 +162,7 @@
   },
   "active": "2b8ddd9920e7d6a8",
   "lastOpenFiles": [
+    "Pasted image 20231018210043.png",
     "Getter와 Setter가 클린코드에 위배되는 이유.md",
     "자바의 정석/chapter 07.md",
     "Pasted image 20231018202421.png",
@@ -197,7 +199,6 @@
     "CS/인터프리터 vs 컴파일 vs 런타임.md",
     "CS/데이터 무결성.md",
     "미분류/@CreatedDate, @LastModifiedDate.md",
-    "미분류/깃 플로우.md",
     "미분류",
     "취업노트",
     "자바의 정석/chapter 11",
