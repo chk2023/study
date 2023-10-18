@@ -211,11 +211,14 @@ public class TimeTest {
 
 ### 참조변수의 형변환 2
 
-
-
+![[Pasted image 20231018221407.png]]
+경우에 따라서 부모 참조변수가 자식 참조변수에 대입될 때 실행 에러가 난다.
+c참조변수는 참조하는 객체가 4개다. fe 참조변수는 water() 메서드를 사용할 수 없다.
+이유는 Car 인스턴스에 water() 메서드가 없기 때문이다.
 
 ### instanceof 연산자
 
+여기서 instanceof는 c 참조변수가 FireEngine의 자손인지 물어본다.
 
 
 
