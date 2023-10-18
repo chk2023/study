@@ -218,12 +218,16 @@ c참조변수는 참조하는 객체가 4개다. fe 참조변수는 water() 메�
 
 ### instanceof 연산자
 
-여기서 instanceof는 c 참조변수가 FireEngine의 자손인지 물어본다.
+![[Pasted image 20231018222224.png]]
+여기서 instanceof는 c 참조변수가 FireEngine의 자손인지 물어본다. 
+true가 나오면 그 후 형변환.
+
+### 매개변수의 다형성
 
 
 
 
-### 매개변수다형성
+
 
 
 
