@@ -133,8 +133,13 @@ static import문은 static 멤버를 사용할 때 클래스 이름을 생략할
 
 ### 제어자, static, final, abstract
 
+![[Pasted image 20231018191353.png]]
 
+![[Pasted image 20231018191457.png]]
+static은 객체 생성 없이 사용 가능하다. 하지만 객체를 필요로 하는 인스턴스 멤버들을 사용할 수 없다. 
 
+![[Pasted image 20231018191955.png]]
+final 클래스는 조상이 될 수 없는 마지막 클래스. String과 Math가 final class다. String은 보안 때문에. 비밀번호를 상속받아서 변경하면 곤란하다. 
 
 
 
