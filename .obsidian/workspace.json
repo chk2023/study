@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "자바의 정석/chapter 06.md",
+                "file": "자바의 정석/chapter 07.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "자바의 정석/chapter 06.md",
+                "file": "자바의 정석/chapter 07.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "자바의 정석/chapter 06.md"
+                "file": "자바의 정석/chapter 07.md"
               }
             }
           }
@@ -161,12 +160,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "8fe59f9f8cfc92b2",
+  "active": "2b8ddd9920e7d6a8",
   "lastOpenFiles": [
+    "Pasted image 20231018172354.png",
+    "자바의 정석/chapter 06.md",
     "자바의 정석/chapter 07.md",
     "Pasted image 20231018170852.png",
     "Pasted image 20231018164648.png",
-    "자바의 정석/chapter 06.md",
     "Pasted image 20231018164332.png",
     "Pasted image 20231018153706.png",
     "Pasted image 20231018153254.png",
