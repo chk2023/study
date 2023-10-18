@@ -160,11 +160,37 @@ class에는 public과 default, 멤버에는 4가지 다 붙을 수 있다.
 iv는 외부에서 접근을 막고 메소드를 통해 iv에 접근할 수 있게 한다. getHour, setHour.
 또한 접근 제어자는 외부에는 불필요한, 내부적으로만 사용되는 내용을 감춘다.
 
-
-
-
+```
+class Time {  
+    private int hour;  
+    private int minute;  
+    private int second;  
+  
+    // 멤버 변수가 private이기 때문에 객체를 만들어서 접근 할 수 없다.  
+    // 따라서 getter, setter 메서드를 생성해서 간접적으로 접근한다.  
+    public void setHour(int hour){  
+        if(hour < 0 || hour > 23) return; 
+        //false면 return문에 의해 제어문을 빠져나간다.
+        this.hour = hour;  
+    }  
+  
+    public int getHour() {return hour;}  
+}  
+  
+public class TimeTest {  
+    public static void main(String[] args) {  
+        Time t = new Time();  
+        // t.hour = -100; 멤버 변수가 private이기 때문에 에러.  
+        t.setHour(21);  
+        System.out.println(t.getHour());  
+    }  
+}
+```
 
 ### 다형성
+
+
+
 
 
 
