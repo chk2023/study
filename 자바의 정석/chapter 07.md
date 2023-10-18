@@ -150,6 +150,11 @@ final 클래스는 조상이 될 수 없는 마지막 클래스. String과 Math�
 
 ### 접근제어자
 
+![[Pasted image 20231018194613.png]]
+class에는 public과 default, 멤버에는 4가지 다 붙을 수 있다.
+
+
+
 
 
 ### 캡슐화
