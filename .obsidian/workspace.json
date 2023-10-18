@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "자바의 정석/chapter 07.md",
+                "file": "자바의 정석/chapter 06.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "자바의 정석/chapter 07.md",
+                "file": "자바의 정석/chapter 06.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "자바의 정석/chapter 07.md"
+                "file": "자바의 정석/chapter 06.md"
               }
             }
           }
@@ -160,11 +161,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2b8ddd9920e7d6a8",
+  "active": "8fe59f9f8cfc92b2",
   "lastOpenFiles": [
+    "자바의 정석/chapter 07.md",
+    "Pasted image 20231018170852.png",
     "Pasted image 20231018164648.png",
     "자바의 정석/chapter 06.md",
-    "자바의 정석/chapter 07.md",
     "Pasted image 20231018164332.png",
     "Pasted image 20231018153706.png",
     "Pasted image 20231018153254.png",
@@ -173,8 +175,6 @@
     "Pasted image 20231018110337.png",
     "Pasted image 20231018105635.png",
     "Pasted image 20231018103834.png",
-    "Pasted image 20231018102949.png",
-    "Pasted image 20231018101605.png",
     "인프런 강의/스프링 핵심 원리 (기본편)/02 스프링 핵심 원리 이해 - 예제 만들기.md",
     "인프런 강의/스프링 핵심 원리 (기본편)/01 객체 지향 설계와 스프링.md",
     "자바의 정석/chapter 05.md",
