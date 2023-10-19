@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "클래스가 인터페이스를 호출하는 방식.md",
+                "file": "인프런 강의/스프링 핵심 원리 (기본편)/02 스프링 핵심 원리 이해 - 예제 만들기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "클래스가 인터페이스를 호출하는 방식.md",
+                "file": "인프런 강의/스프링 핵심 원리 (기본편)/02 스프링 핵심 원리 이해 - 예제 만들기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "클래스가 인터페이스를 호출하는 방식.md"
+                "file": "인프런 강의/스프링 핵심 원리 (기본편)/02 스프링 핵심 원리 이해 - 예제 만들기.md"
               }
             }
           }
@@ -173,10 +172,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5e33c2c3f1fe0a7e",
+  "active": "2b8ddd9920e7d6a8",
   "lastOpenFiles": [
-    "인프런 강의/스프링 핵심 원리 (기본편)/02 스프링 핵심 원리 이해 - 예제 만들기.md",
     "클래스가 인터페이스를 호출하는 방식.md",
+    "인프런 강의/스프링 핵심 원리 (기본편)/02 스프링 핵심 원리 이해 - 예제 만들기.md",
     "자바의 정석/chapter 07.md",
     "인프런 강의/스프링 핵심 원리 (기본편)/01 객체 지향 설계와 스프링.md",
     "우테코 프리코스/개발노트.md",
