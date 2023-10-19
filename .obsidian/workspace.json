@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "a557dd975c09f315",
@@ -150,19 +149,20 @@
   },
   "active": "2b8ddd9920e7d6a8",
   "lastOpenFiles": [
-    "Pasted image 20231019135235.png",
-    "Pasted image 20231019135037.png",
-    "Pasted image 20231019134709.png",
-    "Pasted image 20231019134520.png",
-    "Pasted image 20231019133347.png",
-    "Pasted image 20231019133015.png",
-    "Pasted image 20231019132459.png",
-    "Pasted image 20231019131129.png",
-    "Pasted image 20231019130719.png",
-    "Pasted image 20231019110108.png",
-    "Pasted image 20231019105915.png",
-    "인텔리제이 단축키.md",
+    "우테코 프리코스/개발노트.md",
     "자바의 정석/chapter 07.md",
+    "Untitled",
+    "screenshot/Pasted image 20231018221407.png",
+    "screenshot/Pasted image 20231019135235.png",
+    "screenshot/Pasted image 20231019135037.png",
+    "screenshot/Pasted image 20231019134709.png",
+    "screenshot/Pasted image 20231019134520.png",
+    "screenshot/Pasted image 20231019133347.png",
+    "screenshot/Pasted image 20231019133015.png",
+    "screenshot/Pasted image 20231019132459.png",
+    "screenshot/Pasted image 20231019131129.png",
+    "screenshot/Pasted image 20231019130719.png",
+    "인텔리제이 단축키.md",
     "Getter와 Setter가 클린코드에 위배되는 이유.md",
     "자바의 정석/chapter 06.md",
     "인프런 강의/스프링 핵심 원리 (기본편)/02 스프링 핵심 원리 이해 - 예제 만들기.md",
@@ -194,7 +194,6 @@
     "Java/Java",
     "Java/Spring",
     "자바의 정석",
-    "인프런 강의/스프링 입문",
-    "인프런 강의"
+    "인프런 강의/스프링 입문"
   ]
 }
