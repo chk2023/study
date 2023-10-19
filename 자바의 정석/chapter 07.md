@@ -272,7 +272,8 @@ p참조변수에 자손 객체를 대입하면 총 사용할 수 있는 객체�
 
 ![[Pasted image 20231019094923.png]]
 자손마다 추상 메서드를 상속받아 다르게 구현할 수 있다.
-AbstractPlayer 클래스는 Player 클래스를 상속받았지만 Player 클래스의
+AbstractPlayer 클래스는 Player 클래스를 상속받았지만 Player 클래스의 추상메서드 하나만 구현했기 때문에 abstarct 제어자를 붙여주어야 한다. 
+그 이유는 AbstractPlayer 클래스의 메서드에는 생략되었지만 abstract void stop()이라는 메서드 또한 상속 받은 것이다. 따라서 abstract void stop() 이 메서드가 있기 때문에 abstract 제어자를 꼭 붙여주어야 한다.
 
 ### 추상 클래스의 작성
 
