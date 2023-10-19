@@ -353,10 +353,11 @@ public abstract는 생략 가능하다. 왜?
 ![[Pasted image 20231019134520.png]]
 한 기업이 DB를 오라클로 사용하고 있는데 오라클 라이선스 가격이 치솟아서 MySQL을 사용하기로 결정했다고 가정하자. DB 변경 시 Java Application의 코드를 많이 변경해야 하는 번거로움이 있다. 하지만 중간에 JDBC라는 인터페이스를 둔다면 애플리케이션의 변경이 없이 DB를 변경할 수 있다. 
 
-
-
-
-
+![[Pasted image 20231019135037.png]]
+![[Pasted image 20231019135235.png]]
+만약 SCV, Tank, Dropship을 수리하는 메서드를 만들고 싶다면?
+일일이 만들어 주는 것은 낭비다. 그렇다고 GroundUnit 클래스 타입의 객체를 파라미터로 넘겨주자니 Marine이 포함되고 Dropship이 포함되지 않는다.
+이런 경우 Repariable 인터페이스를 통해 Scv, Tank, Dropship을 묶어 주면서 다형성을 챙길 수 있다. Repariable 타입 참조변수를 파라미터로 사용.
 
 ### 디폴트 메서드와 static 메서드
 
@@ -364,18 +365,13 @@ public abstract는 생략 가능하다. 왜?
 
 
 
+
+
+
+
 ### 내부 클래스의 종류, 특징, 선언
 
-
-
-
-
 ### 내부 클래스의 제어자와 접근성
-
-
-
-
-
 
 ### 익명 클래스
 
