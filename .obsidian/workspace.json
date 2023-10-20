@@ -18,6 +18,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "07e1ea5180b2ba39",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "인텔리제이 그레이들 실행 시 콘솔 한글 깨짐.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -150,8 +162,9 @@
   },
   "active": "cec8e3163696a614",
   "lastOpenFiles": [
-    "우테코/1주차/과제내용.md",
+    "인텔리제이 그레이들 실행 시 콘솔 한글 깨짐.md",
     "우테코/1주차/개발일지.md",
+    "우테코/1주차/과제내용.md",
     "우테코/프리코스 과제 가이드.md",
     "우테코/1주차",
     "인프런 강의/스프링 핵심 원리 (기본편)/02 스프링 핵심 원리 이해 - 예제 만들기.md",
@@ -189,7 +202,6 @@
     "CS/MVC.md",
     "CS/HTTP Method - GET, POST, PUT, DELETE.md",
     "CS/GET vs POST.md",
-    "CS/DB개요- DDL, DML, DCL, TCL.md",
     "미분류",
     "취업노트",
     "자바의 정석/chapter 11",
