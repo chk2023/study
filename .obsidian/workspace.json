@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "인프런 강의/스프링 핵심 원리 (기본편)/02 스프링 핵심 원리 이해 - 예제 만들기.md",
+                "file": "우테코/1주차/과제내용.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "인프런 강의/스프링 핵심 원리 (기본편)/02 스프링 핵심 원리 이해 - 예제 만들기.md",
+                "file": "우테코/1주차/과제내용.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "인프런 강의/스프링 핵심 원리 (기본편)/02 스프링 핵심 원리 이해 - 예제 만들기.md",
+                "file": "우테코/1주차/과제내용.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "인프런 강의/스프링 핵심 원리 (기본편)/02 스프링 핵심 원리 이해 - 예제 만들기.md"
+                "file": "우테코/1주차/과제내용.md"
               }
             }
           }
@@ -150,13 +150,17 @@
   },
   "active": "1c0057bca8d9013b",
   "lastOpenFiles": [
+    "우테코/1주차/개발일지.md",
+    "우테코/1주차/과제내용.md",
+    "우테코/1주차",
+    "인프런 강의/스프링 핵심 원리 (기본편)/02 스프링 핵심 원리 이해 - 예제 만들기.md",
+    "우테코",
     "인프런 강의/스프링 핵심 원리 (기본편)/01 객체 지향 설계와 스프링.md",
     "취업노트/10월 3주차 공고.md",
     "자바의 정석/chapter 07.md",
     "취업노트",
     "취업노트/채용공고.md",
     "screenshot/Pasted image 20231019222300.png",
-    "인프런 강의/스프링 핵심 원리 (기본편)/02 스프링 핵심 원리 이해 - 예제 만들기.md",
     "클래스가 인터페이스를 호출하는 방식.md",
     "우테코 프리코스/개발노트.md",
     "screenshot/Pasted image 20231018221407.png",
@@ -185,16 +189,11 @@
     "CS/HTTP Method - GET, POST, PUT, DELETE.md",
     "CS/GET vs POST.md",
     "CS/DB개요- DDL, DML, DCL, TCL.md",
-    "CS/쿼리 스트링.md",
-    "CS/주소창에 네이버를 치면 일어나는 일.md",
-    "CS/인터프리터 vs 컴파일 vs 런타임.md",
     "미분류",
     "취업노트",
     "자바의 정석/chapter 11",
     "인프런 강의/스프링 핵심 원리 (기본편)",
     "Java/Java",
-    "Java/Spring",
-    "자바의 정석",
-    "인프런 강의/스프링 입문"
+    "Java/Spring"
   ]
 }
