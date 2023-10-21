@@ -50,6 +50,7 @@ Vector를 보면 Object 배열이 있다. 이는 다형성이다.
 이 객체 역시 모든 종류의 객체를 저장할 수 있다.
 Vector뿐만 아니라 ArrayList도 마찬가지.
 
+![[Pasted image 20231021113842.png]]
 ArrayList의 메서드를 알아본다.
 
 생성자
@@ -58,12 +59,36 @@ ArrayList(Collection c)  //매개변수로 Collection을 주면 Collection의 �
 ArrayList(int initialCapacity)  //배열의 길이를 정해주는 것
 
 추가
-boolean add(Object o)  // ArrayList에 객체를 추가한다. 성공 시 ture, 실패 시 false 반환.
-void add(int index, Object element)  // index(저장위치)를 지정할 수 있다. 위 add 메서드는 마지막에 추가한다면 이 add 메서드는 어디에 저장할 지 정할 수 있다.
-boolean addAll(Collection c)  // 컬렉션을 주면 그 값을 그대로 저장. 
-boolean addAll(int index, Collection c)  // 위와 같지만 위치를 정한다.
+boolean add(Object o)  //ArrayList에 객체를 추가한다. 성공 시 ture, 실패 시 false 반환.
+void add(int index, Object element)  //index(저장위치)를 지정할 수 있다. 위 add 메서드는 마지막에 추가한다면 이 add 메서드는 어디에 저장할 지 정할 수 있다.
+boolean addAll(Collection c)  //컬렉션을 주면 그 값을 그대로 저장. 
+boolean addAll(int index, Collection c)  //위와 같지만 위치를 정한다.
 
-삭제
+삭제(추가와 같지만 기능은 삭제)
+boolean(remove Object o)
+Object remove(int index)
+boolean removeAll(Collection c)
+void clear()
+
+검색
+int indexOf(Object o)  //객체의 위치(인덱스)를 찾고 못 찾으면 -1 반환. 좌에서 우로 검색.
+int lastIndexOf(Object o)  //위와 같지만 우측에서 좌측으로 검색.
+boolean contains(Object o)  //객체가 존재하는지. boolean.
+Object get(int index)  //특정 위치에 있는 객체 변환. 객체 읽기.
+Object set(int index, Object element)  //특정 위치에 있는 객체 변경.
+
+List subList(int fromIndex, in toIndex)  //from~to 사이에 있는 객체를 뽑아서 새로운 List 생성
+Object[] toArray()  //ArrayList의 객체 배열을 반환
+boolean isEmpty()  //비어있는지 확인
+void trimToSize()  //빈 공간 제거
+int size()  //ArrayList에 저장된 객체의 개수
+
+
+
+
+
+
+
 
 
 
