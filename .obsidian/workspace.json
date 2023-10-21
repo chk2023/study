@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "인프런 강의/스프링 핵심 원리 (기본편)/02 스프링 핵심 원리 이해 - 예제 만들기.md",
+                "file": "취업노트/10월 3주차 공고.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "a557dd975c09f315",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "인프런 강의/스프링 핵심 원리 (기본편)/02 스프링 핵심 원리 이해 - 예제 만들기.md",
+                "file": "취업노트/10월 3주차 공고.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "인프런 강의/스프링 핵심 원리 (기본편)/02 스프링 핵심 원리 이해 - 예제 만들기.md",
+                "file": "취업노트/10월 3주차 공고.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "인프런 강의/스프링 핵심 원리 (기본편)/02 스프링 핵심 원리 이해 - 예제 만들기.md"
+                "file": "취업노트/10월 3주차 공고.md"
               }
             }
           }
@@ -150,6 +149,7 @@
   },
   "active": "cec8e3163696a614",
   "lastOpenFiles": [
+    "인프런 강의/스프링 핵심 원리 (기본편)/02 스프링 핵심 원리 이해 - 예제 만들기.md",
     "screenshot/Pasted image 20231021090224.png",
     "우테코/1주차/개발일지.md",
     "자바의 정석/chapter 11.md",
@@ -163,12 +163,10 @@
     "screenshot/Pasted image 20231021094045.png",
     "screenshot/Pasted image 20231021093914.png",
     "screenshot/Pasted image 20231021093828.png",
-    "screenshot/Pasted image 20231021093802.png",
     "인텔리제이 그레이들 실행 시 콘솔 한글 깨짐.md",
     "우테코/1주차/과제내용.md",
     "우테코/프리코스 과제 가이드.md",
     "우테코/1주차",
-    "인프런 강의/스프링 핵심 원리 (기본편)/02 스프링 핵심 원리 이해 - 예제 만들기.md",
     "우테코",
     "인프런 강의/스프링 핵심 원리 (기본편)/01 객체 지향 설계와 스프링.md",
     "취업노트/10월 3주차 공고.md",
