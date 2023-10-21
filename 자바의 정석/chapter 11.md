@@ -11,6 +11,7 @@ java.util 패키지에 포함되어 있으며 JDK 1.2부터 제공되고 있다.
 ![[Pasted image 20231021090224.png]]
 프로그래밍을 할 때 다루는 데이터를 보니 세 가지로 구분할 수 있었다. 그것을 인터페이스로 정해둔 것이 List, Set, Map.
 List의 특징 중 순서는 저장순서를 의미한다. 
+Set은 집합이며 List와는 정반대의 특징을 가진다. 
 
 
 ### Collection, List, Set, Map
