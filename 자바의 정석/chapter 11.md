@@ -43,8 +43,12 @@ Collection values()는 Collection 타입으로 반환.
 
 ### ArrayList
 
-
-
+![[Pasted image 20231021110612.png]]
+ArrayList는 데이터의 저장공간으로 배열을 사용한다. 
+Vector를 보면 Object 배열이 있다. 이는 다형성이다.
+조상 타입의 참조변수로 자손 타입의 객체를 대입하는 것.
+이 객체 역시 모든 종류의 객체를 저장할 수 있다.
+Vector뿐만 아니라 ArrayList도 마찬가지.
 
 
 
