@@ -50,6 +50,10 @@ Vector를 보면 Object 배열이 있다. 이는 다형성이다.
 이 객체 역시 모든 종류의 객체를 저장할 수 있다.
 Vector뿐만 아니라 ArrayList도 마찬가지.
 
+ArrayList의 메서드를 알아본다.
+ArrayList()는 기본 생성자다. 
+ArrayList(Collection c) //매개변수로 Collection을 주면 Collection을 저장하는 
+ArrayList(int initialCapacity)
 
 
 ### LinkedList
