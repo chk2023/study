@@ -51,9 +51,20 @@ Vector를 보면 Object 배열이 있다. 이는 다형성이다.
 Vector뿐만 아니라 ArrayList도 마찬가지.
 
 ArrayList의 메서드를 알아본다.
+
+생성자
 ArrayList()는 기본 생성자다. 
-ArrayList(Collection c) //매개변수로 Collection을 주면 Collection을 저장하는 
-ArrayList(int initialCapacity)
+ArrayList(Collection c)  //매개변수로 Collection을 주면 Collection의 내용을 저장하는 컬렉션 생성
+ArrayList(int initialCapacity)  //배열의 길이를 정해주는 것
+
+추가
+boolean add(Object o)  // ArrayList에 객체를 추가한다. 성공 시 ture, 실패 시 false 반환.
+void add(int index, Object element)  // index(저장위치)를 지정할 수 있다. 위 add 메서드는 마지막에 추가한다면 이 add 메서드는 어디에 저장할 지 정할 수 있다.
+boolean addAll(Collection c)  // 컬렉션을 주면 그 값을 그대로 저장. 
+boolean addAll(int index, Collection c)  // 위와 같지만 위치를 정한다.
+
+삭제
+
 
 
 ### LinkedList
