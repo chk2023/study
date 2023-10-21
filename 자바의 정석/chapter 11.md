@@ -31,17 +31,19 @@ Set 인터페이스의 핵심은 HashSet과 TreeSet이다.
 여기에 나오는 Set 인터페이스의 메서드는 Collection 인터페이스와 동일.
 집합과 관련된 메서드가 있으며 결과값 타입은 boolean이다. 
 
-
+![[Pasted image 20231021095110.png]]
 Map의 핵심은 HashMap과 TreeMap이다. 
 Hashtable을 개선한 것이 HashMap이다.
 Hashtable은 동기화가 되지만 HashMap은 동기화가 되지 않는다. 
 Map은 원래 순서가 없지만 LinkedHashMap은 순서가 생긴다.
 
-
-
-
+![[Pasted image 20231021095218.png]]
+Set entrySet()은 키와 값으로 이루어진 객체를 Set으로 반환.
+Collection values()는 Collection 타입으로 반환. 
 
 ### ArrayList
+
+
 
 
 
