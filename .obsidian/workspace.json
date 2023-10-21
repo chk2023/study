@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "자바의 정석/chapter 11.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9a7be994ee1c90a6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "우테코/1주차/개발일지.md",
+                "file": "인프런 강의/스프링 핵심 원리 (기본편)/02 스프링 핵심 원리 이해 - 예제 만들기.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "우테코/1주차/개발일지.md",
+                "file": "인프런 강의/스프링 핵심 원리 (기본편)/02 스프링 핵심 원리 이해 - 예제 만들기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "우테코/1주차/개발일지.md",
+                "file": "인프런 강의/스프링 핵심 원리 (기본편)/02 스프링 핵심 원리 이해 - 예제 만들기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "우테코/1주차/개발일지.md"
+                "file": "인프런 강의/스프링 핵심 원리 (기본편)/02 스프링 핵심 원리 이해 - 예제 만들기.md"
               }
             }
           }
@@ -161,21 +148,22 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9a7be994ee1c90a6",
+  "active": "cec8e3163696a614",
   "lastOpenFiles": [
-    "자바의 정석/chapter 11.md",
-    "Pasted image 20231021121240.png",
-    "Pasted image 20231021121026.png",
+    "screenshot/Pasted image 20231021090224.png",
     "우테코/1주차/개발일지.md",
-    "Pasted image 20231021113842.png",
-    "Pasted image 20231021110612.png",
-    "Pasted image 20231021095218.png",
-    "Pasted image 20231021095110.png",
+    "자바의 정석/chapter 11.md",
+    "screenshot/Pasted image 20231021121240.png",
+    "screenshot/Pasted image 20231021121026.png",
+    "screenshot/Pasted image 20231021113842.png",
+    "screenshot/Pasted image 20231021110612.png",
+    "screenshot/Pasted image 20231021095218.png",
+    "screenshot/Pasted image 20231021095110.png",
     "자바의 정석/chapter 13.md",
-    "Pasted image 20231021094045.png",
-    "Pasted image 20231021093914.png",
-    "Pasted image 20231021093828.png",
-    "Pasted image 20231021093802.png",
+    "screenshot/Pasted image 20231021094045.png",
+    "screenshot/Pasted image 20231021093914.png",
+    "screenshot/Pasted image 20231021093828.png",
+    "screenshot/Pasted image 20231021093802.png",
     "인텔리제이 그레이들 실행 시 콘솔 한글 깨짐.md",
     "우테코/1주차/과제내용.md",
     "우테코/프리코스 과제 가이드.md",
