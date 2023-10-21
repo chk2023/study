@@ -89,9 +89,16 @@ list1.add(5); 이런식으로 기본형이 매개변수로 올 수 있는 이유
 
 ```
 ArrayList list2 = new ArrayList(list1.subList(1,4));
+
+//풀어쓰면 다음과 같다.
+List sub = list1.subList(1,4);
+ArrayList list2 = new ArrayList(sub);
 ```
 위는 1~3까지의 인덱스를 뽑아 리스트를 만든다. 4는 포함이 되지 않는다. 
-subList로 만들어진 list는 읽기 전용이다. 읽기 전용이 때문에 새로운 ArrayList 객체에 만들어 주는 것이다.
+subList로 만들어진 list는 읽기 전용이다. 읽기 전용이 때문에 새로운 ArrayList 객체에 만들어 주는 것이다. ArrayList(Collection c) 생성자를 사용 한 것.
+
+정렬할 때에는 Collections.sort();를 사용. Collection은 인터페이스, Collections는 유틸 클래스. 
+
 
 
 
