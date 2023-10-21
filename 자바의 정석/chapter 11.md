@@ -99,8 +99,22 @@ subList로 만들어진 list는 읽기 전용이다. 읽기 전용이 때문에 
 
 정렬할 때에는 Collections.sort();를 사용. Collection은 인터페이스, Collections는 유틸 클래스. 
 
+remove()를 할 때는 인덱스가 파라미터인 것을 기억해야 한다. 
+인덱스가 1이 아닌 값이 1인 객체를 삭제하고 싶다면,
+```
+list1.remove(new Integer(1))
+```
+이런 식으로 적어야 한다.
 
+retainAll()은 겹치는 부분 빼고 나머지 삭제.
 
+list2에서 list1에 포함된 객체들을 삭제하는 방법.
+```
+for(int i=list2.size()-1; i>=0; i--){
+	if(list1.contains(list2.get(0)))
+		list2.remove(i);
+}
+```
 
 
 
