@@ -83,10 +83,15 @@ boolean isEmpty()  //비어있는지 확인
 void trimToSize()  //빈 공간 제거
 int size()  //ArrayList에 저장된 객체의 개수
 
+예제
+ArrayList에는 객체만 저장 가능하다. 객체의 주소가 배열로 저장된다.
+list1.add(5); 이런식으로 기본형이 매개변수로 올 수 있는 이유는 오토박싱에 의해 참조형으로 자동변환되기 때문이다. 
 
-
-
-
+```
+ArrayList list2 = new ArrayList(list1.subList(1,4));
+```
+위는 1~3까지의 인덱스를 뽑아 리스트를 만든다. 4는 포함이 되지 않는다. 
+subList로 만들어진 list는 읽기 전용이다. 읽기 전용이 때문에 새로운 ArrayList 객체에 만들어 주는 것이다.
 
 
 
