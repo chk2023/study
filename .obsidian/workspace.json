@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "877c3a81494fc1ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "구현 팁.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "a557dd975c09f315",
@@ -86,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "취업노트/10월 3주차 공고.md",
+                "file": "구현 팁.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "취업노트/10월 3주차 공고.md",
+                "file": "구현 팁.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "취업노트/10월 3주차 공고.md"
+                "file": "구현 팁.md"
               }
             }
           }
@@ -148,10 +160,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "431eba4921eefdd7",
+  "active": "877c3a81494fc1ca",
   "lastOpenFiles": [
-    "취업노트/10월 4주차 공고.md",
+    "Pasted image 20231022183526.png",
+    "구현 팁.md",
     "취업노트/10월 3주차 공고.md",
+    "취업노트/10월 4주차 공고.md",
     "취업노트/screenshot/Pasted image 20231022105031.png",
     "취업노트/screenshot/Pasted image 20231022164800.png",
     "취업노트/screenshot/Pasted image 20231022164647.png",
@@ -161,7 +175,6 @@
     "취업노트/screenshot/Pasted image 20231022112605.png",
     "취업노트/screenshot/Pasted image 20231022112512.png",
     "취업노트/screenshot/Pasted image 20231022112107.png",
-    "취업노트/screenshot/Pasted image 20231022111326.png",
     "취업노트/screenshot",
     "인프런 강의/스프링 핵심 원리 (기본편)/02 스프링 핵심 원리 이해 - 예제 만들기.md",
     "우테코/1주차/개발일지.md",
@@ -189,8 +202,6 @@
     "자바의 정석/chapter 01.md",
     "스프링 부트와 AWS로 혼자 구현하는 웹 서비스/내용/04장 머스테치로 화면 구성하기.md",
     "CS/windows 포트를 사용중인 프로세스 확인 및 죽이기.md",
-    "CS/URL과 URI (2).md",
-    "CS/URL과 URI.md",
     "미분류",
     "취업노트",
     "자바의 정석/chapter 11",
