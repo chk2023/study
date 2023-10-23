@@ -31,9 +31,11 @@ RuntimException클래스와 그 자손은 프로그래머의 실수로 발생하
 ![[Pasted image 20231023104846.png]]
 예외를 처리할 때 사용하는 것이 try-catch문이다. 
 
-![[Pasted image 20231023105632.png]]
-1번 출력>> 2,3 
+![[Pasted image 20231023105720.png]]
+case 1: 1 출력>> 2,3 출력>> 예외 발생 안 하면 catch 블럭을 빠져나와서 5 실행.
+case 2: 1 출력>> try 블럭에서 예외 발생. 0으로 나눌 수 없다 >> catch 블럭으로 가서 예외를 처리 >>3 출력 >> 4 출력
 
+만약 예외를 처리하지 못하면 프로그램은 비정상적으로 종료된다. 
 
 
 ### printStackTrace(), 멀티 catch 블럭

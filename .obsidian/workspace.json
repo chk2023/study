@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5,
+    "width": 200,
     "collapsed": true
   },
   "right": {
@@ -148,8 +148,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "431eba4921eefdd7",
+  "active": "1c0057bca8d9013b",
   "lastOpenFiles": [
+    "Pasted image 20231023105720.png",
     "Pasted image 20231023105632.png",
     "Pasted image 20231023104846.png",
     "MSA.md",
@@ -171,7 +172,6 @@
     "이미지/screenshot/학습노트_java/Pasted image 20230925105316.png",
     "이미지/screenshot/학습노트_java/Pasted image 20230925140808.png",
     "이미지/screenshot/학습노트_java/Pasted image 20230925152008.png",
-    "이미지/screenshot/학습노트_java/Pasted image 20230926171941.png",
     "강의/자바의 정석/chapter 02.md",
     "이미지/screenshot/인프런_스프링 입문",
     "강의/자바의 정석/chapter 01.md",
