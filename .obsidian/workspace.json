@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "877c3a81494fc1ca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "구현 팁.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "구현 팁.md",
+                "file": "취업노트/10월 3주차 공고.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "구현 팁.md",
+                "file": "취업노트/10월 3주차 공고.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "구현 팁.md"
+                "file": "취업노트/10월 3주차 공고.md"
               }
             }
           }
@@ -160,10 +147,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "877c3a81494fc1ca",
+  "active": "431eba4921eefdd7",
   "lastOpenFiles": [
-    "Pasted image 20231022183526.png",
+    "취업노트/노트.md",
     "구현 팁.md",
+    "Pasted image 20231022183526.png",
     "취업노트/10월 3주차 공고.md",
     "취업노트/10월 4주차 공고.md",
     "취업노트/screenshot/Pasted image 20231022105031.png",
