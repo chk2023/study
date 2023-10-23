@@ -28,7 +28,11 @@ RuntimException클래스와 그 자손은 프로그래머의 실수로 발생하
 
 ### 예외 처리하기, try-catch문의 흐름
 
+![[Pasted image 20231023104846.png]]
+예외를 처리할 때 사용하는 것이 try-catch문이다. 
 
+![[Pasted image 20231023105632.png]]
+1번 출력>> 2,3 
 
 
 
