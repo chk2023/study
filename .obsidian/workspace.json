@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8931382346345675",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "screenshot/Pasted image 20231018221407.png"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "a557dd975c09f315",
@@ -86,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "자바의 정석/chapter 08.md",
+                "file": "screenshot/Pasted image 20231018221407.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "자바의 정석/chapter 08.md",
+                "file": "screenshot/Pasted image 20231018221407.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "자바의 정석/chapter 08.md"
+                "file": "screenshot/Pasted image 20231018221407.png"
               }
             }
           }
@@ -148,24 +158,25 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "431eba4921eefdd7",
+  "active": "8931382346345675",
   "lastOpenFiles": [
-    "Pasted image 20231023095645.png",
-    "Pasted image 20231023094401.png",
-    "취업노트/10월 3주차 공고.md",
+    "screenshot/Pasted image 20231018222224.png",
+    "screenshot/Pasted image 20231018223620.png",
+    "screenshot/Pasted image 20231018224226.png",
+    "screenshot/Pasted image 20231018225118.png",
+    "screenshot/Pasted image 20231019093853.png",
+    "screenshot/Pasted image 20231019094923.png",
+    "screenshot/Pasted image 20231019102148.png",
+    "screenshot/Pasted image 20231019102458.png",
+    "screenshot/Pasted image 20231019104405.png",
+    "screenshot/Pasted image 20231019105915.png",
+    "screenshot/Pasted image 20231019110108.png",
     "자바의 정석/chapter 08.md",
+    "자바의 정석/screenshot",
+    "취업노트/10월 3주차 공고.md",
     "취업노트/노트.md",
     "구현 팁.md",
-    "Pasted image 20231022183526.png",
     "취업노트/10월 4주차 공고.md",
-    "취업노트/screenshot/Pasted image 20231022105031.png",
-    "취업노트/screenshot/Pasted image 20231022164800.png",
-    "취업노트/screenshot/Pasted image 20231022164647.png",
-    "취업노트/screenshot/Pasted image 20231022164611.png",
-    "취업노트/screenshot/Pasted image 20231022164552.png",
-    "취업노트/screenshot/Pasted image 20231022164006.png",
-    "취업노트/screenshot/Pasted image 20231022112605.png",
-    "취업노트/screenshot/Pasted image 20231022112512.png",
     "취업노트/screenshot",
     "인프런 강의/스프링 핵심 원리 (기본편)/02 스프링 핵심 원리 이해 - 예제 만들기.md",
     "우테코/1주차/개발일지.md",
@@ -194,7 +205,6 @@
     "미분류",
     "취업노트",
     "자바의 정석/chapter 11",
-    "인프런 강의/스프링 핵심 원리 (기본편)",
-    "Java/Java"
+    "인프런 강의/스프링 핵심 원리 (기본편)"
   ]
 }
