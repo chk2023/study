@@ -18,31 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "8931382346345675",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "이미지/screenshot/Pasted image 20231007095241.png"
-              }
-            }
-          },
-          {
-            "id": "194f137a7c11b70b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "강의/자바의 정석/chapter 02.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -92,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5
+    "width": 249.5,
+    "collapsed": true
   },
   "right": {
     "id": "a557dd975c09f315",
@@ -108,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "이미지/screenshot/Pasted image 20231007095241.png",
+                "file": "강의/자바의 정석/chapter 08.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "이미지/screenshot/Pasted image 20231007095241.png",
+                "file": "강의/자바의 정석/chapter 08.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "이미지/screenshot/Pasted image 20231007095241.png"
+                "file": "강의/자바의 정석/chapter 08.md"
               }
             }
           }
@@ -170,20 +148,31 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "8931382346345675",
+  "active": "431eba4921eefdd7",
   "lastOpenFiles": [
-    "이미지/screenshot/Pasted image 20231006170025.png",
-    "이미지/screenshot/Pasted image 20231007095241.png",
-    "이미지/screenshot/Pasted image 20231007101706.png",
-    "이미지/screenshot/Pasted image 20231009105042.png",
-    "이미지/screenshot/Pasted image 20231009105446.png",
-    "이미지/screenshot/Pasted image 20231009110341.png",
-    "이미지/screenshot/Pasted image 20231009110745.png",
-    "이미지/screenshot/Pasted image 20231009112047.png",
-    "이미지/screenshot/Pasted image 20231009112254.png",
-    "이미지/screenshot/Pasted image 20231009113235.png",
-    "이미지/screenshot/Pasted image 20231009115156.png",
+    "MSA.md",
+    "Getter와 Setter가 클린코드에 위배되는 이유.md",
+    "헥사고날.md",
+    "클래스가 인터페이스를 호출하는 방식.md",
+    "인텔리제이 단축키.md",
+    "인텔리제이 그레이들 실행 시 콘솔 한글 깨짐.md",
+    "보일러플레이트.md",
+    "구현 팁.md",
+    "학습노트/CS/깃허브 인텔리제이 레포지토리에 등록하기.md",
+    "이미지/screenshot/학습노트_java/Pasted image 20230925095105.png",
+    "학습노트/공부노트.md",
+    "이미지/screenshot/인프런_스프링 입문/Pasted image 20230928163742.png",
+    "이미지/screenshot/학습노트_java",
+    "이미지/screenshot/학습노트_java/Pasted image 20230928164534.png",
+    "이미지/screenshot/인프런_스프링 입문/Pasted image 20230928163713.png",
+    "이미지/screenshot/학습노트_java/Pasted image 20230928112720.png",
+    "이미지/screenshot/학습노트_java/Pasted image 20230925105316.png",
+    "이미지/screenshot/학습노트_java/Pasted image 20230925140808.png",
+    "이미지/screenshot/학습노트_java/Pasted image 20230925152008.png",
+    "이미지/screenshot/학습노트_java/Pasted image 20230926171941.png",
+    "이미지/screenshot/학습노트_java/Pasted image 20230926195144.png",
     "강의/자바의 정석/chapter 02.md",
+    "이미지/screenshot/인프런_스프링 입문",
     "강의/자바의 정석/chapter 01.md",
     "이미지/screenshot/자바의 정석_ch02",
     "이미지/screenshot/인프런_스프링 핵심원리 01/Untitled",
@@ -198,25 +187,14 @@
     "강의",
     "서적",
     "이미지/screenshot/자바의 정석_ch11",
-    "이미지/screenshot/자바의 정석_ch05",
-    "이미지/screenshot/자바의 정석_ch04",
     "강의/자바의 정석/chapter 08.md",
     "취업노트/10월 3주차 공고.md",
     "취업노트/노트.md",
-    "구현 팁.md",
     "취업노트/10월 4주차 공고.md",
     "우테코/1주차/개발일지.md",
     "강의/자바의 정석/chapter 11.md",
     "강의/자바의 정석/chapter 13.md",
-    "인텔리제이 그레이들 실행 시 콘솔 한글 깨짐.md",
     "우테코/1주차/과제내용.md",
-    "우테코/프리코스 과제 가이드.md",
-    "강의/자바의 정석/chapter 07.md",
-    "취업노트/채용공고.md",
-    "클래스가 인터페이스를 호출하는 방식.md",
-    "우테코 프리코스/개발노트.md",
-    "인텔리제이 단축키.md",
-    "Getter와 Setter가 클린코드에 위배되는 이유.md",
-    "강의/자바의 정석/chapter 06.md"
+    "우테코/프리코스 과제 가이드.md"
   ]
 }

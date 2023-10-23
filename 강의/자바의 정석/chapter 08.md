@@ -22,6 +22,9 @@ javac.exe가 자바 컴파일러다. 커맨드 창에서 컴파일 하려면 jav
 Exception은 다시 두 가지로 구분된다. Exception의 자손들과 RuntimeException의 자손들.
 물론 RuntimeException도 Exception의 자손이긴 하다. 
 
+Exception클래스와 그 자손은 사용자의 실수와 같은 외적인 요인에 의해 발생하는 예외.
+RuntimException클래스와 그 자손은 프로그래머의 실수로 발생하는 예외.
+
 
 ### 예외 처리하기, try-catch문의 흐름
 
