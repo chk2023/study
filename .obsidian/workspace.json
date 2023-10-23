@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2accabe25ef68dfd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "enum 클래스.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/02 스프링 핵심 원리 이해 - 예제 만들기.md",
+                "file": "enum 클래스.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/02 스프링 핵심 원리 이해 - 예제 만들기.md",
+                "file": "enum 클래스.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/02 스프링 핵심 원리 이해 - 예제 만들기.md"
+                "file": "enum 클래스.md"
               }
             }
           }
@@ -148,13 +161,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e7d7e2b1afc7c5ea",
+  "active": "2accabe25ef68dfd",
   "lastOpenFiles": [
+    "강의/인프런 강의/스프링 핵심 원리 (기본편)/02 스프링 핵심 원리 이해 - 예제 만들기.md",
+    "enum 클래스.md",
     "학습노트/Java/Java/Getter와 Setter가 클린코드에 위배되는 이유.md",
     "학습노트/개발노트/인텔리제이 그레이들 실행 시 콘솔 한글 깨짐.md",
     "학습노트/개발노트",
     "미분류/보일러플레이트.md",
-    "강의/인프런 강의/스프링 핵심 원리 (기본편)/02 스프링 핵심 원리 이해 - 예제 만들기.md",
     "이미지/screenshot/자바의 정석/자바의 정석_ch08/Pasted image 20231023104846.png",
     "이미지/screenshot/인프런",
     "이미지/screenshot/자바의 정석",
