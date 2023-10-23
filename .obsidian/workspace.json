@@ -25,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "enum 클래스.md",
+                "file": "학습노트/Java/enum 클래스.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "a557dd975c09f315",
@@ -99,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "enum 클래스.md",
+                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/02 스프링 핵심 원리 이해 - 예제 만들기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "enum 클래스.md",
+                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/02 스프링 핵심 원리 이해 - 예제 만들기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "enum 클래스.md"
+                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/02 스프링 핵심 원리 이해 - 예제 만들기.md"
               }
             }
           }
@@ -161,10 +159,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2accabe25ef68dfd",
+  "active": "e7d7e2b1afc7c5ea",
   "lastOpenFiles": [
+    "학습노트/Java/enum 클래스.md",
     "강의/인프런 강의/스프링 핵심 원리 (기본편)/02 스프링 핵심 원리 이해 - 예제 만들기.md",
-    "enum 클래스.md",
     "학습노트/Java/Java/Getter와 Setter가 클린코드에 위배되는 이유.md",
     "학습노트/개발노트/인텔리제이 그레이들 실행 시 콘솔 한글 깨짐.md",
     "학습노트/개발노트",
