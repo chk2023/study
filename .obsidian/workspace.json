@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "성능 테스트.md",
+                "file": "학습노트/CS/성능 테스트.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "a557dd975c09f315",
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "성능 테스트.md",
+                "file": "학습노트/CS/성능 테스트.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "성능 테스트.md",
+                "file": "학습노트/CS/성능 테스트.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "성능 테스트.md"
+                "file": "학습노트/CS/성능 테스트.md"
               }
             }
           }
@@ -161,10 +160,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "844ee402b2ca7a5b",
+  "active": "1c0057bca8d9013b",
   "lastOpenFiles": [
+    "이미지/screenshot/학습노트_cs",
+    "이미지/screenshot/학습노트_cs/Pasted image 20231024195626.png",
     "우테코/1주차/개발일지.md",
-    "성능 테스트.md",
+    "학습노트/CS/성능 테스트.md",
     "우테코/1주차/과제내용.md",
     "학습노트/Java/enum 클래스.md",
     "강의/인프런 강의/스프링 핵심 원리 (기본편)/02 스프링 핵심 원리 이해 - 예제 만들기.md",
@@ -192,7 +193,6 @@
     "이미지/screenshot/학습노트_java",
     "이미지/screenshot/학습노트_java/Pasted image 20230928164534.png",
     "이미지/screenshot/인프런/인프런_스프링 입문/Pasted image 20230928163713.png",
-    "이미지/screenshot/학습노트_java/Pasted image 20230928112720.png",
     "강의/자바의 정석/chapter 02.md",
     "이미지/screenshot/인프런/인프런_스프링 입문",
     "강의/자바의 정석/chapter 01.md",
@@ -207,7 +207,6 @@
     "이미지",
     "취업노트/10월 3주차 공고.md",
     "취업노트/노트.md",
-    "취업노트/10월 4주차 공고.md",
-    "강의/자바의 정석/chapter 11.md"
+    "취업노트/10월 4주차 공고.md"
   ]
 }
