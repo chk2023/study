@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e7d7e2b1afc7c5ea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/02 스프링 핵심 원리 이해 - 예제 만들기.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "2accabe25ef68dfd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "학습노트/Java/enum 클래스.md",
+                "file": "우테코/1주차/개발일지.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/02 스프링 핵심 원리 이해 - 예제 만들기.md",
+                "file": "우테코/1주차/개발일지.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/02 스프링 핵심 원리 이해 - 예제 만들기.md",
+                "file": "우테코/1주차/개발일지.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/02 스프링 핵심 원리 이해 - 예제 만들기.md"
+                "file": "우테코/1주차/개발일지.md"
               }
             }
           }
@@ -160,8 +148,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e7d7e2b1afc7c5ea",
+  "active": "2accabe25ef68dfd",
   "lastOpenFiles": [
+    "우테코/1주차/과제내용.md",
     "학습노트/Java/enum 클래스.md",
     "강의/인프런 강의/스프링 핵심 원리 (기본편)/02 스프링 핵심 원리 이해 - 예제 만들기.md",
     "학습노트/Java/Java/Getter와 Setter가 클린코드에 위배되는 이유.md",
@@ -206,7 +195,6 @@
     "취업노트/10월 4주차 공고.md",
     "우테코/1주차/개발일지.md",
     "강의/자바의 정석/chapter 11.md",
-    "강의/자바의 정석/chapter 13.md",
-    "우테코/1주차/과제내용.md"
+    "강의/자바의 정석/chapter 13.md"
   ]
 }
