@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "학습노트/CS/성능 테스트.md",
+                "file": "우테코/1주차/개발일지.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "학습노트/CS/성능 테스트.md",
+                "file": "우테코/1주차/개발일지.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "학습노트/CS/성능 테스트.md",
+                "file": "우테코/1주차/개발일지.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "학습노트/CS/성능 테스트.md"
+                "file": "우테코/1주차/개발일지.md"
               }
             }
           }
@@ -163,11 +163,12 @@
   },
   "active": "844ee402b2ca7a5b",
   "lastOpenFiles": [
+    "우테코/1주차/과제내용.md",
+    "우테코/1주차/개발일지.md",
+    "우테코/1주차/프리코스 과제 가이드.md",
+    "학습노트/CS/성능 테스트.md",
     "이미지/screenshot/학습노트_cs",
     "이미지/screenshot/학습노트_cs/Pasted image 20231024195626.png",
-    "우테코/1주차/개발일지.md",
-    "학습노트/CS/성능 테스트.md",
-    "우테코/1주차/과제내용.md",
     "학습노트/Java/enum 클래스.md",
     "강의/인프런 강의/스프링 핵심 원리 (기본편)/02 스프링 핵심 원리 이해 - 예제 만들기.md",
     "학습노트/Java/Java/Getter와 Setter가 클린코드에 위배되는 이유.md",
@@ -205,7 +206,6 @@
     "이미지/Excalidraw/Drawing 2023-10-23 10.17.56.excalidraw.md",
     "이미지/Excalidraw/Drawing 2023-09-27 22.11.44.excalidraw.md",
     "이미지/Excalidraw/Untitled.md",
-    "이미지",
     "취업노트/10월 3주차 공고.md",
     "취업노트/노트.md",
     "취업노트/10월 4주차 공고.md"
