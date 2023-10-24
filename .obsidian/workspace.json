@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "a557dd975c09f315",
@@ -160,7 +161,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1c0057bca8d9013b",
+  "active": "844ee402b2ca7a5b",
   "lastOpenFiles": [
     "이미지/screenshot/학습노트_cs",
     "이미지/screenshot/학습노트_cs/Pasted image 20231024195626.png",
