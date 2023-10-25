@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "a557dd975c09f315",
@@ -155,7 +156,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5f18002cbda1f008",
+  "active": "1c0057bca8d9013b",
   "lastOpenFiles": [
     "Pasted image 20231025100326.png",
     "알고리즘/프로그래머스/0단계/덧셈식 출력하기.md",
