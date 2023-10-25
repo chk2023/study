@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘/프로그래머스/0단계/문자열 붙여서 출력하기.md",
+                "file": "알고리즘/프로그래머스/0단계/문자열 겹쳐쓰기.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "a557dd975c09f315",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘/프로그래머스/0단계/문자열 붙여서 출력하기.md",
+                "file": "알고리즘/프로그래머스/0단계/문자열 겹쳐쓰기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘/프로그래머스/0단계/문자열 붙여서 출력하기.md",
+                "file": "알고리즘/프로그래머스/0단계/문자열 겹쳐쓰기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘/프로그래머스/0단계/문자열 붙여서 출력하기.md"
+                "file": "알고리즘/프로그래머스/0단계/문자열 겹쳐쓰기.md"
               }
             }
           }
@@ -156,11 +155,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1c0057bca8d9013b",
+  "active": "5f18002cbda1f008",
   "lastOpenFiles": [
+    "알고리즘/프로그래머스/0단계/문자열 붙여서 출력하기.md",
+    "알고리즘/프로그래머스/0단계/문자열 겹쳐쓰기.md",
     "Pasted image 20231025100326.png",
     "알고리즘/프로그래머스/0단계/덧셈식 출력하기.md",
-    "알고리즘/프로그래머스/0단계/문자열 붙여서 출력하기.md",
     "알고리즘/프로그래머스/0단계/대소문자 바꿔서 출력하기.md",
     "이미지/screenshot/프로그래머스_0/Pasted image 20231025094125.png",
     "이미지/screenshot/프로그래머스_0/Pasted image 20231025093914.png",
@@ -191,7 +191,6 @@
     "이미지/screenshot/자바의 정석/자바의 정석_ch08/Pasted image 20231023110729.png",
     "Pasted image 20231023110713.png",
     "이미지/screenshot/자바의 정석/자바의 정석_ch08/Pasted image 20231023105720.png",
-    "Pasted image 20231023105632.png",
     "미분류/MSA.md",
     "미분류/헥사고날.md",
     "학습노트/Java/Java/클래스가 인터페이스를 호출하는 방식.md",
