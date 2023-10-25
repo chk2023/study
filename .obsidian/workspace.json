@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/03 스프링 핵심 원리 이해2 - 객체 지향 원리 적용.md",
+                "file": "알고리즘/프로그래머스/0단계/대소문자 바꿔서 출력하기.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "a557dd975c09f315",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/03 스프링 핵심 원리 이해2 - 객체 지향 원리 적용.md",
+                "file": "알고리즘/프로그래머스/0단계/대소문자 바꿔서 출력하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/03 스프링 핵심 원리 이해2 - 객체 지향 원리 적용.md",
+                "file": "알고리즘/프로그래머스/0단계/대소문자 바꿔서 출력하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/03 스프링 핵심 원리 이해2 - 객체 지향 원리 적용.md"
+                "file": "알고리즘/프로그래머스/0단계/대소문자 바꿔서 출력하기.md"
               }
             }
           }
@@ -150,6 +149,14 @@
   },
   "active": "5f18002cbda1f008",
   "lastOpenFiles": [
+    "알고리즘/프로그래머스/0단계/특수문자 출력하기.md",
+    "Pasted image 20231025093103.png",
+    "알고리즘/프로그래머스/0단계/대소문자 바꿔서 출력하기.md",
+    "이미지/screenshot/프로그래머스_0",
+    "강의/인프런 강의/스프링 핵심 원리 (기본편)/03 스프링 핵심 원리 이해2 - 객체 지향 원리 적용.md",
+    "알고리즘/프로그래머스/0단계",
+    "알고리즘/프로그래머스",
+    "알고리즘",
     "강의/인프런 강의/스프링 핵심 원리 (기본편)/02 스프링 핵심 원리 이해 - 예제 만들기.md",
     "우테코/1주차/개발일지.md",
     "우테코/1주차/과제내용.md",
@@ -181,20 +188,11 @@
     "이미지/screenshot/인프런/인프런_스프링 입문/Pasted image 20230928163742.png",
     "이미지/screenshot/학습노트_java",
     "이미지/screenshot/학습노트_java/Pasted image 20230928164534.png",
-    "이미지/screenshot/인프런/인프런_스프링 입문/Pasted image 20230928163713.png",
     "강의/자바의 정석/chapter 02.md",
     "이미지/screenshot/인프런/인프런_스프링 입문",
     "강의/자바의 정석/chapter 01.md",
-    "이미지/screenshot/자바의 정석/자바의 정석_ch02",
-    "이미지/screenshot/인프런_스프링 핵심원리 01/Untitled",
-    "이미지/screenshot/자바의 정석/자바의 정석_ch01",
     "강의/인프런 강의/스프링 핵심 원리 (기본편)/01 객체 지향 설계와 스프링.md",
-    "이미지/screenshot/인프런/인프런_스프링 핵심원리 01",
     "이미지/Excalidraw/Drawing 2023-10-23 10.17.56.excalidraw.md",
-    "이미지/Excalidraw/Drawing 2023-09-27 22.11.44.excalidraw.md",
-    "이미지/Excalidraw/Untitled.md",
-    "취업노트/10월 3주차 공고.md",
-    "취업노트/노트.md",
-    "취업노트/10월 4주차 공고.md"
+    "이미지/Excalidraw/Drawing 2023-09-27 22.11.44.excalidraw.md"
   ]
 }
