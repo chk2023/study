@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘/프로그래머스/0단계/Untitled.md",
+                "file": "수학/등차수열.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "a557dd975c09f315",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘/프로그래머스/0단계/Untitled.md",
+                "file": "수학/등차수열.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘/프로그래머스/0단계/Untitled.md",
+                "file": "수학/등차수열.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘/프로그래머스/0단계/Untitled.md"
+                "file": "수학/등차수열.md"
               }
             }
           }
@@ -147,10 +148,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1c0057bca8d9013b",
+  "active": "01179c58dc91ba42",
   "lastOpenFiles": [
-    "수학",
     "알고리즘/프로그래머스/0단계/Untitled.md",
+    "수학/등차수열.md",
+    "수학",
     "인텔리제이 단축키.md",
     "priavte static 메소드.md",
     "우테코/2주차/개발일지.md",
@@ -193,7 +195,6 @@
     "이미지/screenshot/자바의 정석/자바의 정석_ch08/Pasted image 20231023104846.png",
     "이미지/screenshot/인프런",
     "이미지/screenshot/자바의 정석",
-    "강의/자바의 정석/chapter 08.md",
-    "이미지/screenshot/학습노트_java"
+    "강의/자바의 정석/chapter 08.md"
   ]
 }
