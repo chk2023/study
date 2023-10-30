@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/03 스프링 핵심 원리 이해2 - 객체 지향 원리 적용.md",
+                "file": "강의/자바의 정석/chapter 14.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 273.5,
-    "collapsed": true
+    "width": 273.5
   },
   "right": {
     "id": "a557dd975c09f315",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/03 스프링 핵심 원리 이해2 - 객체 지향 원리 적용.md",
+                "file": "강의/자바의 정석/chapter 14.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/03 스프링 핵심 원리 이해2 - 객체 지향 원리 적용.md",
+                "file": "강의/자바의 정석/chapter 14.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/03 스프링 핵심 원리 이해2 - 객체 지향 원리 적용.md"
+                "file": "강의/자바의 정석/chapter 14.md"
               }
             }
           }
@@ -150,9 +149,14 @@
   },
   "active": "01179c58dc91ba42",
   "lastOpenFiles": [
+    "강의/자바의 정석/chapter 05.md",
+    "강의/자바의 정석/chapter 14.md",
+    "강의/자바의 정석/chapter 11.md",
+    "강의/자바의 정석/Untitled",
+    "강의/자바의 정석/chapter 08.md",
+    "강의/인프런 강의/스프링 핵심 원리 (기본편)/03 스프링 핵심 원리 이해2 - 객체 지향 원리 적용.md",
     "이미지/screenshot/인프런/스프링 핵심원리 03/Pasted image 20231030161136.png",
     "이미지/screenshot/인프런/스프링 핵심원리 03",
-    "강의/인프런 강의/스프링 핵심 원리 (기본편)/03 스프링 핵심 원리 이해2 - 객체 지향 원리 적용.md",
     "이미지/screenshot/인프런/스프링 핵심원리 03/Pasted image 20231030164706.png",
     "이미지/screenshot/인프런/스프링 핵심원리 03/Pasted image 20231030161404.png",
     "강의/자바의 정석/chapter 07.md",
@@ -189,11 +193,7 @@
     "알고리즘/프로그래머스/0단계",
     "알고리즘/프로그래머스",
     "알고리즘",
-    "우테코/1주차/개발일지.md",
-    "학습노트/CS/성능 테스트.md",
     "이미지/screenshot/학습노트_cs",
-    "학습노트/Java/enum 클래스.md",
-    "학습노트/개발노트",
-    "이미지/screenshot/인프런"
+    "학습노트/개발노트"
   ]
 }
