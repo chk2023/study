@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘/프로그래머스/0단계/코드 처리하기.md",
+                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/03 스프링 핵심 원리 이해2 - 객체 지향 원리 적용.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘/프로그래머스/0단계/코드 처리하기.md",
+                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/03 스프링 핵심 원리 이해2 - 객체 지향 원리 적용.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘/프로그래머스/0단계/코드 처리하기.md",
+                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/03 스프링 핵심 원리 이해2 - 객체 지향 원리 적용.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘/프로그래머스/0단계/코드 처리하기.md"
+                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/03 스프링 핵심 원리 이해2 - 객체 지향 원리 적용.md"
               }
             }
           }
@@ -150,8 +150,8 @@
   },
   "active": "01179c58dc91ba42",
   "lastOpenFiles": [
-    "알고리즘/프로그래머스/0단계/등차수열의 특정한 항만 더하기.md",
     "알고리즘/프로그래머스/0단계/코드 처리하기.md",
+    "알고리즘/프로그래머스/0단계/등차수열의 특정한 항만 더하기.md",
     "수학/등차수열.md",
     "알고리즘/프로그래머스/0단계/Untitled.md",
     "수학",
