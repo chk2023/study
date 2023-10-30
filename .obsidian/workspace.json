@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘/프로그래머스/0단계/등차수열의 특정한 항만 더하기.md",
+                "file": "알고리즘/프로그래머스/0단계/코드 처리하기.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘/프로그래머스/0단계/등차수열의 특정한 항만 더하기.md",
+                "file": "알고리즘/프로그래머스/0단계/코드 처리하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘/프로그래머스/0단계/등차수열의 특정한 항만 더하기.md",
+                "file": "알고리즘/프로그래머스/0단계/코드 처리하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘/프로그래머스/0단계/등차수열의 특정한 항만 더하기.md"
+                "file": "알고리즘/프로그래머스/0단계/코드 처리하기.md"
               }
             }
           }
@@ -150,8 +150,9 @@
   },
   "active": "01179c58dc91ba42",
   "lastOpenFiles": [
-    "수학/등차수열.md",
     "알고리즘/프로그래머스/0단계/등차수열의 특정한 항만 더하기.md",
+    "알고리즘/프로그래머스/0단계/코드 처리하기.md",
+    "수학/등차수열.md",
     "알고리즘/프로그래머스/0단계/Untitled.md",
     "수학",
     "인텔리제이 단축키.md",
@@ -192,7 +193,6 @@
     "학습노트/Java/Java/Getter와 Setter가 클린코드에 위배되는 이유.md",
     "학습노트/개발노트/인텔리제이 그레이들 실행 시 콘솔 한글 깨짐.md",
     "학습노트/개발노트",
-    "미분류/보일러플레이트.md",
     "이미지/screenshot/자바의 정석/자바의 정석_ch08/Pasted image 20231023104846.png",
     "이미지/screenshot/인프런",
     "이미지/screenshot/자바의 정석"
