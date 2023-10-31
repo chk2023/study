@@ -30,14 +30,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "caefb5441b785efe",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
         ]
       }
@@ -170,9 +162,11 @@
   },
   "active": "01179c58dc91ba42",
   "lastOpenFiles": [
+    "Pasted image 20231031124344.png",
+    "강의/자바의 정석/chapter 14.md",
+    "Pasted image 20231031124418.png",
     "Pasted image 20231031123744.png",
     "Pasted image 20231031123654.png",
-    "강의/자바의 정석/chapter 14.md",
     "Pasted image 20231031123344.png",
     "Pasted image 20231031123331.png",
     "강의/자바의 정석/chapter 13.md",
@@ -201,13 +195,10 @@
     "미분류/static import.md",
     "이미지/screenshot/프로그래머스_0/Pasted image 20231026112303.png",
     "알고리즘/프로그래머스/0단계/조건 문자열.md",
-    "이미지/screenshot/프로그래머스_0/Pasted image 20231027102748.png",
     "알고리즘/프로그래머스/0단계/더 크게 합치기.md",
     "알고리즘/프로그래머스/0단계/문자 리스트를 문자열로 변환하기.md",
     "강의/인프런 강의/스프링 핵심 원리 (기본편)/02 스프링 핵심 원리 이해 - 예제 만들기.md",
-    "이미지/screenshot/프로그래머스_0/Pasted image 20231025100326.png",
     "알고리즘/프로그래머스/0단계/문자열 겹쳐쓰기.md",
-    "이미지/screenshot/프로그래머스_0/Pasted image 20231025105612.png",
     "알고리즘/프로그래머스/0단계/문자열 붙여서 출력하기.md",
     "알고리즘/프로그래머스/0단계/덧셈식 출력하기.md",
     "이미지/screenshot/프로그래머스_0",
