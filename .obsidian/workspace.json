@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "우테코/2주차/개발일지.md",
+                "file": "강의/자바의 정석/chapter 14.md",
                 "mode": "source",
                 "source": false
               }
@@ -29,6 +29,14 @@
                 "mode": "source",
                 "source": false
               }
+            }
+          },
+          {
+            "id": "caefb5441b785efe",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -98,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "우테코/2주차/개발일지.md",
+                "file": "강의/자바의 정석/chapter 14.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "우테코/2주차/개발일지.md",
+                "file": "강의/자바의 정석/chapter 14.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "우테코/2주차/개발일지.md"
+                "file": "강의/자바의 정석/chapter 14.md"
               }
             }
           }
@@ -160,11 +168,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1c0057bca8d9013b",
+  "active": "01179c58dc91ba42",
   "lastOpenFiles": [
+    "Pasted image 20231031123744.png",
+    "Pasted image 20231031123654.png",
     "강의/자바의 정석/chapter 14.md",
+    "Pasted image 20231031123344.png",
+    "Pasted image 20231031123331.png",
     "강의/자바의 정석/chapter 13.md",
     "강의/자바의 정석/chapter 11.md",
+    "우테코/2주차/개발일지.md",
     "강의/자바의 정석/chapter 08.md",
     "인텔리제이 단축키.md",
     "강의/자바의 정석/chapter 05.md",
@@ -181,7 +194,6 @@
     "알고리즘/프로그래머스/0단계/Untitled.md",
     "수학",
     "priavte static 메소드.md",
-    "우테코/2주차/개발일지.md",
     "우테코/1주차/과제내용.md",
     "우테코/2주차/과제내용.md",
     "우테코/1주차/프리코스 과제 가이드.md",
@@ -198,10 +210,6 @@
     "이미지/screenshot/프로그래머스_0/Pasted image 20231025105612.png",
     "알고리즘/프로그래머스/0단계/문자열 붙여서 출력하기.md",
     "알고리즘/프로그래머스/0단계/덧셈식 출력하기.md",
-    "알고리즘/프로그래머스/0단계/대소문자 바꿔서 출력하기.md",
-    "이미지/screenshot/프로그래머스_0/Pasted image 20231025094125.png",
-    "이미지/screenshot/프로그래머스_0/Pasted image 20231025093914.png",
-    "이미지/screenshot/프로그래머스_0/Pasted image 20231025093637.png",
     "이미지/screenshot/프로그래머스_0",
     "알고리즘/프로그래머스/0단계",
     "알고리즘/프로그래머스",
