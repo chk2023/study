@@ -25,12 +25,11 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "Pasted image 20231106110220.png"
+                "file": "이미지/screenshot/인프런/스프링 핵심원리 04/Pasted image 20231103164306.png"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -80,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 273.5
+    "width": 273.5,
+    "collapsed": true
   },
   "right": {
     "id": "a557dd975c09f315",
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pasted image 20231106110220.png",
+                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/04 스프링 컨테이너와 스프링 빈.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pasted image 20231106110220.png",
+                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/04 스프링 컨테이너와 스프링 빈.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pasted image 20231106110220.png"
+                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/04 스프링 컨테이너와 스프링 빈.md"
               }
             }
           }
@@ -158,13 +158,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "94e8298e9a31c5be",
+  "active": "2f9c3793066a5e2b",
   "lastOpenFiles": [
-    "Pasted image 20231103164909.png",
-    "Pasted image 20231103164347.png",
-    "Pasted image 20231103164306.png",
+    "이미지/screenshot/인프런/스프링 핵심원리 04/Pasted image 20231103164306.png",
+    "이미지/screenshot/인프런/스프링 핵심원리 04",
+    "이미지/screenshot/인프런/스프링 핵심원리 04/Pasted image 20231106110220.png",
+    "이미지/screenshot/인프런/스프링 핵심원리 04/Pasted image 20231103164909.png",
+    "이미지/screenshot/인프런/스프링 핵심원리 04/Pasted image 20231103164347.png",
     "강의/인프런 강의/스프링 핵심 원리 (기본편)/04 스프링 컨테이너와 스프링 빈.md",
-    "Pasted image 20231106110220.png",
     "이미지/screenshot/자바의 정석/자바의 정석_ch14/Pasted image 20231031133222.png",
     "이미지/screenshot/자바의 정석/자바의 정석_ch14/Pasted image 20231031133015.png",
     "conflict-files-obsidian-git.md",
@@ -203,7 +204,6 @@
     "이미지/screenshot/프로그래머스_0",
     "알고리즘/프로그래머스/0단계",
     "알고리즘/프로그래머스",
-    "알고리즘",
-    "이미지/screenshot/학습노트_cs"
+    "알고리즘"
   ]
 }
