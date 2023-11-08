@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "우테코/3주차/코드분석.md",
+                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/04 스프링 컨테이너와 스프링 빈.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 273.5
+    "width": 273.5,
+    "collapsed": true
   },
   "right": {
     "id": "a557dd975c09f315",
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "우테코/3주차/코드분석.md",
+                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/04 스프링 컨테이너와 스프링 빈.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "우테코/3주차/코드분석.md",
+                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/04 스프링 컨테이너와 스프링 빈.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "우테코/3주차/코드분석.md"
+                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/04 스프링 컨테이너와 스프링 빈.md"
               }
             }
           }
@@ -159,10 +160,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2f9c3793066a5e2b",
+  "active": "1c0057bca8d9013b",
   "lastOpenFiles": [
-    "강의/인프런 강의/스프링 핵심 원리 (기본편)/04 스프링 컨테이너와 스프링 빈.md",
     "우테코/3주차/코드분석.md",
+    "강의/인프런 강의/스프링 핵심 원리 (기본편)/04 스프링 컨테이너와 스프링 빈.md",
     "우테코/3주차",
     "인텔리제이 단축키.md",
     "이미지/screenshot/인프런/스프링 핵심원리 04/Pasted image 20231103164306.png",
