@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/04 스프링 컨테이너와 스프링 빈.md",
+                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/05 싱글톤 컨테이너.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/04 스프링 컨테이너와 스프링 빈.md",
+                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/05 싱글톤 컨테이너.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/04 스프링 컨테이너와 스프링 빈.md",
+                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/05 싱글톤 컨테이너.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/04 스프링 컨테이너와 스프링 빈.md"
+                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/05 싱글톤 컨테이너.md"
               }
             }
           }
@@ -162,9 +162,9 @@
   },
   "active": "2f9c3793066a5e2b",
   "lastOpenFiles": [
+    "강의/인프런 강의/스프링 핵심 원리 (기본편)/04 스프링 컨테이너와 스프링 빈.md",
     "Pasted image 20231110105232.png",
     "우테코/3주차/코드분석.md",
-    "강의/인프런 강의/스프링 핵심 원리 (기본편)/04 스프링 컨테이너와 스프링 빈.md",
     "우테코/3주차",
     "인텔리제이 단축키.md",
     "이미지/screenshot/인프런/스프링 핵심원리 04/Pasted image 20231103164306.png",
@@ -180,7 +180,6 @@
     "이미지/screenshot/자바의 정석/자바의 정석_ch14/Pasted image 20231031132816.png",
     "이미지/screenshot/자바의 정석/자바의 정석_ch14/Pasted image 20231031131413.png",
     "이미지/screenshot/자바의 정석/자바의 정석_ch14/Pasted image 20231031130350.png",
-    "이미지/screenshot/자바의 정석/자바의 정석_ch14/Pasted image 20231031123744.png",
     "이미지/screenshot/자바의 정석/자바의 정석_ch14",
     "강의/자바의 정석/chapter 13.md",
     "강의/자바의 정석/chapter 11.md",
