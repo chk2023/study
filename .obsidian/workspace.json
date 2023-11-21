@@ -18,8 +18,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8a6b6ada55b5ec26",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +95,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/05 싱글톤 컨테이너.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +111,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/05 싱글톤 컨테이너.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +132,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/05 싱글톤 컨테이너.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -148,10 +153,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "94e8298e9a31c5be",
+  "active": "1c0057bca8d9013b",
   "lastOpenFiles": [
     "강의/인프런 강의/스프링 핵심 원리 (기본편)/05 싱글톤 컨테이너.md",
-    "Pasted image 20231121205537.png",
+    "이미지/screenshot/인프런/스프링 핵심원리 05/Pasted image 20231121205537.png",
     "취업노트/국비지원/국비지원 학원 리스트.md",
     "취업노트/국비지원/풀스택.md",
     "취업노트/국비지원/Node.js.md",
