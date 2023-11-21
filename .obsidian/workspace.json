@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 273.5,
-    "collapsed": true
+    "width": 273.5
   },
   "right": {
     "id": "a557dd975c09f315",
@@ -153,7 +152,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1c0057bca8d9013b",
+  "active": "8a6b6ada55b5ec26",
   "lastOpenFiles": [
     "강의/인프런 강의/스프링 핵심 원리 (기본편)/05 싱글톤 컨테이너.md",
     "이미지/screenshot/인프런/스프링 핵심원리 05/Pasted image 20231121205537.png",
