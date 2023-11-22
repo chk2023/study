@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/06 컴포넌트 스캔.md",
+                "file": "강의/국비지원/DevOps/1. AWS 배포 기본 지식 학습.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 273.5
+    "width": 273.5,
+    "collapsed": true
   },
   "right": {
     "id": "a557dd975c09f315",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/06 컴포넌트 스캔.md",
+                "file": "강의/국비지원/DevOps/1. AWS 배포 기본 지식 학습.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/06 컴포넌트 스캔.md",
+                "file": "강의/국비지원/DevOps/1. AWS 배포 기본 지식 학습.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/06 컴포넌트 스캔.md"
+                "file": "강의/국비지원/DevOps/1. AWS 배포 기본 지식 학습.md"
               }
             }
           }
@@ -147,12 +148,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1c0057bca8d9013b",
+  "active": "8a6b6ada55b5ec26",
   "lastOpenFiles": [
+    "강의/인프런 강의/스프링 핵심 원리 (기본편)/06 컴포넌트 스캔.md",
+    "강의/국비지원/DevOps/1. AWS 배포 기본 지식 학습.md",
     "강의/국비지원/DevOps",
     "강의/국비지원",
     "강의/인프런 강의/스프링 핵심 원리 (기본편)/07 의존관계 자동주입.md",
-    "강의/인프런 강의/스프링 핵심 원리 (기본편)/06 컴포넌트 스캔.md",
     "강의/인프런 강의/스프링 핵심 원리 (기본편)/05 싱글톤 컨테이너.md",
     "Pasted image 20231121215804.png",
     "Pasted image 20231121214435.png",
@@ -191,7 +193,6 @@
     "알고리즘/프로그래머스/0단계/코드 처리하기.md",
     "알고리즘/프로그래머스/0단계/등차수열의 특정한 항만 더하기.md",
     "수학/등차수열.md",
-    "수학",
     "priavte static 메소드.md",
     "우테코/1주차/과제내용.md",
     "우테코/2주차/과제내용.md"
