@@ -18,6 +18,16 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3bc762161855bc54",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "이미지/screenshot/국비지원/DevOps/Pasted image 20231121211931.png"
+              }
+            }
           }
         ]
       }
@@ -150,17 +160,19 @@
   },
   "active": "8a6b6ada55b5ec26",
   "lastOpenFiles": [
-    "Pasted image 20231122112653.png",
-    "Pasted image 20231122112615.png",
-    "강의/인프런 강의/스프링 핵심 원리 (기본편)/06 컴포넌트 스캔.md",
+    "이미지/screenshot/국비지원/DevOps/Pasted image 20231121211931.png",
+    "이미지/screenshot/국비지원/DevOps",
+    "이미지/screenshot/국비지원",
     "강의/국비지원/DevOps/1. AWS 배포 기본 지식 학습.md",
+    "이미지/screenshot/국비지원/DevOps/Pasted image 20231122112653.png",
+    "이미지/screenshot/국비지원/DevOps/Pasted image 20231122112615.png",
+    "강의/인프런 강의/스프링 핵심 원리 (기본편)/06 컴포넌트 스캔.md",
     "강의/국비지원/DevOps",
     "강의/국비지원",
     "강의/인프런 강의/스프링 핵심 원리 (기본편)/07 의존관계 자동주입.md",
     "강의/인프런 강의/스프링 핵심 원리 (기본편)/05 싱글톤 컨테이너.md",
-    "Pasted image 20231121215804.png",
-    "Pasted image 20231121214435.png",
-    "Pasted image 20231121211931.png",
+    "이미지/screenshot/국비지원/DevOps/Pasted image 20231121215804.png",
+    "이미지/screenshot/국비지원/DevOps/Pasted image 20231121214435.png",
     "강의/자바의 정석/chapter 08.md",
     "이미지/screenshot/인프런/스프링 핵심원리 05/Pasted image 20231121205537.png",
     "취업노트/국비지원/국비지원 학원 리스트.md",
@@ -179,7 +191,6 @@
     "우테코/3주차",
     "이미지/screenshot/인프런/스프링 핵심원리 04/Pasted image 20231103164306.png",
     "이미지/screenshot/인프런/스프링 핵심원리 04",
-    "이미지/screenshot/인프런/스프링 핵심원리 04/Pasted image 20231106110220.png",
     "conflict-files-obsidian-git.md",
     "강의/인프런 강의/스프링 핵심 원리 (기본편)/03 스프링 핵심 원리 이해2 - 객체 지향 원리 적용.md",
     "강의/자바의 정석/chapter 14.md",
@@ -188,8 +199,6 @@
     "강의/자바의 정석/chapter 11.md",
     "우테코/2주차/개발일지.md",
     "강의/자바의 정석/chapter 05.md",
-    "강의/자바의 정석/Untitled",
-    "이미지/screenshot/인프런/스프링 핵심원리 03",
     "강의/자바의 정석/chapter 07.md",
     "알고리즘/프로그래머스/0단계/코드 처리하기.md",
     "알고리즘/프로그래머스/0단계/등차수열의 특정한 항만 더하기.md",
