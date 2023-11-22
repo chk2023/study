@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "강의/국비지원/DevOps/1. AWS 배포 기본 지식 학습.md",
+                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/06 컴포넌트 스캔.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 273.5
+    "width": 273.5,
+    "collapsed": true
   },
   "right": {
     "id": "a557dd975c09f315",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "강의/국비지원/DevOps/1. AWS 배포 기본 지식 학습.md",
+                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/06 컴포넌트 스캔.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "강의/국비지원/DevOps/1. AWS 배포 기본 지식 학습.md",
+                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/06 컴포넌트 스캔.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "강의/국비지원/DevOps/1. AWS 배포 기본 지식 학습.md"
+                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/06 컴포넌트 스캔.md"
               }
             }
           }
@@ -147,11 +148,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1c0057bca8d9013b",
+  "active": "8a6b6ada55b5ec26",
   "lastOpenFiles": [
+    "강의/국비지원/DevOps/1. AWS 배포 기본 지식 학습.md",
     "강의/국비지원/풀스택",
     "이미지/screenshot/국비지원/DevOps/Pasted image 20231122112843.png",
-    "강의/국비지원/DevOps/1. AWS 배포 기본 지식 학습.md",
     "이미지/screenshot/국비지원/DevOps/Pasted image 20231121211931.png",
     "이미지/screenshot/국비지원/DevOps/Pasted image 20231122124021.png",
     "이미지/screenshot/국비지원/DevOps/Pasted image 20231122123722.png",
@@ -184,7 +185,6 @@
     "conflict-files-obsidian-git.md",
     "강의/인프런 강의/스프링 핵심 원리 (기본편)/03 스프링 핵심 원리 이해2 - 객체 지향 원리 적용.md",
     "강의/자바의 정석/chapter 14.md",
-    "이미지/screenshot/자바의 정석/자바의 정석_ch14",
     "강의/자바의 정석/chapter 13.md",
     "강의/자바의 정석/chapter 11.md",
     "우테코/2주차/개발일지.md",
