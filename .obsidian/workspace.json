@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 273.5,
-    "collapsed": true
+    "width": 273.5
   },
   "right": {
     "id": "a557dd975c09f315",
@@ -150,6 +149,8 @@
   },
   "active": "8a6b6ada55b5ec26",
   "lastOpenFiles": [
+    "강의/인프런 강의/스프링 핵심 원리 (기본편)/07 의존관계 자동주입.md",
+    "강의/인프런 강의/스프링 핵심 원리 (기본편)/06 컴포넌트 스캔.md",
     "강의/국비지원/DevOps/1. AWS 배포 기본 지식 학습.md",
     "강의/국비지원/풀스택",
     "이미지/screenshot/국비지원/DevOps/Pasted image 20231122112843.png",
@@ -163,10 +164,8 @@
     "이미지/screenshot/국비지원",
     "이미지/screenshot/국비지원/DevOps/Pasted image 20231122112653.png",
     "이미지/screenshot/국비지원/DevOps/Pasted image 20231122112615.png",
-    "강의/인프런 강의/스프링 핵심 원리 (기본편)/06 컴포넌트 스캔.md",
     "강의/국비지원/DevOps",
     "강의/국비지원",
-    "강의/인프런 강의/스프링 핵심 원리 (기본편)/07 의존관계 자동주입.md",
     "강의/인프런 강의/스프링 핵심 원리 (기본편)/05 싱글톤 컨테이너.md",
     "이미지/screenshot/국비지원/DevOps/Pasted image 20231121215804.png",
     "강의/자바의 정석/chapter 08.md",
