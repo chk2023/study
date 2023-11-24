@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "강의/국비지원/DevOps/2. AWS 회원가입과 서버 임대, 접속방식.md",
+                "file": "강의/자바의 정석/chapter 08.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "강의/국비지원/DevOps/2. AWS 회원가입과 서버 임대, 접속방식.md",
+                "file": "강의/자바의 정석/chapter 08.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "강의/국비지원/DevOps/2. AWS 회원가입과 서버 임대, 접속방식.md",
+                "file": "강의/자바의 정석/chapter 08.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "강의/국비지원/DevOps/2. AWS 회원가입과 서버 임대, 접속방식.md"
+                "file": "강의/자바의 정석/chapter 08.md"
               }
             }
           }
@@ -150,9 +150,9 @@
   },
   "active": "8a6b6ada55b5ec26",
   "lastOpenFiles": [
+    "강의/국비지원/DevOps/2. AWS 회원가입과 서버 임대, 접속방식.md",
     "Pasted image 20231124213944.png",
     "강의/국비지원/DevOps/1. AWS 배포 기본 지식 학습.md",
-    "강의/국비지원/DevOps/2. AWS 회원가입과 서버 임대, 접속방식.md",
     "강의/인프런 강의/스프링 핵심 원리 (기본편)/06 컴포넌트 스캔.md",
     "Pasted image 20231124152922.png",
     "강의/인프런 강의/스프링 핵심 원리 (기본편)/07 의존관계 자동주입.md",
@@ -167,7 +167,6 @@
     "이미지/screenshot/국비지원/DevOps",
     "이미지/screenshot/국비지원",
     "이미지/screenshot/국비지원/DevOps/Pasted image 20231122112653.png",
-    "이미지/screenshot/국비지원/DevOps/Pasted image 20231122112615.png",
     "강의/국비지원/DevOps",
     "강의/국비지원",
     "강의/인프런 강의/스프링 핵심 원리 (기본편)/05 싱글톤 컨테이너.md",
