@@ -25,11 +25,12 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "이미지/screenshot/인프런/스프링 핵심원리 06/Pasted image 20231124152922.png"
+                "file": "이미지/screenshot/인프런/스프링 핵심원리 07/Pasted image 20231125160210.png"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -79,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 273.5,
-    "collapsed": true
+    "width": 273.5
   },
   "right": {
     "id": "a557dd975c09f315",
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/07 의존관계 자동주입.md",
+                "file": "이미지/screenshot/인프런/스프링 핵심원리 07/Pasted image 20231125160210.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/07 의존관계 자동주입.md",
+                "file": "이미지/screenshot/인프런/스프링 핵심원리 07/Pasted image 20231125160210.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/07 의존관계 자동주입.md"
+                "file": "이미지/screenshot/인프런/스프링 핵심원리 07/Pasted image 20231125160210.png"
               }
             }
           }
@@ -158,12 +158,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "8a6b6ada55b5ec26",
+  "active": "1c0057bca8d9013b",
   "lastOpenFiles": [
     "이미지/screenshot/인프런/스프링 핵심원리 06/Pasted image 20231124152922.png",
-    "Pasted image 20231125160100.png",
     "강의/인프런 강의/스프링 핵심 원리 (기본편)/07 의존관계 자동주입.md",
-    "Pasted image 20231125160210.png",
+    "Pasted image 20231125160100.png",
+    "이미지/screenshot/인프런/스프링 핵심원리 07/Pasted image 20231125160210.png",
     "이미지/screenshot/인프런/스프링 핵심원리 07",
     "이미지/screenshot/인프런/스프링 핵심원리 06",
     "이미지/screenshot/국비지원/DevOps/Pasted image 20231124213944.png",
