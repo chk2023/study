@@ -29,7 +29,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -79,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 273.5,
-    "collapsed": true
+    "width": 273.5
   },
   "right": {
     "id": "a557dd975c09f315",
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/07 의존관계 자동주입.md",
+                "file": "이미지/screenshot/인프런/스프링 핵심원리 06/Pasted image 20231124152922.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/07 의존관계 자동주입.md",
+                "file": "이미지/screenshot/인프런/스프링 핵심원리 06/Pasted image 20231124152922.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/07 의존관계 자동주입.md"
+                "file": "이미지/screenshot/인프런/스프링 핵심원리 06/Pasted image 20231124152922.png"
               }
             }
           }
@@ -158,14 +158,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "8a6b6ada55b5ec26",
+  "active": "225b45df5d9ad292",
   "lastOpenFiles": [
+    "강의/인프런 강의/스프링 핵심 원리 (기본편)/07 의존관계 자동주입.md",
+    "Pasted image 20231125160210.png",
     "Pasted image 20231125160100.png",
     "이미지/screenshot/인프런/스프링 핵심원리 06/Pasted image 20231124152922.png",
     "이미지/screenshot/인프런/스프링 핵심원리 07",
     "이미지/screenshot/인프런/스프링 핵심원리 06",
     "이미지/screenshot/국비지원/DevOps/Pasted image 20231124213944.png",
-    "강의/인프런 강의/스프링 핵심 원리 (기본편)/07 의존관계 자동주입.md",
     "강의/인프런 강의/스프링 핵심 원리 (기본편)/06 컴포넌트 스캔.md",
     "강의/자바의 정석/chapter 07.md",
     "강의/자바의 정석/chapter 08.md",
@@ -178,10 +179,8 @@
     "이미지/screenshot/국비지원/DevOps/Pasted image 20231122123722.png",
     "이미지/screenshot/국비지원/DevOps/Pasted image 20231122123400.png",
     "이미지/screenshot/국비지원/DevOps/Pasted image 20231122123339.png",
-    "이미지/screenshot/국비지원/DevOps/Pasted image 20231122113701.png",
     "이미지/screenshot/국비지원/DevOps",
     "이미지/screenshot/국비지원",
-    "이미지/screenshot/국비지원/DevOps/Pasted image 20231122112653.png",
     "강의/국비지원/DevOps",
     "강의/국비지원",
     "강의/인프런 강의/스프링 핵심 원리 (기본편)/05 싱글톤 컨테이너.md",
