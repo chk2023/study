@@ -11,9 +11,11 @@
             "id": "225b45df5d9ad292",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "이미지/screenshot/국비지원/DevOps/Pasted image 20231125170747.png"
+                "file": "취업노트/재택근무/재택근무 회사 리스트.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "이미지/screenshot/국비지원/DevOps/Pasted image 20231125170747.png",
+                "file": "취업노트/재택근무/재택근무 회사 리스트.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "이미지/screenshot/국비지원/DevOps/Pasted image 20231125170747.png",
+                "file": "취업노트/재택근무/재택근무 회사 리스트.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "이미지/screenshot/국비지원/DevOps/Pasted image 20231125170747.png"
+                "file": "취업노트/재택근무/재택근무 회사 리스트.md"
               }
             }
           }
@@ -145,11 +147,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1c0057bca8d9013b",
+  "active": "225b45df5d9ad292",
   "lastOpenFiles": [
+    "취업노트/노트.md",
+    "취업노트/재택근무/재택근무 회사 리스트.md",
+    "취업노트/재택근무",
+    "취업노트/채용공고/10월 3주차 공고.md",
+    "이미지/screenshot/국비지원/DevOps/Pasted image 20231125170747.png",
+    "취업노트/채용공고",
     "이미지/screenshot/국비지원/DevOps/Pasted image 20231125170418.png",
     "강의/국비지원/DevOps/3. 네트워크 기본기와 서버 방화벽.md",
-    "이미지/screenshot/국비지원/DevOps/Pasted image 20231125170747.png",
     "강의/국비지원/DevOps/2. AWS 회원가입과 서버 임대, 접속방식.md",
     "이미지/screenshot/인프런/스프링 핵심원리 07/Pasted image 20231125160210.png",
     "이미지/screenshot/인프런/스프링 핵심원리 06/Pasted image 20231124152922.png",
@@ -178,8 +185,6 @@
     "알고리즘/프로그래머스/0단계/원소들의 곱과 합.md",
     "취업노트/국비지원",
     "인텔리제이 단축키.md",
-    "이미지/screenshot/인프런/스프링 핵심원리 05",
-    "취업노트/SAFFY",
     "강의/인프런 강의/스프링 핵심 원리 (기본편)/04 스프링 컨테이너와 스프링 빈.md",
     "우테코/3주차/코드분석.md",
     "conflict-files-obsidian-git.md",
@@ -189,8 +194,6 @@
     "강의/자바의 정석/chapter 11.md",
     "우테코/2주차/개발일지.md",
     "강의/자바의 정석/chapter 05.md",
-    "알고리즘/프로그래머스/0단계/코드 처리하기.md",
-    "알고리즘/프로그래머스/0단계/등차수열의 특정한 항만 더하기.md",
-    "수학/등차수열.md"
+    "알고리즘/프로그래머스/0단계/코드 처리하기.md"
   ]
 }
