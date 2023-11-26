@@ -11,11 +11,9 @@
             "id": "225b45df5d9ad292",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "강의/국비지원/DevOps/3. 네트워크 기본기와 서버 방화벽.md",
-                "mode": "source",
-                "source": false
+                "file": "이미지/screenshot/국비지원/DevOps/Pasted image 20231125170747.png"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "강의/국비지원/DevOps/3. 네트워크 기본기와 서버 방화벽.md",
+                "file": "이미지/screenshot/국비지원/DevOps/Pasted image 20231125170747.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "강의/국비지원/DevOps/3. 네트워크 기본기와 서버 방화벽.md",
+                "file": "이미지/screenshot/국비지원/DevOps/Pasted image 20231125170747.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "강의/국비지원/DevOps/3. 네트워크 기본기와 서버 방화벽.md"
+                "file": "이미지/screenshot/국비지원/DevOps/Pasted image 20231125170747.png"
               }
             }
           }
@@ -147,12 +145,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "225b45df5d9ad292",
+  "active": "1c0057bca8d9013b",
   "lastOpenFiles": [
-    "Pasted image 20231125170747.png",
-    "Pasted image 20231125170418.png",
-    "강의/국비지원/DevOps/2. AWS 회원가입과 서버 임대, 접속방식.md",
+    "이미지/screenshot/국비지원/DevOps/Pasted image 20231125170418.png",
     "강의/국비지원/DevOps/3. 네트워크 기본기와 서버 방화벽.md",
+    "이미지/screenshot/국비지원/DevOps/Pasted image 20231125170747.png",
+    "강의/국비지원/DevOps/2. AWS 회원가입과 서버 임대, 접속방식.md",
     "이미지/screenshot/인프런/스프링 핵심원리 07/Pasted image 20231125160210.png",
     "이미지/screenshot/인프런/스프링 핵심원리 06/Pasted image 20231124152922.png",
     "강의/인프런 강의/스프링 핵심 원리 (기본편)/07 의존관계 자동주입.md",
@@ -169,7 +167,6 @@
     "이미지/screenshot/국비지원/DevOps/Pasted image 20231121211931.png",
     "이미지/screenshot/국비지원/DevOps/Pasted image 20231122124021.png",
     "이미지/screenshot/국비지원/DevOps/Pasted image 20231122123722.png",
-    "이미지/screenshot/국비지원/DevOps/Pasted image 20231122123400.png",
     "이미지/screenshot/국비지원/DevOps",
     "이미지/screenshot/국비지원",
     "강의/국비지원/DevOps",
