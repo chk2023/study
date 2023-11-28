@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "취업노트/재택근무/재택근무 회사 리스트.md",
+                "file": "강의/국비지원/DevOps/3. 네트워크 기본기와 서버 방화벽.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "취업노트/재택근무/재택근무 회사 리스트.md",
+                "file": "강의/국비지원/DevOps/3. 네트워크 기본기와 서버 방화벽.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "취업노트/재택근무/재택근무 회사 리스트.md",
+                "file": "강의/국비지원/DevOps/3. 네트워크 기본기와 서버 방화벽.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "취업노트/재택근무/재택근무 회사 리스트.md"
+                "file": "강의/국비지원/DevOps/3. 네트워크 기본기와 서버 방화벽.md"
               }
             }
           }
@@ -150,8 +150,8 @@
   },
   "active": "225b45df5d9ad292",
   "lastOpenFiles": [
-    "취업노트/노트.md",
     "취업노트/재택근무/재택근무 회사 리스트.md",
+    "취업노트/노트.md",
     "취업노트/재택근무",
     "취업노트/채용공고/10월 3주차 공고.md",
     "이미지/screenshot/국비지원/DevOps/Pasted image 20231125170747.png",
