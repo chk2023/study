@@ -11,9 +11,11 @@
             "id": "225b45df5d9ad292",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "이미지/screenshot/국비지원/DevOps/Pasted image 20231128130536.png"
+                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/07 의존관계 자동주입.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "이미지/screenshot/국비지원/DevOps/Pasted image 20231128130536.png",
+                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/07 의존관계 자동주입.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "이미지/screenshot/국비지원/DevOps/Pasted image 20231128130536.png",
+                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/07 의존관계 자동주입.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "이미지/screenshot/국비지원/DevOps/Pasted image 20231128130536.png"
+                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/07 의존관계 자동주입.md"
               }
             }
           }
@@ -145,10 +147,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1c0057bca8d9013b",
+  "active": "225b45df5d9ad292",
   "lastOpenFiles": [
-    "강의/국비지원/DevOps/3. 네트워크 기본기와 서버 방화벽.md",
     "이미지/screenshot/국비지원/DevOps/Pasted image 20231128130536.png",
+    "강의/국비지원/DevOps/3. 네트워크 기본기와 서버 방화벽.md",
     "취업노트/재택근무/재택근무 회사 리스트.md",
     "취업노트/노트.md",
     "취업노트/재택근무",
