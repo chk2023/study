@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/07 의존관계 자동주입.md",
+                "file": "강의/국비지원/DevOps/4. RSA인증과 리눅스 명령어 학습.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/07 의존관계 자동주입.md",
+                "file": "강의/국비지원/DevOps/4. RSA인증과 리눅스 명령어 학습.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/07 의존관계 자동주입.md",
+                "file": "강의/국비지원/DevOps/4. RSA인증과 리눅스 명령어 학습.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/07 의존관계 자동주입.md"
+                "file": "강의/국비지원/DevOps/4. RSA인증과 리눅스 명령어 학습.md"
               }
             }
           }
@@ -150,10 +150,11 @@
   },
   "active": "225b45df5d9ad292",
   "lastOpenFiles": [
-    "취업노트/국비지원/국비지원 학원 리스트.md",
-    "강의/인프런 강의/스프링 핵심 원리 (기본편)/07 의존관계 자동주입.md",
-    "이미지/screenshot/국비지원/DevOps/Pasted image 20231128130536.png",
     "강의/국비지원/DevOps/3. 네트워크 기본기와 서버 방화벽.md",
+    "강의/국비지원/DevOps/4. RSA인증과 리눅스 명령어 학습.md",
+    "강의/인프런 강의/스프링 핵심 원리 (기본편)/07 의존관계 자동주입.md",
+    "취업노트/국비지원/국비지원 학원 리스트.md",
+    "이미지/screenshot/국비지원/DevOps/Pasted image 20231128130536.png",
     "취업노트/재택근무/재택근무 회사 리스트.md",
     "취업노트/노트.md",
     "취업노트/재택근무",
