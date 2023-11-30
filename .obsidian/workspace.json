@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7e06171e1cdfdaf9",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "이미지/screenshot/국비지원/DevOps/Pasted image 20231129201025.png"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 273.5,
-    "collapsed": true
+    "width": 273.5
   },
   "right": {
     "id": "a557dd975c09f315",
@@ -148,14 +158,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "225b45df5d9ad292",
+  "active": "1c0057bca8d9013b",
   "lastOpenFiles": [
-    "Pasted image 20231129202133.png",
-    "Pasted image 20231129201933.png",
-    "Pasted image 20231129201504.png",
-    "Pasted image 20231129201025.png",
-    "강의/인프런 강의/스프링 핵심 원리 (기본편)/07 의존관계 자동주입.md",
     "강의/국비지원/DevOps/4. RSA인증과 리눅스 명령어 학습.md",
+    "이미지/screenshot/국비지원/DevOps/Pasted image 20231129203953.png",
+    "이미지/screenshot/국비지원/DevOps/Pasted image 20231129203951.png",
+    "이미지/screenshot/국비지원/DevOps/Pasted image 20231129202133.png",
+    "이미지/screenshot/국비지원/DevOps/Pasted image 20231129201933.png",
+    "이미지/screenshot/국비지원/DevOps/Pasted image 20231129201504.png",
+    "이미지/screenshot/국비지원/DevOps/Pasted image 20231129201025.png",
+    "강의/인프런 강의/스프링 핵심 원리 (기본편)/07 의존관계 자동주입.md",
     "강의/국비지원/DevOps/3. 네트워크 기본기와 서버 방화벽.md",
     "취업노트/국비지원/국비지원 학원 리스트.md",
     "이미지/screenshot/국비지원/DevOps/Pasted image 20231128130536.png",
@@ -168,11 +180,8 @@
     "이미지/screenshot/국비지원/DevOps/Pasted image 20231125170418.png",
     "강의/국비지원/DevOps/2. AWS 회원가입과 서버 임대, 접속방식.md",
     "이미지/screenshot/인프런/스프링 핵심원리 07/Pasted image 20231125160210.png",
-    "이미지/screenshot/인프런/스프링 핵심원리 06/Pasted image 20231124152922.png",
-    "Pasted image 20231125160100.png",
     "이미지/screenshot/인프런/스프링 핵심원리 07",
     "이미지/screenshot/인프런/스프링 핵심원리 06",
-    "이미지/screenshot/국비지원/DevOps/Pasted image 20231124213944.png",
     "강의/인프런 강의/스프링 핵심 원리 (기본편)/06 컴포넌트 스캔.md",
     "강의/자바의 정석/chapter 07.md",
     "강의/자바의 정석/chapter 08.md",
