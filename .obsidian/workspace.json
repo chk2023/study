@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "강의/국비지원/DevOps/4. RSA인증과 리눅스 명령어 학습.md",
+                "file": "강의/국비지원/DevOps/5. 리눅스 명령어 학습 2.md",
                 "mode": "source",
                 "source": false
               }
@@ -29,8 +29,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -80,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 273.5
+    "width": 273.5,
+    "collapsed": true
   },
   "right": {
     "id": "a557dd975c09f315",
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "강의/국비지원/DevOps/4. RSA인증과 리눅스 명령어 학습.md",
+                "file": "강의/국비지원/DevOps/5. 리눅스 명령어 학습 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "강의/국비지원/DevOps/4. RSA인증과 리눅스 명령어 학습.md",
+                "file": "강의/국비지원/DevOps/5. 리눅스 명령어 학습 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "강의/국비지원/DevOps/4. RSA인증과 리눅스 명령어 학습.md"
+                "file": "강의/국비지원/DevOps/5. 리눅스 명령어 학습 2.md"
               }
             }
           }
@@ -158,15 +158,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1c0057bca8d9013b",
+  "active": "225b45df5d9ad292",
   "lastOpenFiles": [
     "강의/국비지원/DevOps/4. RSA인증과 리눅스 명령어 학습.md",
+    "강의/국비지원/DevOps/5. 리눅스 명령어 학습 2.md",
+    "이미지/screenshot/국비지원/DevOps/Pasted image 20231129201025.png",
     "이미지/screenshot/국비지원/DevOps/Pasted image 20231129203953.png",
     "이미지/screenshot/국비지원/DevOps/Pasted image 20231129203951.png",
     "이미지/screenshot/국비지원/DevOps/Pasted image 20231129202133.png",
     "이미지/screenshot/국비지원/DevOps/Pasted image 20231129201933.png",
     "이미지/screenshot/국비지원/DevOps/Pasted image 20231129201504.png",
-    "이미지/screenshot/국비지원/DevOps/Pasted image 20231129201025.png",
     "강의/인프런 강의/스프링 핵심 원리 (기본편)/07 의존관계 자동주입.md",
     "강의/국비지원/DevOps/3. 네트워크 기본기와 서버 방화벽.md",
     "취업노트/국비지원/국비지원 학원 리스트.md",
