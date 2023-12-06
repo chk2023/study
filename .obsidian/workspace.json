@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/08 빈 생명주기 콜백.md",
+                "file": "강의/국비지원/DevOps/5. 리눅스 명령어 학습 2.md",
                 "mode": "source",
                 "source": false
               }
@@ -79,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 273.5,
-    "collapsed": true
+    "width": 273.5
   },
   "right": {
     "id": "a557dd975c09f315",
@@ -96,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/08 빈 생명주기 콜백.md",
+                "file": "강의/국비지원/DevOps/5. 리눅스 명령어 학습 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/08 빈 생명주기 콜백.md",
+                "file": "강의/국비지원/DevOps/5. 리눅스 명령어 학습 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "강의/인프런 강의/스프링 핵심 원리 (기본편)/08 빈 생명주기 콜백.md"
+                "file": "강의/국비지원/DevOps/5. 리눅스 명령어 학습 2.md"
               }
             }
           }
@@ -160,6 +159,7 @@
   },
   "active": "225b45df5d9ad292",
   "lastOpenFiles": [
+    "강의/인프런 강의/스프링 핵심 원리 (기본편)/08 빈 생명주기 콜백.md",
     "강의/국비지원/DevOps/5. 리눅스 명령어 학습 2.md",
     "이미지/screenshot/국비지원/DevOps/Pasted image 20231129201025.png",
     "Pasted image 20231130201232.png",
