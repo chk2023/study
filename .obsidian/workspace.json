@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "계획노트/Untitled.md",
+                "file": "계획노트/일일계획.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,7 +90,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 273.5
+    "width": 273.5,
+    "collapsed": true
   },
   "right": {
     "id": "a557dd975c09f315",
@@ -106,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "계획노트/Untitled.md",
+                "file": "계획노트/일일계획.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "계획노트/Untitled.md",
+                "file": "계획노트/일일계획.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "계획노트/Untitled.md"
+                "file": "계획노트/일일계획.md"
               }
             }
           }
@@ -170,7 +171,7 @@
   },
   "active": "36da87f70f5657f5",
   "lastOpenFiles": [
-    "계획노트/Untitled.md",
+    "계획노트/일일계획.md",
     "계획노트",
     "이미지/screenshot/국비지원/DevOps/Pasted image 20231130201232.png",
     "이미지/screenshot/국비지원/DevOps/Pasted image 20231130200238.png",
