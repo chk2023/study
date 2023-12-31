@@ -1,0 +1,56 @@
+version: "3.4"
+
+services:
+  ####################################################################################################
+  mariadb:
+    build:
+      context: ./mariadb/
+      args:
+        MARIADB_VERSION: $MARIADB_VERSION
+    restart: always
+    environment:
+      - MYSQL_ROOT_PASSWORD=$MARIADB_PASSWORD
+      - TZ=Asia/Seoul
+    ports:
+      - $MARIADB_PORT:3306
+    volumes:
+      - ../shareData/study/mariadb/etc:/ect/mysql/
+      - ../shareData/study/mariadb/var:/var/lib/mysql/
+    networks:
+      - study
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "5"
+  ####################################################################################################
+  web:
+    build:
+      context: ./web/
+      args:
+        UBUNTU_VERSION: $UBUNTU_VERSION
+    restart: always
+    ports: # 사용안하지만 미리 포트를 배정해 둔다
+      - 80:80
+    volumes:
+      - ../shareData/study/web:/home/Code/
+    networks:
+      - kongnpark
+    environment:
+      TZ: "Asia/Seoul"
+    depends_on:
+      - mariadb
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "5"
+    extra_hosts:
+      - host.docker.internal:host-gateway
+  
+networks:
+  kongnpark:
+
+volumes:
+  multi-data:
+    driver: local
