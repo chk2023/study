@@ -1,0 +1,190 @@
+{
+  "main": {
+    "id": "40677c587343ab7f",
+    "type": "split",
+    "children": [
+      {
+        "id": "d161cec8529d9e2a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c5af27121c289944",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "670642672c65f630",
+    "type": "split",
+    "children": [
+      {
+        "id": "af8b8cb241946c72",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1c0057bca8d9013b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fda14fc677285d11",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "this.",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "48a1267198583034",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 273.5
+  },
+  "right": {
+    "id": "a557dd975c09f315",
+    "type": "split",
+    "children": [
+      {
+        "id": "b5bf026093ffc33b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "10ea118b318c52f5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e143677fc76c13dc",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "fd9e948b220431e7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "a1c85d5500be521d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "c5af27121c289944",
+  "lastOpenFiles": [
+    "이미지/screenshot/국비지원/DevOps/Pasted image 20231129201025.png",
+    "계획노트/계획.md",
+    "이미지/screenshot/국비지원/DevOps/Pasted image 20231130200238.png",
+    "계획노트",
+    "이미지/screenshot/국비지원/DevOps/Pasted image 20231130201232.png",
+    "강의/국비지원/DevOps/5. 리눅스 명령어 학습 2.md",
+    "강의/인프런 강의/스프링 핵심 원리 (기본편)/08 빈 생명주기 콜백.md",
+    "강의/국비지원/DevOps/4. RSA인증과 리눅스 명령어 학습.md",
+    "이미지/screenshot/국비지원/DevOps/Pasted image 20231129203953.png",
+    "이미지/screenshot/국비지원/DevOps/Pasted image 20231129203951.png",
+    "이미지/screenshot/국비지원/DevOps/Pasted image 20231129202133.png",
+    "이미지/screenshot/국비지원/DevOps/Pasted image 20231129201933.png",
+    "이미지/screenshot/국비지원/DevOps/Pasted image 20231129201504.png",
+    "강의/인프런 강의/스프링 핵심 원리 (기본편)/07 의존관계 자동주입.md",
+    "강의/국비지원/DevOps/3. 네트워크 기본기와 서버 방화벽.md",
+    "취업노트/국비지원/국비지원 학원 리스트.md",
+    "이미지/screenshot/국비지원/DevOps/Pasted image 20231128130536.png",
+    "취업노트/재택근무/재택근무 회사 리스트.md",
+    "취업노트/노트.md",
+    "취업노트/재택근무",
+    "취업노트/채용공고/10월 3주차 공고.md",
+    "이미지/screenshot/국비지원/DevOps/Pasted image 20231125170747.png",
+    "취업노트/채용공고",
+    "강의/국비지원/DevOps/2. AWS 회원가입과 서버 임대, 접속방식.md",
+    "이미지/screenshot/인프런/스프링 핵심원리 07",
+    "이미지/screenshot/인프런/스프링 핵심원리 06",
+    "강의/인프런 강의/스프링 핵심 원리 (기본편)/06 컴포넌트 스캔.md",
+    "강의/자바의 정석/chapter 07.md",
+    "강의/자바의 정석/chapter 08.md",
+    "강의/국비지원/DevOps/1. AWS 배포 기본 지식 학습.md",
+    "강의/국비지원/풀스택",
+    "이미지/screenshot/국비지원/DevOps",
+    "이미지/screenshot/국비지원",
+    "강의/국비지원/DevOps",
+    "강의/국비지원",
+    "강의/인프런 강의/스프링 핵심 원리 (기본편)/05 싱글톤 컨테이너.md",
+    "취업노트/국비지원/풀스택.md",
+    "취업노트/국비지원/Node.js.md",
+    "알고리즘/프로그래머스/0단계/원소들의 곱과 합.md",
+    "인텔리제이 단축키.md",
+    "강의/인프런 강의/스프링 핵심 원리 (기본편)/04 스프링 컨테이너와 스프링 빈.md",
+    "우테코/3주차/코드분석.md",
+    "conflict-files-obsidian-git.md",
+    "강의/인프런 강의/스프링 핵심 원리 (기본편)/03 스프링 핵심 원리 이해2 - 객체 지향 원리 적용.md",
+    "강의/자바의 정석/chapter 14.md"
+  ]
+}
