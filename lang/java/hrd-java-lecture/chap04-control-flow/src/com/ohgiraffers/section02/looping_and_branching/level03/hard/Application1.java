@@ -27,19 +27,20 @@ public class Application1 {
         Scanner sc = new Scanner(System.in);
 
         while (true) {
-
             System.out.println("2보다 큰 정수를 하나 입력하세요 : ");
             int userInput = sc.nextInt();
-            if (userInput <= 2){
-                System.out.println("잘못 입력하셨습니다. 다시 입력하세요");
-                continue;
-            } if (userInput % userInput != 0){
-                System.out.println("소수가 아니다.");
-                break;
-            } else if (userInput % userInput == 0){
-                System.out.println("소수다.");
-                break;
+
+            boolean check = true;
+
+            if(userInput <= 1) {
+                System.out.println("잘못 입력하셨습니다. 다시 입력하세요.");
+            } else {
+                for (int i=2; i < userInput; i++){
+                    check = false;
+                    break;
+                }
             }
+            System.out.println(check ? "소수다" : "소수가 아니다.");
         }
     }
 }
