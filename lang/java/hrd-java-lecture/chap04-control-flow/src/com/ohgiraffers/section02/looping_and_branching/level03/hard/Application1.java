@@ -32,15 +32,18 @@ public class Application1 {
 
             boolean check = true;
 
-            if(userInput <= 1) {
+            if (userInput <= 1) {
                 System.out.println("잘못 입력하셨습니다. 다시 입력하세요.");
             } else {
-                for (int i=2; i < userInput; i++){
-                    check = false;
-                    break;
+                for (int i = 2; i < userInput; i++) {
+                    if (userInput % i == 0) {
+                        check = false;
+                        break;
+                    }
                 }
+                System.out.println(check ? "소수다." : "소수가 아니다.");
+                break;
             }
-            System.out.println(check ? "소수다" : "소수가 아니다.");
         }
     }
 }

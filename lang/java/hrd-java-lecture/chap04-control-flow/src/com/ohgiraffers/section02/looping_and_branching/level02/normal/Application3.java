@@ -19,7 +19,7 @@ public class Application3 {
         int userInput = sc.nextInt();
         
         for (int i = 1; i <= userInput; i++) {
-            if (i %2 != 0) {
+            if (i % 2 != 0) {
                 System.out.print("수");
             } else {
                 System.out.print("박");
