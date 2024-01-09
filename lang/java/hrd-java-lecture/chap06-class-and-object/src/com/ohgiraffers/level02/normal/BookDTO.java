@@ -1,7 +1,5 @@
 package com.ohgiraffers.level02.normal;
 
-import java.awt.print.Book;
-
 public class BookDTO {
     /* 필드 선언부 */
     private String title;
@@ -68,8 +66,7 @@ public class BookDTO {
     }
 
     /* 모든 필드에 대한 내용을 출력한다. */
-    public void printInformation() {
-        System.out.println(title + ", " + author + ", " + publisher
-                + ", " + price + ", " + discountRate);
+    public String printInformation() {
+        return "[" + this.title + ", " + this.publisher + ", " + this.author + ", " + this.price + ", " + this.discountRate + "]";
     }
 }
