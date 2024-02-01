@@ -34,7 +34,7 @@ public class MenuDAO {
     /* 1. 하위 카테고리 조회하는 메소드 */
     public List<CategoryDTO> selectAllCategory(Connection con){
         //Connection 객체를 매번 생성하지 않고 만들어진 객체를 파라미터로 받는다.
-        //Properties 마찬가지 메서드마다 배번 생성하지 말고 전역변수로 설정.
+        //Properties 마찬가지 메서드마다 매번 생성하지 말고 전역변수로 설정.
 
         PreparedStatement pstmt = null;
         ResultSet rset = null;
