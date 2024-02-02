@@ -4,7 +4,6 @@ import com.ohgiraffers.common.MenuDTO;
 import com.ohgiraffers.common.SearchCriteria;
 import org.apache.ibatis.session.SqlSession;
 
-import java.awt.*;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -12,7 +11,6 @@ import java.util.Map;
 import static com.ohgiraffers.common.Template.getSqlSession;
 
 public class MenuService {
-
     private DynamicSqlMapper dynamicSqlMapper;
     public void selectMenuByPrice(int price) {
 
