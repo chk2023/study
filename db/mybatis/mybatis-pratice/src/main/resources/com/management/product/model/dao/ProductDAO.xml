@@ -34,6 +34,8 @@
             production_status
         FROM
             product_info
+        WHERE
+            production_status = 'Y'
         ORDER BY
             product_code
     </select>
@@ -45,6 +47,45 @@
             (참고 2) 판매점 유형별 조회의 경우,
                      '백화점'이면 할인율이 0%인 제품, '아울렛'이면 할인율이 1% 이상인 제품을 조회합니다.
             (참고 3) 이달의 신상품 조희의 경우, 출시일이 이번 달인 제품(예를 들어, 현재 기준이면 2023년 5월 출시 제품)울 조회합니다. -->
+    <select id="selectProductByCondition" resultMap="productResultMap">
+        SELECT
+        product_code,
+        product_name,
+        origin_cost,
+        release_date,
+        discount_rate,
+        sales_quantity,
+        stock_quantity,
+        category_code,
+        production_status
+        FROM
+        product_info
+        <where>
+            <choose>
+                <when test="option == 'productName'">
+                    product_name LIKE CONCAT('%', #{value}, '%')
+                </when>
+                <when test="option == 'salesStore'">
+                    <if test="value == '백화점'">
+                        discount_rate = 0
+                    </if>
+                    <if test="value == '아울렛'">
+                        discount_rate >= 1
+                    </if>
+                </when>
+                <when test="option == 'newProduct'">
+                    release_date <![CDATA[>]]>= 20230501 AND release_date <![CDATA[<]]>= 20230531
+                </when>
+                <when test="option == 'nonProduction'">
+                    production_status = 'N'
+                </when>
+                <otherwise>
+                    production_status = 'Y'
+                </otherwise>
+            </choose>
+        </where>
+    </select>
+
 
     <!-- 5. 제품 정보를 등록하는 쿼리를 작성하세요.
             (쿼리id) insertProduct -->

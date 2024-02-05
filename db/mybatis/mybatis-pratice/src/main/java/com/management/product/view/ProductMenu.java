@@ -81,7 +81,7 @@ public class ProductMenu {
             default : System.out.println("잘못된 번호입니다. 확인 후 다시 입력해 주세요."); break;
             }
 
-        SearchCondition searchCondition = new SearchCondition();
+        SearchCondition searchCondition = new SearchCondition(searchOption, searchValue);
         // 주석을 지우고 searchCondition 검색조건과 검색어를 searchCondition 객체에 setting 하세요.
 
         return searchCondition;
