@@ -19,6 +19,15 @@ public class ProductDTO {
     public ProductDTO() {
     }
 
+    public ProductDTO(String productName, String originCost, String releaseDate, String discountRate, String stockQuantity, String categoryCode) {
+        this.productName = productName;
+        this.originCost = originCost;
+        this.releaseDate = releaseDate;
+        this.discountRate = discountRate;
+        this.stockQuantity = stockQuantity;
+        this.categoryCode = categoryCode;
+    }
+
     public ProductDTO(int productCode, String productName, String originCost, String releaseDate,
                       String discountRate, String salesQuantity, String stockQuantity, String categoryCode, String productionStatus) {
         this.productCode = productCode;

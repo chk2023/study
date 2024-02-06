@@ -37,6 +37,18 @@ public class ProductPrint {
 
         // 3. 성공메시지를 출력하는 메소드
         //    (조건) 성공코드를 전달받아 성공을 알리는 메시지를 출력하세요.
+        System.out.println("====== Success ======");
+        String successMessage = "";
+
+        switch (successCode) {
+            case "registNewProduct" :
+                successMessage = "메뉴 추가에 성공하였습니다."; break;
+            case "modifyProduct" :
+                successMessage = "메뉴 수정에 성공하였습니다."; break;
+            case "deleteProduct" :
+                successMessage = "메뉴 삭제에 성공하였습니다."; break;
+        }
+        System.out.println(successMessage);
 
     }
 
@@ -47,11 +59,17 @@ public class ProductPrint {
         System.out.println("====== Error ======");
         String errorMessage = "";
 
-        switch (errorMessage) {
+        switch (errorCode) {
             case "selectAllList" :
                 errorMessage = "메뉴 목록 조회에 실패하였습니다."; break;
             case "selectList" :
                 errorMessage = "메뉴 조회에 실패하였습니다."; break;
+            case "registNewProduct" :
+                errorMessage = "메뉴 추가에 실패하였습니다."; break;
+            case "modifyProduct" :
+                errorMessage = "메뉴 수정에 실패하였습니다."; break;
+            case "deleteProduct" :
+                errorMessage = "메뉴 삭제에 실패하였습니다."; break;
         }
         System.out.println(errorMessage);
     }
