@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.chk.management.player.model.dao.PlayerMapper">
+    <resultMap id="playerResultMap" type="com.chk.management.player.model.dto.PlayerDTO">
+        <id property="playerId" column="player_id"/>
+        <result property="playerName" column="player_name"/>
+        <result property="playerNumber" column="player_number"/>
+        <result property="playerPosition" column="player_position"/>
+        <result property="playerHeight" column="player_height"/>
+        <result property="playerWeight" column="player_weight"/>
+        <result property="playerStat" column="player_stat"/>
+
+    </resultMap>
+
+    <select id="selectAllPlayerList" resultMap="playerResultMap">
+        SELECT
+            player_id,
+            player_name,
+            player_number,
+            player_position,
+            player_height,
+            player_weight,
+            player_stat
+        FROM
+            player
+        ORDER BY
+            player_id
+    </select>
+
+    <select id="selectPlayerByCondition" resultMap="playerResultMap">
+        SELECT
+            player_id,
+            player_name,
+            player_number,
+            player_position,
+            player_height,
+            player_weight,
+            player_stat
+        FROM
+            player
+        <where>
+            <choose>
+                <when test="option == 'playerName'">
+                    player_name LIKE CONCAT('%', #{value}, '%')
+                </when>
+                <when test="option == 'playerNumber'">
+                    player_number = #{value}
+                </when>
+                <when test="option == 'playerPosition'">
+                    player_position = #{value}
+                </when>
+            </choose>
+        </where>
+    </select>
+
+    <insert id="insertPlayer" parameterType="com.chk.management.player.model.dto.PlayerDTO">
+        INSERT INTO
+            player (player_name, player_number, player_position, player_height, player_weight, player_stat)
+        VALUES
+            (#{ playerName }, #{ playerNumber }, #{ playerPosition }, #{ playerHeight }, #{ playerWeight }, #{ playerStat })
+    </insert>
+
+    <update id="updatePlayer" parameterType="com.chk.management.player.model.dto.PlayerDTO">
+        UPDATE
+            player
+        SET
+            player_name = #{ playerName },
+            player_number = #{ playerNumber },
+            player_position = #{ playerPosition },
+            player_height = #{ playerHeight },
+            player_weight = #{ playerWeight },
+            player_stat = #{ playerStat }
+        WHERE
+            player_id = #{ playerId }
+    </update>
+
+    <delete id="deletePlayer">
+        DELETE FROM
+            player
+        WHERE
+            player_id = #{ playerId }
+    </delete>
+</mapper>
