@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>레이아웃스타일2</title>
+    <style>
+      .test {
+        background: yellow;
+        width: 100px;
+        height: 100px;
+      }
+
+      .test1 {
+        padding: 10px;
+        padding: 5px 10px 15px 20px;
+        padding: 5px 10px;
+      }
+
+      .test2 {
+        padding-top: 50px;
+        padding-left: 100px;
+      }
+
+      .test3 {
+        margin: 50px;
+      }
+
+      .test4 {
+        margin-left: 50px;
+        margin-right: 50px;
+
+        /* 요소를 가운데 정렬하고자 할 때 자동으로 양쪽 여백을 조절해준다. */
+        margin: auto;
+      }
+    </style>
+</head>
+<body>
+  <h1>여백 관련 속성</h1>
+  <h4>기준 div</h4>
+  <div class="test"></div>
+
+  <h4>padding : 테두리와 컨텐츠 영역 사이의 거리 조절</h4>
+  <div class="test test1">콘텐츠 영역</div>
+  <div class="test test2">콘텐츠 영역</div>
+
+  <h4>margin : box 레벨(block)이나 inline 레벨의 요소들 간의 간격 조절</h4>
+  <div class="test test3">콘텐츠 영역</div>
+  <div class="test test4">콘텐츠 영역</div>
+</body>
+</html>

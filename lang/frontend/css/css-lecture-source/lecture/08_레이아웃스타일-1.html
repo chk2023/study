@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>레이아웃스타일1</title>
+    <style>
+        .size-test {
+            border: 2px solid red;
+        }
+
+        #test1 {
+            width: 800px;
+            height: 200px;
+        }
+
+        #test2 {
+            width: 80%;
+            height: 200px;
+        }
+
+        .block {
+            width: 150px;
+            height: 130px;
+            border: 1px solid black;
+            color: white;
+        }
+
+        .area1 {
+            background: red;
+        }
+
+        .area2 {
+            background: yellow;
+        }
+
+        .area3 {
+            background: yellowgreen;
+        }
+
+        .area4 {
+            background: green;
+        }
+
+        .area5 {
+            background: blue;
+        }
+
+        .block-test1 {
+            /* width, height 속성이 적용되지 않는다. */
+            display: inline;
+        }
+
+        .block-test2 {
+            /* width, height 속성이 적용된다. */
+            display: inline-block;
+        }
+
+        .block-test {
+            display: block;
+            /* 태그는 존재하지만 공간을 차지하지 않드다. 디스플레이어에서 제거된다. */
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<h1>레이아웃 스타일</h1>
+<h3>width와 height : 내용이 차지하고 있는 영역의 크기를 조절할 수 있는 속성</h3>
+
+<h4>고정크기</h4>
+<div id="test1" class="size-test">
+    컨텐츠 영역
+</div>
+
+<h4>가변크기</h4>
+<div id="test2" class="size-test">
+    컨텐츠 영역
+</div>
+
+<hr>
+
+<h3>화면 배치 방법 변경 : 블럭 요소와 인라인 요소의 속성을 변경하여
+    배치 방식을 변경할 수 있다.</h3>
+
+<h4>블럭 요소를 인라인 요소로 변경</h4>
+<!-- 클래스는 띄워쓰기 기준으로 여러 개 명시 가능 -->
+<div class="block block-test1 area1">첫 번째 영역</div>
+<div class="block block-test1 area2">두 번째 영역</div>
+<div class="block block-test1 area3">세 번째 영역</div>
+<div class="block block-test1 area4">네 번째 영역</div>
+<div class="block block-test1 area5">다섯 번째 영역</div>
+
+<h4>블럭 요소를 인라인 블럭 요소로 변경</h4>
+<div class="block block-test2 area1">첫 번째 영역</div>
+<div class="block block-test2 area2">두 번째 영역</div>
+<div class="block block-test2 area3">세 번째 영역</div>
+<div class="block block-test2 area4">네 번째 영역</div>
+<div class="block block-test2 area5">다섯 번째 영역</div>
+
+<h4>인라인 요소를 블럭 요소로 변경</h4>
+<span class="block block-test3 area1">첫 번째 영역</span>
+<span class="block block-test3 area1">두 번째 영역</span>
+<span class="block block-test3 area1">세 번째 영역</span>
+<span class="block block-test3 area1">네 번째 영역</span>
+<span class="block block-test3 area1">다섯 번째 영역</span>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
