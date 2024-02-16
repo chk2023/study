@@ -5,8 +5,8 @@
 
 if (undefined) console.log("if(undefined)");        //false
 if (null) console.log("if(null)");                  //false
-if (0) console.log("if(0)");                        //true
-if (1) console.log("if(1)");                        //false
+if (0) console.log("if(0)");                        //false
+if (1) console.log("if(1)");                        //true
 if (NaN) console.log("if(NaN)");                    //false
 if ('') console.log("if('')");                      //false
 if ('JavaScript') console.log("if('JavaScript')");  //true
