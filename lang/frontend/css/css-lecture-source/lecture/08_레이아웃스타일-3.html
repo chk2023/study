@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>레이아웃스타일3</title>
+    <style>
+        .outer {
+            border : 1px solid red;
+            /* 상대적 원점을 의미 */
+            position: relative;
+        }
+
+        .first {
+            width: 300px;
+            height: 300px;
+            background: yellow;
+            /* absolute로 설정하면 자리차지를 하지 않는다. */
+            position: absolute;
+        }
+
+        .second {
+            width: 200px;
+            height: 200px;
+            background: green;
+            position: absolute;
+            /* 부모 요소 중 position 속성이 설정된 요소를 원점으로 top, left 등의 거리를 설정한다.  */
+            top: 50px;
+            left: 50px;
+        }
+
+        .third {
+            width: 100px;
+            height: 100px;
+            background: red;
+            position: absolute;
+            top: 100px;
+            left: 100px;
+        }
+
+        .vis-test {
+            border: 1px solid black;
+            width: 100px;
+            height: 100px;
+        }
+
+        .vis-test2 {
+            /* visibility hidden은 자리차지를 한다. */
+            visibility: visible;
+            visibility: hidden;
+            display: none;
+            display: block;
+        }
+
+        .z-test {
+            width: 150px;
+            height: 150px;
+            border: 1px solid black;
+        }
+
+        .wrap {
+            position: relative;
+        }
+
+        .z-test1 {
+            position: absolute;
+            background: yellow;
+            top: 100px;
+            left: 100px;
+            z-index: 3;
+        }
+
+        .z-test2 {
+            position: absolute;
+            background: green;
+            top: 50px;
+            left: 50px;
+            z-index: 2;
+        }
+
+        .z-test3 {
+            position: absolute;
+            background: red;
+        }
+
+        .float-test {
+            border: 1px solid black;
+            width: 100px;
+            height: 50px;
+            float: right;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>배치 관련 스타일</h1>
+    <h3>절대 위치와 상대 위치</h3>
+    <div class = "outer">
+        <div class="positioning first"></div>
+        <div class="positioning second"></div>
+        <div class="positioning third"></div>
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <h3>visibility : 페이지에 특성 속성을 보이거나 보이지 않게 하는 속성</h3>
+    <div class="vis-test vis-test1"></div>
+    <div class="vis-test vis-test2"></div>
+    <div class="vis-test vis-test3"></div>
+
+    <h3>z-index : 페이지 안의 요소들을 순서대로 위로 쌓는 속성</h3>
+    <div class="wrap">
+        <div class="z-test z-test1">요소1</div>
+        <div class="z-test z-test2">요소2</div>
+        <div class="z-test z-test3">요소3</div>
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <h3>float 속성 : 페이지 내의 요소의 위치를 왼쪽이나 오른쪽으로 쌓이도록 지정하는 속성</h3>
+    <div class = "float">
+        <div class="float-test">요소1</div>
+        <div class="float-test">요소2</div>
+        <div class="float-test">요소3</div>
+        <div class="float-test">요소4</div>
+        <div class="float-test">요소5</div>
+    </div>
+
+    <!-- float를 다음 요소에게 적용하고 싶지 않다면 clear를 이용해서 지워준다. -->
+    <br clear="right">
+    <p>아래에 적히고 싶은 태그</p>
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
