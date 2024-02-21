@@ -9,7 +9,6 @@
  console.log(target.match(/VA/));
  console.log(target.match(/VA/i));
  console.log(target.match(/VA/ig));
-
  console.log('------------------------------')
 
 /* pattern
@@ -19,7 +18,6 @@
 // . : 임의의 문자열
  target = 'abcdefg';
  console.log(target.match(/../g));  // 임의의 2자리 문자열 전역 검색
-
 console.log('------------------------------')
 
 // {m,n} : 최소 m번, 최대 n번 반복되는 문자열 (반복 검색)
@@ -28,19 +26,49 @@ console.log(target.match(/a{2,3}/g));   // a가 최소 2번 ~ 최대 3번 반복
 console.log(target.match(/b{2}/g));     // b 두 번 반복
 console.log(target.match(/b{3,}/g));     // b 세 번 이상 반복
 
+// + : 앞선 패턴이 최소 한 번 이상 반복 되는 문자열 (반복 검색)
+// +는 {1,}과 같다.
+console.log(target.match(/b+/g));
+console.log('------------------------------')
 
+// ? : 앞선 패턴이 최대 한 번(0번 포함) 이상 포함 되는 문자열
+// ?는 {0,1}과 같다.
+target = 'soul seoul';
+console.log(target.match(/se?oul/g));
+console.log('------------------------------')
 
+// | : or
+target = 'aa bb cc dd DD ZZ 123 456 @';
+console.log(target.match(/a|b/g));
+console.log(target.match(/a+|b+/g));
+// [] 내의 문자는 or로 동작
+console.log(target.match(/[abc]+/g));
+// 범위를 지정하려면 - 사용
+console.log(target.match(/[a-z]+/g));
+// 대소문자 범위
+console.log(target.match(/[A-Za-z]+/g));
+// 숫자 범위
+console.log(target.match(/[0-9]+/g));
+console.log('------------------------------')
 
+// \d : 숫자
+// \D : 숫자가 아닌 문자
+console.log(target.match(/\d+/g));
+console.log(target.match(/\D+/g));
+// \w : 알파벳, 숫자, 언더스코어
+// \w : \w의 반대
+console.log(target.match(/\w+/g));
+console.log(target.match(/\W+/g));
+console.log('------------------------------')
 
+// [] 내의 ^ : not
+console.log(target.match(/[^0-9]+/g));
+console.log(target.match(/[^a-zA-Z]+/g));
+console.log('------------------------------')
 
-
-
-
-
-
-
-
-
-
-
-
+// [] 밖의 ^ : 시작 위치 검색
+// $ : 마지막 위치 검색
+target = 'https://www.google.com';
+console.log(/^https/.test(target));
+console.log(/com$/.test(target));
+console.log('------------------------------')
