@@ -99,3 +99,4 @@ console.log(str3.split(' '));       // 공백을 구분하여 배열로 반환
 console.log(str3.split(''));        // 인수로 빈 문자열을 전달하면 각 문자를 모두 분리
 console.log(str3.split());          // 인수를 생략하면 문자열 전체를 단일 요소로 하는 배열 반환
 console.log(str3.split(' ', 5));    // 두번째 인수로 배열의 길이 지정
+
