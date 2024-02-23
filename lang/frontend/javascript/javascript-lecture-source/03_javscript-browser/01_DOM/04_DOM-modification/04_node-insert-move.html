@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>04. node insert move</h1>
+    <h3>노드 삽입</h3>
+    <p>
+        Node.prototype.appendChild(childNode) <br>
+        Node.prototype.insertBefore(newNode, childNode)
+    </p>
+
+    <ul id="drink">
+        <li>커피</li>
+    </ul>
+
+    <script>
+        const $drink = document.getElementById('drink');
+
+        const $li = document.createElement('li');
+        $li.textContent = '콜라';
+
+        $drink.appendChild($li);
+
+        const $li2 = document.createElement('li');
+        $li2.textContent = '우유';
+
+        // 두 번째 인수 앞에 첫 번째 인수를 삽입
+        $drink.insertBefore($li2, $drink.lastElementChild);
+
+        const $li3 = document.createElement('li');
+        $li3.textContent = '사이다';
+
+        // 두 번째 인수가 $drink의 자식 노드가 아니므로 DOMException이 발생했다.
+        // $drink.insertBefore($li3, document.querySelector('p'));
+
+        // 두 번째 인수가 null이라면 appendChild처럼 마지막 자식 노드로 추가된다.
+        $drink.insertBefore($li3, null);
+
+    </script>
+
+    <h3>노드 이동</h3>
+    <p>
+        DOM에 이미 존재하는 노드를 appendChild나 insertBefore 메서드를 사용해서 DOM에 다시 추가하면
+        현재 위치에서 노드를 제거하고 새로운 위치에 노드를 추가하는 노드 이동이 발생한다.
+    </p>
+
+    <ul id="food">
+        <li>파스타</li>
+        <li>피자</li>
+    </ul>
+
+    <script>
+        const $food = document.getElementById('food');
+
+        const $pasta = $food.firstElementChild;
+        const $pizza = $food.lastElementChild;
+
+        $drink.appendChild($pasta);
+        $drink.insertBefore($pizza, $pasta);
+    </script>
+
+</body>
+</html>
