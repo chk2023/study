@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>01. 비동기</h1>
+
+    <h3>동기 방식(synchronous)</h3>
+    <ul>
+        <li>요청 작업에 대해 순서가 지켜지는 방식</li>
+        <li>요청 작업에 대한 완료가 되어야 그 다음 작업을 수행한다.</li>
+    </ul>
+
+    <script>
+        function sleep(func, delay) {
+            const delayUntil = Date.now() + delay;
+            while(Date.now() < delayUntil);
+            func();
+        }
+
+        function delay() {
+            console.log('실행 시간을 늦추고 싶어요');
+        }
+
+        function start() {
+            console.log('바로 실행하고 싶어요');
+        }
+
+        // sleep 함수는 3초 이상 실행 된다.
+        //sleep(delay, 3000);
+        // start 함수는 sleep 함수의 실행이 종료 된 이후에 호출 된다.
+        //start();
+
+    </script>
+
+    <h3>비동기 방식(asynchronous)</h3>
+    <ul>
+        <li>요청 작업에 대해 순서가 보장 되지 않는 방식</li>
+        <li>요청 작업 완료 여부와 무관하게 다른 작업이 수행 된다.</li>
+        <li>setTimeout, setInterval, 이벤트 핸들러, HTTP 요청 등은 비동기 방식으로 동작한다.</li>
+    </ul>
+    <script>
+        // 타이머 함수 setTimeout은 일정 시간이 경과한 이후에 콜백 함수 delay를 호출한다.
+        setTimeout(delay, 3000);
+        // 타이머 함수 setTimeout의 완료 여부와 무관하게 start 함수가 수행 된다.
+        start();
+    </script>
+
+</body>
+</html>
