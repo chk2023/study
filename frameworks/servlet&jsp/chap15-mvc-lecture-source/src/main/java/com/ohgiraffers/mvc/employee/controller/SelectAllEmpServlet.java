@@ -25,7 +25,7 @@ public class SelectAllEmpServlet extends HttpServlet {
             req.setAttribute("empList", empList);
         } else {
             path = "/WEB-INF/views/common/errorPage.jsp";
-            req.setAttribute("message", "직원 전체 목록이 조회되지 않았습니다.");
+            req.setAttribute("message", "직원 전체 목록이 조회 되지 않았습니다.");
         }
 
         req.getRequestDispatcher(path).forward(req, resp);

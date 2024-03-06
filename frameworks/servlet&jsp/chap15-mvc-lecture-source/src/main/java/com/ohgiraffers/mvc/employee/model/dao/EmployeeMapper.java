@@ -8,4 +8,10 @@ public interface EmployeeMapper {
     EmployeeDTO selectOneEmpById(String empId);
 
     List<EmployeeDTO> selectAllEmp();
+
+    int insertEmp(EmployeeDTO emp);
+
+    int updateEmp(EmployeeDTO emp);
+
+    int deleteEmp(String emp);
 }

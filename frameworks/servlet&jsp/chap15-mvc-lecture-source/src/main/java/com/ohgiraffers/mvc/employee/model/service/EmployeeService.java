@@ -35,7 +35,57 @@ public class EmployeeService {
     }
 
 
+    public int insertEmp(EmployeeDTO emp) {
+        SqlSession sqlSession = getSqlSession();
 
+        employeeMapper = sqlSession.getMapper(EmployeeMapper.class);
 
+        int result = employeeMapper.insertEmp(emp);
 
+        if(result > 0) {
+            sqlSession.commit();
+        } else {
+            sqlSession.rollback();
+        }
+
+        sqlSession.close();
+
+        return result;
+    }
+
+    public int updateEmp(EmployeeDTO emp) {
+        SqlSession sqlSession = getSqlSession();
+
+        employeeMapper = sqlSession.getMapper(EmployeeMapper.class);
+
+        int result = employeeMapper.updateEmp(emp);
+
+        if(result > 0) {
+            sqlSession.commit();
+        } else {
+            sqlSession.rollback();
+        }
+
+        sqlSession.close();
+
+        return result;
+    }
+
+    public int deleteEmp(String empId) {
+        SqlSession sqlSession = getSqlSession();
+
+        employeeMapper = sqlSession.getMapper(EmployeeMapper.class);
+
+        int result = employeeMapper.deleteEmp(empId);
+
+        if(result > 0) {
+            sqlSession.commit();
+        } else {
+            sqlSession.rollback();
+        }
+
+        sqlSession.close();
+
+        return result;
+    }
 }

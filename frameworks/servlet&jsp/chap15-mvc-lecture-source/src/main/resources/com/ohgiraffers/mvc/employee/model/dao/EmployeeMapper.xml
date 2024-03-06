@@ -49,6 +49,57 @@
             ent_yn = 'N'
     </select>
 
+    <insert id="insertEmp">
+        INSERT
+        INTO employee
+        (
+            emp_name,
+            emp_no,
+            email,
+            phone,
+            dept_code,
+            job_code,
+            sal_level,
+            salary,
+            bonus,
+            manager_id,
+            hire_date,
+            ent_date,
+            ent_yn
+        )
+        VALUES
+        (
+            #{ empName },
+            #{ empNo },
+            #{ email },
+            #{ phone },
+            #{ deptCode },
+            #{ jobCode },
+            #{ salLevel },
+            #{ salary },
+            #{ bonus },
+            #{ managerId },
+            #{ hireDate },
+            null,
+            default
+        )
+    </insert>
+    <update id="updateEmp">
+        UPDATE
+            employee
+        SET
+            emp_name = #{ empName }
+        WHERE
+            emp_id = #{ empId }
+    </update>
+    <delete id="deleteEmp">
+        DELETE
+        FROM
+            employee
+        WHERE
+            emp_id = #{ empId }
+    </delete>
+
 </mapper>
 
 
