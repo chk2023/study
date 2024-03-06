@@ -11,13 +11,18 @@
         <button>조회하기</button>
     </form>
 
-    <h2>배우의 출연영화 조회</h2>
+    <h2>배우 전체 조회</h2>
     <button onclick="location.href='${pageContext.servletContext.contextPath}/actor/list'">
         전체 조회
     </button>
 
+    <h2>배우의 출연영화 조회</h2>
+    <button onclick="location.href='${pageContext.servletContext.contextPath}/actor/film'">
+        전체 조회
+    </button>
+
     <h2>배우 정보 추가</h2>
-    <form action="${ pageContext.servletContext.contextPath }/employee/insert" method="post">
+    <form action="${ pageContext.servletContext.contextPath }/actor/insert" method="post">
         이름 : <input type="text" name="firstName"/><br>
         성 : <input type="text" name="lastName"/><br>
         <button type="submit">등록하기</button>

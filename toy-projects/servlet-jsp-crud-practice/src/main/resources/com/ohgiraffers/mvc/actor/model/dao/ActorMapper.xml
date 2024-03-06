@@ -18,6 +18,18 @@
 
     <select id="selectAllActor" resultType="com.ohgiraffers.mvc.actor.model.dto.ActorDTO">
         SELECT
+        actor_id,
+        first_name,
+        last_name,
+        last_update
+        FROM
+        actor
+        ORDER BY
+        actor_id;
+    </select>
+
+    <select id="selectAllActorByFilm" resultType="com.ohgiraffers.mvc.actor.model.dto.ActorDTO">
+        SELECT
             actor.actor_id,
             actor.first_name,
             actor.last_name,
@@ -30,8 +42,42 @@
         JOIN
             film ON film_actor.film_id = film.film_id
         ORDER BY
-            actor_id;
+            actor_id
     </select>
+
+    <insert id="insertActor">
+        INSERT
+        INTO actor
+        (
+            first_name,
+            last_name,
+            last_update
+        )
+        VALUES
+        (
+            #{ firstName },
+            #{ lastName },
+            NOW()
+        )
+    </insert>
+
+    <update id="updateActor">
+        UPDATE
+        actor
+        SET
+        first_name = #{ firstName },
+        last_name = #{ lastName }
+        WHERE
+        actor_id = #{ actorId }
+    </update>
+
+    <delete id="deleteActor">
+        DELETE
+        FROM
+        actor
+        WHERE
+        actor_id = #{ actorId }
+    </delete>
 </mapper>
 
 

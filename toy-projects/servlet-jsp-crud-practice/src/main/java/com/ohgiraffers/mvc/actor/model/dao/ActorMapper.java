@@ -8,4 +8,12 @@ public interface ActorMapper {
     ActorDTO selectOneActorById(String actorId);
 
     List<ActorDTO> selectAllActor();
+
+    List<ActorDTO> selectAllActorByFilm();
+
+    int insertActor(ActorDTO actor);
+
+    int updateActor(ActorDTO actorDTO);
+
+    int deleteActor(String actorId);
 }

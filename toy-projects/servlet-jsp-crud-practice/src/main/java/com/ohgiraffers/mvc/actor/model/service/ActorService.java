@@ -38,8 +38,73 @@ public class ActorService {
         return actorList;
     }
 
+    public List<ActorDTO> selectAllActorByFilm() {
+
+        SqlSession sqlSession = getSqlSession();
+
+        actorMapper = sqlSession.getMapper(ActorMapper.class);
+
+        List<ActorDTO> actorList = actorMapper.selectAllActorByFilm();
+
+        sqlSession.close();
+
+        return actorList;
+    }
+
     public int insertActor(ActorDTO actor) {
 
+        SqlSession sqlSession = getSqlSession();
+
+        actorMapper = sqlSession.getMapper(ActorMapper.class);
+
+        int result = actorMapper.insertActor(actor);
+
+        if(result > 0) {
+            sqlSession.commit();
+        } else {
+            sqlSession.rollback();
+        }
+
+        sqlSession.close();
+
+        return result;
+    }
+
+
+    public int updateActor(ActorDTO actorDTO) {
+        SqlSession sqlSession = getSqlSession();
+
+        actorMapper = sqlSession.getMapper(ActorMapper.class);
+
+        int result = actorMapper.updateActor(actorDTO);
+
+        if(result > 0) {
+            sqlSession.commit();
+        } else {
+            sqlSession.rollback();
+        }
+
+        sqlSession.close();
+
+        return result;
+    }
+
+    public int deleteActor(String actorId) {
+        SqlSession sqlSession = getSqlSession();
+
+        actorMapper = sqlSession.getMapper(ActorMapper.class);
+
+        int result = actorMapper.deleteActor(actorId);
+
+        if(result > 0) {
+            sqlSession.commit();
+        } else {
+            sqlSession.rollback();
+        }
+
+        sqlSession.close();
+
+        return result;
     }
 }
 

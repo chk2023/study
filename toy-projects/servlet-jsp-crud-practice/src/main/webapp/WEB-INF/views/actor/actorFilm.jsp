@@ -2,7 +2,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>배우 전체조회</title>
+    <title>배우 필모그래피</title>
     <style>
         table {
             width: 100%;
@@ -29,6 +29,7 @@
             <th>배우 이름</th>
             <th>배우 성</th>
             <th>마지막 업데이트</th>
+            <th>출연 영화</th>
         </tr>
         <c:forEach items="${ actorList }" var="actor">
             <tr>
@@ -36,6 +37,7 @@
                 <td>${ actor.firstName }</td>
                 <td>${ actor.lastName }</td>
                 <td>${ actor.lastUpdate }</td>
+                <td>${ actor.title }</td>
             </tr>
         </c:forEach>
     </table>
