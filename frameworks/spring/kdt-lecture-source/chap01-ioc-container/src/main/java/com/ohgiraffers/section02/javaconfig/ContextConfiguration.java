@@ -14,4 +14,5 @@ public class ContextConfiguration {
     public MemberDTO getMember() {
         return new MemberDTO(1, "user01", "pass01", "홍길동");
     }
+
 }
