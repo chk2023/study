@@ -1,0 +1,6 @@
+# spring servlet multipart setting
+spring:
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      location: C:/lecture/10_spring/2_spring-web/chap06-file-upload
