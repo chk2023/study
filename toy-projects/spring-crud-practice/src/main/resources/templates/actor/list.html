@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="kor">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, user-scalable=, initial-scale=, maximum-scale=, minimum-scale=">
+    <meta http-equiv="X-UA-Compatible" content="ie=">
+    <title>actorlist</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>배우 번호</th>
+            <th>배우 이름</th>
+            <th>배우 성</th>
+            <th>마지막 업데이트</th>
+        </tr>
+        <tr th:each="actor : ${actorList}">
+            <td th:text="${actor.actorId}"></td>
+            <td th:text="${actor.firstName}"></td>
+            <td th:text="${actor.lastName}"></td>
+            <td th:text="${actor.lastUpdate}"></td>
+        </tr>
+    </table>
+</body>
+</html>

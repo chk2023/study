@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ohgiraffers.springcrud.actor.model.dao.ActorMapper">
+    <select id="findAllActor" resultType="com.ohgiraffers.springcrud.actor.model.dto.ActorDTO">
+        SELECT
+            actor_id,
+            first_name,
+            last_name,
+            last_update
+        FROM
+            actor
+        ORDER BY
+            actor_id
+    </select>
+
+    <insert id="registActor">
+        INSERT INTO
+            actor(first_name, last_name)
+        VALUES
+            (#{ firstName }, #{ lastName })
+    </insert>
+
+</mapper>
+
+
+
+
+
+
+
+
+
+

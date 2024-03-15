@@ -1,6 +1,7 @@
 package com.ohgiraffers.crud.menu.model.dto;
 
 public class MenuDTO {
+
     private int menuCode;
     private String menuName;
     private int menuPrice;
@@ -10,11 +11,11 @@ public class MenuDTO {
     public MenuDTO() {
     }
 
-    public MenuDTO(int menuCode, String menuName, int menuPrice, int menuCategoryCode, String orderableStatus) {
+    public MenuDTO(int menuCode, String menuName, int menuPrice, int categoryCode, String orderableStatus) {
         this.menuCode = menuCode;
         this.menuName = menuName;
         this.menuPrice = menuPrice;
-        this.categoryCode = menuCategoryCode;
+        this.categoryCode = categoryCode;
         this.orderableStatus = orderableStatus;
     }
 
@@ -42,12 +43,12 @@ public class MenuDTO {
         this.menuPrice = menuPrice;
     }
 
-    public int getMenuCategoryCode() {
+    public int getCategoryCode() {
         return categoryCode;
     }
 
-    public void setMenuCategoryCode(int menuCategoryCode) {
-        this.categoryCode = menuCategoryCode;
+    public void setCategoryCode(int categoryCode) {
+        this.categoryCode = categoryCode;
     }
 
     public String getOrderableStatus() {
@@ -64,8 +65,9 @@ public class MenuDTO {
                 "menuCode=" + menuCode +
                 ", menuName='" + menuName + '\'' +
                 ", menuPrice=" + menuPrice +
-                ", menuCategoryCode=" + categoryCode +
+                ", categoryCode=" + categoryCode +
                 ", orderableStatus='" + orderableStatus + '\'' +
                 '}';
     }
 }
+

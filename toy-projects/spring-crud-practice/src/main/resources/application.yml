@@ -1,0 +1,22 @@
+# spring datasource config
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost/sakila
+    username: root
+    password: 1234
+
+# mybatis config
+mybatis:
+  mapper-locations: mappers/**/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+
+# logging config
+logging:
+  level:
+    root: debug
+  file:
+    name: myapp.log
+    path: C:\workspace\study\toy-projects\spring-crud-practice
+

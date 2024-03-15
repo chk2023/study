@@ -11,3 +11,11 @@ mybatis:
   mapper-locations: mappers/**/*.xml
   configuration:
     map-underscore-to-camel-case: true
+
+## logging config
+logging:
+#  level:
+#    root: debug
+#  file:
+#    name: myapp.log
+#    path: C:\workspace\study\frameworks\spring\kdt-lecture-source\spring-web\chap09-crud
