@@ -12,10 +12,23 @@ mybatis:
   configuration:
     map-underscore-to-camel-case: true
 
-## logging config
-logging:
+# logging config
+#logging:
 #  level:
 #    root: debug
 #  file:
 #    name: myapp.log
-#    path: C:\workspace\study\frameworks\spring\kdt-lecture-source\spring-web\chap09-crud
+#    path: C:/lecture/10_spring/2_spring-web/chap09-crud
+
+
+
+
+
+
+
+
+
+
+
+
+

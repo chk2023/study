@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org"
+      xmlns:sec="https://www.thymeleaf.org/thymeleaf-extras-springsecurity6">
+<head>
+    <meta charset="UTF-8">
+    <title>main</title>
+    <script>
+        const message = '[[${message}]]';
+        message && alert(message);
+    </script>
+</head>
+<body>
+<h1>Spring Security Project에 오신 걸 환영합니다.</h1>
+<div>
+    <th:block sec:authorize="isAuthenticated()">
+        <button onclick="location.href='/user/mypage'">마이페이지</button>
+        <button onclick="location.href='/user/logout'">로그아웃</button>
+    </th:block>
+    <th:block sec:authorize="isAnonymous()">
+        <button onclick="location.href='/user/login'">로그인</button>
+        <button onclick="location.href='/user/join'">회원가입</button>
+    </th:block>
+</div>
+<div>
+    <button onclick="location.href='/menu/list'">메뉴보기</button>
+    <th:block sec:authorize="hasAnyAuthority('GENERAL', 'ADMIN')">
+        <button onclick="location.href='/order/regist'">주문하기</button>
+    </th:block>
+    <th:block sec:authorize="hasAuthority('ADMIN')">
+        <button onclick="location.href='/admin/dashboard'">관리자메뉴</button>
+    </th:block>
+</div>
+</body>
+</html>

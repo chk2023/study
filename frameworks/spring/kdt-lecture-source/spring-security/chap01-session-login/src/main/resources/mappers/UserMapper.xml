@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ohgiraffers.sessionlogin.user.dao.UserMapper">
+
+    <select id="findUserById" resultType="com.ohgiraffers.sessionlogin.user.dto.UserDTO">
+        SELECT
+            user_no,
+            user_id,
+            user_pwd,
+            user_name,
+            regist_datetime,
+            authority
+        FROM
+            tbl_user
+        WHERE
+            user_id = #{ userId }
+    </select>
+
+    <insert id="registUser">
+        INSERT INTO
+            tbl_user (user_id, user_pwd, user_name)
+        VALUES
+            (#{userId}, #{userPwd}, #{userName})
+    </insert>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</mapper>
+
+
+
+
+
+
+
+
+
+

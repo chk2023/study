@@ -16,6 +16,7 @@ import static org.junit.jupiter.api.Assertions.*;
 @SpringBootTest
 @ContextConfiguration(classes = { Chap09CrudApplication.class })
 public class MenuMapperTests {
+
     @Autowired
     private MenuMapper menuMapper;
 
@@ -34,12 +35,12 @@ public class MenuMapperTests {
     }
 
     @Test
-    @DisplayName("신규 메뉴가 잘 추가 되는지 매퍼 인터페이스의 메서드 확인")
-    @Transactional // -> 테스트 코드로 수행한 작업을 테스트 완료 후 rollback 하여 DB에 남기지 않음.
+    @DisplayName("신규 메뉴가 잘 추가 되는지 매퍼 인터페이스의 메소드 확인")
+    @Transactional // -> 테스트 코드로 수행한 작업을 테스트 완료 후 rollback 하여 DB에 남기지 않음
     public void testRegistMenu() {
         // given
         MenuDTO menu = new MenuDTO();
-        menu.setMenuName("테스트 쌀국수");
+        menu.setMenuName("테스트쌀국수");
         menu.setMenuPrice(13000);
         menu.setCategoryCode(6);
         menu.setOrderableStatus("Y");
@@ -61,25 +62,6 @@ public class MenuMapperTests {
         // when & then
         assertThrows(Exception.class, () -> menuMapper.registMenu(menu));
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

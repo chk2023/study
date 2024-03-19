@@ -20,13 +20,14 @@ public class MenuController {
 
     /* Logger 객체 생성 */
     private static final Logger logger = LoggerFactory.getLogger(MenuController.class);
-    private final MessageSource messageSource;
 
     private final MenuService menuService;
+    private final MessageSource messageSource;
 
-    public MenuController(MessageSource messageSource, MenuService menuService) {
-        this.messageSource = messageSource;
+    public MenuController(MenuService menuService, MessageSource messageSource) {
+
         this.menuService = menuService;
+        this.messageSource = messageSource;
     }
 
     @GetMapping("/list")
@@ -60,19 +61,10 @@ public class MenuController {
 
         menuService.registMenu(menu);
 
-        rttr.addFlashAttribute("successMessage", messageSource.getMessage(
-                "registMenu",
-                null,
-                locale
-        ));
+        rttr.addFlashAttribute("successMessage", messageSource.getMessage("registMenu", null, locale));
+
 
         return "redirect:/menu/list";
     }
-
-
-
-
-
-
 
 }
