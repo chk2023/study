@@ -1,27 +1,16 @@
 package com.ohgiraffers.associationmapping.section01.manytoone;
 
-import jakarta.persistence.*;
+public class MenuDTO {
 
-@Entity(name = "menu_and_category")
-@Table(name = "tbl_menu")
-public class Menu {
-
-    @Id
     private int menuCode;
     private String menuName;
     private int menuPrice;
-
-    /* 영속성 전이
-    * 특정 엔터티를 영속화 할 때 연관 된 엔터티도 함께 영속화 한다는 의미이다. */
-    /* 기본적으로는 즉시 로딩 되지만 필요에 따라 지연 로딩으로 변경할 수 있다. */
-    @ManyToOne(cascade = CascadeType.PERSIST, fetch = FetchType.LAZY)
-    @JoinColumn(name = "categoryCode")
-    private Category category;
+    private CategoryDTO category;
     private String orderableStatus;
 
-    protected Menu() {}
+    protected MenuDTO() {}
 
-    public Menu(int menuCode, String menuName, int menuPrice, Category category, String orderableStatus) {
+    public MenuDTO(int menuCode, String menuName, int menuPrice, CategoryDTO category, String orderableStatus) {
         this.menuCode = menuCode;
         this.menuName = menuName;
         this.menuPrice = menuPrice;
@@ -53,11 +42,11 @@ public class Menu {
         this.menuPrice = menuPrice;
     }
 
-    public Category getCategory() {
+    public CategoryDTO getCategory() {
         return category;
     }
 
-    public void setCategory(Category category) {
+    public void setCategory(CategoryDTO category) {
         this.category = category;
     }
 
@@ -71,7 +60,7 @@ public class Menu {
 
     @Override
     public String toString() {
-        return "Menu{" +
+        return "MenuDTO{" +
                 "menuCode=" + menuCode +
                 ", menuName='" + menuName + '\'' +
                 ", menuPrice=" + menuPrice +

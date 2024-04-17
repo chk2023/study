@@ -1,8 +1,8 @@
-package com.ohgiraffers.associationmapping.section01.manytoone;
+package com.ohgiraffers.associationmapping.section03.bidirection;
 
 import jakarta.persistence.*;
 
-@Entity(name = "menu_and_category")
+@Entity(name = "bidirection_menu")
 @Table(name = "tbl_menu")
 public class Menu {
 
@@ -10,11 +10,7 @@ public class Menu {
     private int menuCode;
     private String menuName;
     private int menuPrice;
-
-    /* 영속성 전이
-    * 특정 엔터티를 영속화 할 때 연관 된 엔터티도 함께 영속화 한다는 의미이다. */
-    /* 기본적으로는 즉시 로딩 되지만 필요에 따라 지연 로딩으로 변경할 수 있다. */
-    @ManyToOne(cascade = CascadeType.PERSIST, fetch = FetchType.LAZY)
+    @ManyToOne
     @JoinColumn(name = "categoryCode")
     private Category category;
     private String orderableStatus;

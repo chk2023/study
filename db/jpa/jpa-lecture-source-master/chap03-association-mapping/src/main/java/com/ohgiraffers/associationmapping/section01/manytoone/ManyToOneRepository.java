@@ -22,6 +22,10 @@ public class ManyToOneRepository {
                 .getSingleResult();
     }
 
+    public void regist(Menu menu) {
+        entityManager.persist(menu);
+    }
+
 
 
 
