@@ -1,4 +1,4 @@
-package com.ohgiraffers.springdatajpa.menu.dto.MenuDTO;
+package com.ohgiraffers.springdatajpa.menu.dto;
 
 import lombok.Getter;
 import lombok.Setter;
