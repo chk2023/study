@@ -97,7 +97,7 @@ public class MenuController {
 
     @PostMapping("/modify")
     public String modifyMenu(@ModelAttribute MenuDTO menuDTO) {
-        menuService.modifyMenu(menuDTO);
+            menuService.modifyMenu(menuDTO);
         return "redirect:/menu/" + menuDTO.getMenuCode();
     }
 
