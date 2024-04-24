@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>01_hard-calculator</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script crossorigin src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel">
+
+    const { useState } = React;
+
+    const hardCalculator = (number) => {
+        console.log('어려운 계산');
+        for(let i = 0; i < 999999999; i++) {
+            // blank : 시간과 비용이 드는 계산을 가정
+        }
+        return number + 10000;
+    }
+
+    function App() {
+
+        const [hardNumber, setHardNumber] = useState(1);
+
+        const result = hardCalculator(hardNumber);
+
+        return (
+            <>
+                <h3>어려운 계산기</h3>
+                <input
+                    type="number"
+                    value={hardNumber}
+                    onChange={e => setHardNumber(parseInt(e.target.value))}
+                />
+                <span> result : {result} </span>
+            </>
+        );
+    }
+
+    ReactDOM.createRoot(document.getElementById('root')).render(<App/>);
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+

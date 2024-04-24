@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>01_useEffect-basic</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script crossorigin src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel">
+
+    /* 클래스형 컴포넌트에는 컴포넌트 랜더링 후 특정 작업 수행 시
+    * componentDidMount, componentDidUpdate 메소드를 사용하지만
+    * 함수형 컴포넌트에서는 생명주기 api 사용이 불가능하므로 제공 되는 hooks의 useEffect를 사용한다.
+    * */
+    const { useEffect } = React;
+    function MessagePrinter({message}) {
+
+        console.log('랜더링...');
+
+        useEffect(() => {
+            console.log('랜더링 이후 동작')
+        });
+
+        return (
+            <h1>{ console.log('랜더링 시 출력') }{message}</h1>
+        );
+    }
+
+    const message = "안녕하세요";
+
+    ReactDOM.createRoot(document.getElementById('root')).render(<MessagePrinter message={message}/>);
+</script>
+
+</body>
+</html>

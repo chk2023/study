@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script crossorigin src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel">
+
+    const { useState, useEffect } = React;
+
+    function Counter() {
+
+        const [count, setCount] = useState(0);
+
+        useEffect(() => {
+            console.log('useEffect 동작...');
+
+            /* 반환하는 함수가 정리 함수로 기능한다. -> componentWillUnmount의 역할과 동일 */
+            return () => {
+                console.log('clean-up...');
+            }
+        });
+
+        return (
+            <>
+                <h1>count : {count}</h1>
+                <button onClick={ () => setCount(count + 1) }>+1</button>
+            </>
+        );
+    }
+    ReactDOM.createRoot(document.getElementById('root')).render(<Counter/>);
+</script>
+
+</body>
+</html>

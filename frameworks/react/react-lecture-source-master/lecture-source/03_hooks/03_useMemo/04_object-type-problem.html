@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script crossorigin src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel">
+
+    const { useState, useEffect, useMemo } = React;
+
+    function App() {
+
+        const [number, setNumber] = useState(0);
+        const [isKorea, setIsKorea] = useState(true);
+
+        /* 원시 자료형 */
+        // const location = isKorea ? '한국' : '외국';
+
+        /* 객체 */
+        /* 객체 타입의 경우 App 호출 시마다 지역 변수 초기화가 진행되면서 매번 새로운 객체를 만들기 때문에
+        * 속성 값이 동일하더라도 객체 주소 값은 달라지게 된다. 따라서 number state 변경시에도 useEffect가 동작한다.*/
+        // const location = {
+        //     country : isKorea ? '한국' : '외국'
+        // };
+
+        /* useMemo를 활용하여 문제 해결 */
+        const location = useMemo(
+            () => ({ country : isKorea ? '한국' : '외국' }),
+            [isKorea]
+        );
+
+        /* location 값에 의존하는 useEffect */
+        useEffect(
+            () => { console.log('useEffect 호출 됨...') },
+            [location]
+        );
+
+        return (
+            <>
+                <h1>좋아하는 숫자를 입력해주세요</h1>
+                <input
+                    type="number"
+                    value={number}
+                    onChange={e => setNumber(e.target.value)}
+                />
+                <h1>지금 당신이 있는 국가는?</h1>
+                {/*<p>국가 : { location }</p>*/}
+                <p>국가 : { location.country }</p>
+                <button onClick={ () => setIsKorea(!isKorea) }>국가 토글</button>
+            </>
+        );
+
+    }
+
+    ReactDOM.createRoot(document.getElementById('root')).render(<App/>);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
