@@ -4,5 +4,9 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="axios" level="application" />
+    <orderEntry type="library" name="@babel/standalone" level="application" />
+    <orderEntry type="library" name="react-dom" level="application" />
+    <orderEntry type="library" name="react" level="application" />
   </component>
 </module>
