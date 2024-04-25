@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>01_async-intro</title>
+</head>
+<body>
+<script>
+    /* 동기 작업과 비동기 작업
+    * */
+    function sayHello() {
+        console.log('Hello World!');
+    }
+
+    // 작업이 순차적(동기)으로 진행
+    sayHello();
+    console.log('end!');
+
+    // 작업이 순차적이지 않게(비동기) 진행 => 콜백 함수를 사용하는 방식
+    setTimeout(sayHello, 3000);
+    console.log('end!');
+
+</script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>01_local-var-useref</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script crossorigin src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel">
+
+    const { useState, useRef } = React;
+
+    function Counter() {
+
+        const [count, setCount] = useState(0);
+        /* 지역 변수 (랜더링과 무관하게 변경 될 수 있는 값) 을 사용할 때 useRef의 활용 */
+        let variable = 0;
+        const countRef = useRef(0);
+        console.log('countRef : ', countRef);
+
+        const increaseCount = () => setCount(count + 1);
+        const increaseVariable = () => {
+            variable += 1;
+            console.log(`variable : ${variable}`);
+        }
+
+        const increaseCountRef = () => {
+            countRef.current = countRef.current + 1;
+            console.log(`countRef.current : ${countRef.current}`);
+        }
+
+        return (
+            <>
+                <h1>count : {count}</h1>
+                <h1>variable : {variable}</h1>
+                <h1>countRef : {countRef.current}</h1>
+                <button onClick={ increaseCount }>count 증가</button>
+                <button onClick={ increaseVariable }>variable 증가</button>
+                <button onClick={ increaseCountRef }>countRef 증가</button>
+            </>
+        );
+    }
+
+    ReactDOM.createRoot(document.getElementById('root')).render(<Counter/>);
+</script>
+
+</body>
+</html>

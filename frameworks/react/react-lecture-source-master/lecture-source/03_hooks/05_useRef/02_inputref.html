@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script crossorigin src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel">
+
+    const { useState, useEffect, useRef } = React;
+    function LoginComponent() {
+
+        const [form, setForm] = useState({
+            username : '',
+            password : ''
+        });
+
+        const usernameRef = useRef();
+        console.log('usernameRef : ', usernameRef); // 최초 생성 시 랜더링 이전 동작이므로 undefined로 초기화
+
+        useEffect(
+            () => {
+                // 랜더링 이후 username input을 참조하는 결과 확인
+                console.log('usernameRef (useEffect) : ', usernameRef);
+                usernameRef.current.focus();
+            },
+            [] // 최초 마운트 시점에만 동작하도록 빈 배열 설정
+        );
+
+        const onChangeHandler = e => {
+            setForm({
+                ...form,
+                [e.target.name] : e.target.value
+            });
+        }
+
+        return (
+            <>
+                <input
+                    type="text"
+                    name="username"
+                    value={ form.username }
+                    onChange={onChangeHandler}
+                    ref={usernameRef}
+                />
+                <br/>
+                <input
+                    type="password"
+                    name="password"
+                    value={ form.password }
+                    onChange={onChangeHandler}
+                />
+                <br/>
+                <button>로그인</button>
+            </>
+        );
+    }
+
+    ReactDOM.createRoot(document.getElementById('root')).render(<LoginComponent/>);
+</script>
+
+</body>
+</html>

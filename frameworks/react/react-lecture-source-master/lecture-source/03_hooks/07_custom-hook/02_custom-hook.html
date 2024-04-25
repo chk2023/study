@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script crossorigin src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel">
+    /* 여러 컴포넌트에서 비슷한 기능을 공유할 경우, 사용자 정의 hook을 작성하여 로직을 재사용 할 수 있다. */
+
+    const { useState } = React;
+
+    function useInput() {
+
+        const [value, setValue] = useState('');
+        const onChange = e => setValue(e.target.value);
+
+        return { value, onChange }
+
+    }
+
+    function App () {
+
+        const username = useInput();
+        const password = useInput();
+        const email = useInput();
+
+        console.log(username);
+        console.log(password);
+        console.log(email);
+
+        return (
+            <div>
+                <label>이름 : </label>
+                <input type="text" id="username" value={username.value} onChange={username.onChange}/>
+                <label>이메일 : </label>
+                <input type="text" id="email" { ...email }/>
+                <label>비밀번호 : </label>
+                <input type="password" id="password" { ...password }/>
+            </div>
+        );
+    }
+
+    ReactDOM.createRoot(document.getElementById('root')).render(<App/>);
+</script>
+
+</body>
+</html>
