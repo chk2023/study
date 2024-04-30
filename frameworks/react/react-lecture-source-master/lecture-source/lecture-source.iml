@@ -10,5 +10,9 @@
     <orderEntry type="library" name="react" level="application" />
     <orderEntry type="library" name="prop-types" level="application" />
     <orderEntry type="library" name="redux" level="application" />
+    <orderEntry type="library" name="react-redux" level="application" />
+    <orderEntry type="library" name="@babel/standalone" level="application" />
+    <orderEntry type="library" name="react" level="application" />
+    <orderEntry type="library" name="react-dom" level="application" />
   </component>
 </module>
