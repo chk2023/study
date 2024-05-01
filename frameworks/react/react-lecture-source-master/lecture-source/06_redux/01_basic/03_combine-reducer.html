@@ -8,63 +8,63 @@
     <script crossorigin src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <script src="https://unpkg.com/redux@4.2.0/dist/redux.js"></script>
     <script src="https://unpkg.com/react-redux@8.1.3/dist/react-redux.js"></script>
+
 </head>
 <body>
 <div id="root"></div>
 <script type="text/babel">
-
     /* 관리 대상 state가 복잡하거나 reducer 함수로 관리해야 할 성격이 다른 경우
     * combine reducer를 사용할 수 있다.
     * */
 
-    const {createStore, combineReducers} = Redux;
-    const {Provider, useSelector, useDispatch} = ReactRedux;
+    const { createStore, combineReducers } = Redux;
+    const { Provider, useSelector, useDispatch } = ReactRedux;
 
     /* 관리할 state 초기 값 설정 */
     const countInitState = {
-        currentCount: 0
-    }
+        currentCount : 0
+    };
 
     const activationInitState = {
-        isActivity: false
+        isActivity : false
     };
 
     const userInitState = {
-        name: '',
-        email: '',
-        phone: ''
+        name : '',
+        email : '',
+        phone : ''
     };
-
 
     /* 여러 리듀서 함수를 하나의 rootReducer로 묶을 때 combineReducers를 사용한다. */
     const rootReducer = combineReducers({
-        countReducer: (state = countInitState, {type, payload}) => {
+        countReducer : (state = countInitState, {type, payload}) => {
             switch (type) {
                 case 'INCREMENT' :
-                    return {currentCount: state.currentCount + payload.incrementValue}
+                    return { currentCount : state.currentCount + payload.incrementValue }
                 case 'DECREMENT' :
-                    return {currentCount: state.currentCount - payload.decrementValue}
+                    return { currentCount : state.currentCount - payload.decrementValue }
                 default :
                     return state;
             }
         },
-        activationReducer: (state = activationInitState, {type}) => {
+        activationReducer : (state = activationInitState, { type }) => {
             switch (type) {
                 case 'TOGGLE' :
-                    return {isActivity: !state.isActivity}
+                    return { isActivity : !state.isActivity }
                 default :
                     return state;
             }
         },
-        userReducer: (state = userInitState, {type, payload}) => {
+        userReducer : (state = userInitState, { type, payload }) => {
             switch (type) {
                 case 'INPUT' :
-                    return {...state, [payload.name]: payload.value}
+                    return { ...state, [payload.name] : payload.value }
                 default :
                     return state;
             }
         }
     });
+
 
     /* 3개의 reducer 함수를 combine한 rootReducer를 전달하며 store 객체 생성 */
     const store = createStore(
@@ -75,32 +75,32 @@
 
     function App() {
 
-        const {currentCount} = useSelector(state => state.countReducer);
-        const {isActivity} = useSelector(state => state.activationReducer);
-        const {name, email, phone} = useSelector(state => state.userReducer);
+        const { currentCount } = useSelector(state => state.countReducer);
+        const { isActivity } = useSelector(state => state.activationReducer);
+        const { name, email, phone } = useSelector(state => state.userReducer);
 
         /* useDispatch hook을 통해 dispatch 함수를 반환 받는다. */
         const dispatch = useDispatch();
 
         const increaseCount = () => {
             dispatch({
-                type: 'INCREMENT',
-                payload: {
-                    incrementValue: 1
+                type : 'INCREMENT',
+                payload : {
+                    incrementValue : 1
                 }
             });
         };
         const decreaseCount = () => {
             dispatch({
-                type: 'DECREMENT',
-                payload: {
-                    decrementValue: 1
+                type : 'DECREMENT',
+                payload : {
+                    decrementValue : 1
                 }
-            });
+            })
         };
 
         const toggleActivation = () => {
-            dispatch({type : 'TOGGLE'});
+            dispatch({ type : 'TOGGLE' });
         }
 
         const onChangeHandler = (e) => {
@@ -118,21 +118,21 @@
                 <h1>Count : {currentCount}</h1>
                 <button onClick={increaseCount}>1 증가</button>
                 <button onClick={decreaseCount}>1 감소</button>
-                <h1>isActivity : {isActivity.toString()}</h1>
+                <h1>isActivity : { isActivity.toString() }</h1>
                 <button onClick={toggleActivation}>toggle activation</button>
                 <h1>input control </h1>
-                <label>name :</label>
+                <lable>name :</lable>
                 <input type="text" name="name" value={name} onChange={onChangeHandler}/>
-                <label>email :</label>
+                <lable>email :</lable>
                 <input type="text" name="email" value={email} onChange={onChangeHandler}/>
-                <label>phone :</label>
+                <lable>phone :</lable>
                 <input type="text" name="phone" value={phone} onChange={onChangeHandler}/>
             </>
         );
     }
 
     /* Provider 컴포넌트로 store를 props로 전달하면 하위 컴포넌트는 store를 자동으로 구동하게 된다.
-    * 즉, state가 변경 되면 랜더링이 다시 일어난다. */
+    * 즉, state가 변경 되면 랜더링이 다시 일어난다.*/
     ReactDOM.createRoot(document.getElementById('root')).render(
         <Provider store={store}>
             <App/>
@@ -142,20 +142,3 @@
 
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
