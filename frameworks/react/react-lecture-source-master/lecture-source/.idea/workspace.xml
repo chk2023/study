@@ -27,7 +27,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/workspace/study",
+    "last_opened_file_path": "C:/workspace/study/frameworks/react/react-lecture-source-master/lecture-source/06_redux/chap03-redux-structure",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -46,6 +46,7 @@
       <updated>1713849752127</updated>
       <workItem from="1713849754455" duration="548000" />
       <workItem from="1714478636536" duration="110000" />
+      <workItem from="1714609818808" duration="293000" />
     </task>
     <servers />
   </component>
