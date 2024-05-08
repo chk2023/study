@@ -9,6 +9,7 @@ import com.ohgiraffers.comprehensive.product.domain.repository.CategoryRepositor
 import com.ohgiraffers.comprehensive.product.domain.repository.ProductRepository;
 import com.ohgiraffers.comprehensive.product.domain.type.ProductStatusType;
 import com.ohgiraffers.comprehensive.product.dto.request.ProductCreateRequest;
+import com.ohgiraffers.comprehensive.product.dto.request.ProductUpdateRequest;
 import com.ohgiraffers.comprehensive.product.dto.response.AdminProductResponse;
 import com.ohgiraffers.comprehensive.product.dto.response.AdminProductsResponse;
 import com.ohgiraffers.comprehensive.product.dto.response.CustomerProductResponse;
@@ -24,6 +25,8 @@ import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.util.UUID;
+
+import static com.ohgiraffers.comprehensive.product.domain.type.ProductStatusType.DELETED;
 
 
 @Service
@@ -63,7 +66,7 @@ public class ProductService {
     @Transactional(readOnly = true)
     public Page<AdminProductsResponse> getAdminProducts(final Integer page) {
 
-        Page<Product> products = productRepository.findByStatusNot(getPageable(page), ProductStatusType.DELETED);
+        Page<Product> products = productRepository.findByStatusNot(getPageable(page), DELETED);
 
         return products.map(AdminProductsResponse::from);
 
@@ -84,7 +87,7 @@ public class ProductService {
     @Transactional(readOnly = true)
     public AdminProductResponse getAdminProduct(final Long productCode) {
 
-        Product product = productRepository.findByProductCodeAndStatusNot(productCode, ProductStatusType.DELETED)
+        Product product = productRepository.findByProductCodeAndStatusNot(productCode, DELETED)
                 .orElseThrow(() -> new NotFoundException(ExceptionCode.NOT_FOUND_PRODUCT_CODE));
 
         return AdminProductResponse.from(product);
@@ -121,9 +124,36 @@ public class ProductService {
     }
 
 
+    public void modify(Long productCode, ProductUpdateRequest productRequest, MultipartFile productImg) {
 
+        Product product = productRepository.findByProductCodeAndStatusNot(productCode, DELETED)
+                .orElseThrow(() -> new NotFoundException(ExceptionCode.NOT_FOUND_PRODUCT_CODE));
 
+        Category category = categoryRepository.findById(productRequest.getCategoryCode())
+                .orElseThrow(() -> new NotFoundException(ExceptionCode.NOT_FOUND_CATEGORY_CODE));
 
+        /* 이미지 수정이 필요할 경우 새로운 이미지 저장 후 기존 이미지 삭제 */
+        if(productImg != null) {
+            String replaceFileName = FileUploadUtils.saveFile(IMAGE_DIR, getRandomName(), productImg);
+            FileUploadUtils.deleteFile(IMAGE_DIR, product.getProductImageUrl().replace(IMAGE_URL, ""));
+            product.modifyProductImageUrl(IMAGE_URL + replaceFileName);
+        }
 
+        /* 수정을 위해 엔터티 정보 변경 */
+        product.modify(
+                productRequest.getProductName(),
+                productRequest.getProductPrice(),
+                productRequest.getProductDescription(),
+                category,
+                productRequest.getProductStock(),
+                productRequest.getStatus()
+        );
 
+    }
+
+    public void remove(Long productCode) {
+
+        productRepository.deleteById(productCode);
+
+    }
 }

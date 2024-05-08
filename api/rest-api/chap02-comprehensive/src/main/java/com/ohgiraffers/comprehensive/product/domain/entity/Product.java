@@ -6,6 +6,7 @@ import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import org.apache.logging.log4j.util.Strings;
+import org.hibernate.annotations.SQLDelete;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.LastModifiedDate;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
@@ -17,6 +18,7 @@ import java.time.LocalDateTime;
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @Getter
 @EntityListeners(AuditingEntityListener.class)
+@SQLDelete(sql = "UPDATE tbl_product SET status = 'DELETED' WHERE product_code = ?")
 public class Product {
 
     @Id
@@ -61,5 +63,18 @@ public class Product {
                 productImageUrl,
                 productStock
         );
+    }
+
+    public void modify(String productName, Long productPrice, String productDescription, Category category, Long productStock, ProductStatusType status) {
+        this.productName = productName;
+        this.productPrice = productPrice;
+        this.productDescription = productDescription;
+        this.category = category;
+        this.productStock = productStock;
+        this.status = status;
+    }
+
+    public void modifyProductImageUrl(String productImageUrl) {
+        this.productImageUrl = productImageUrl;
     }
 }

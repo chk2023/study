@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6320ae72-f94e-46cb-94ec-45af7ecbfe1a" name="Changes" comment="" />
+    <list default="true" id="6320ae72-f94e-46cb-94ec-45af7ecbfe1a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../api/rest-api/chap02-comprehensive/src/main/java/com/ohgiraffers/comprehensive/product/dto/request/ProductUpdateRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../api/rest-api/chap02-comprehensive/src/main/java/com/ohgiraffers/comprehensive/product/domain/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../api/rest-api/chap02-comprehensive/src/main/java/com/ohgiraffers/comprehensive/product/domain/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../api/rest-api/chap02-comprehensive/src/main/java/com/ohgiraffers/comprehensive/product/domain/type/ProductStatusType.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../api/rest-api/chap02-comprehensive/src/main/java/com/ohgiraffers/comprehensive/product/domain/type/ProductStatusType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../api/rest-api/chap02-comprehensive/src/main/java/com/ohgiraffers/comprehensive/product/presentation/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../api/rest-api/chap02-comprehensive/src/main/java/com/ohgiraffers/comprehensive/product/presentation/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../api/rest-api/chap02-comprehensive/src/main/java/com/ohgiraffers/comprehensive/product/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../api/rest-api/chap02-comprehensive/src/main/java/com/ohgiraffers/comprehensive/product/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../api/rest-api/chap02-comprehensive/src/main/resources/static/productimgs/1a64aee5fb7243fdbf32820dde279577.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,7 +35,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/workspace/study/frameworks/react/react-lecture-source-master/lecture-source/06_redux/chap03-redux-structure",
+    "last_opened_file_path": "C:/workspace/study/frameworks/react/react-lecture-source-master/lecture-source/06_redux",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -47,6 +55,7 @@
       <workItem from="1713849754455" duration="548000" />
       <workItem from="1714478636536" duration="110000" />
       <workItem from="1714609818808" duration="293000" />
+      <workItem from="1715132950779" duration="47000" />
     </task>
     <servers />
   </component>

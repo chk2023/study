@@ -4,6 +4,7 @@ import com.ohgiraffers.comprehensive.common.paging.Pagenation;
 import com.ohgiraffers.comprehensive.common.paging.PagingButtonInfo;
 import com.ohgiraffers.comprehensive.common.paging.PagingResponse;
 import com.ohgiraffers.comprehensive.product.dto.request.ProductCreateRequest;
+import com.ohgiraffers.comprehensive.product.dto.request.ProductUpdateRequest;
 import com.ohgiraffers.comprehensive.product.dto.response.AdminProductResponse;
 import com.ohgiraffers.comprehensive.product.dto.response.AdminProductsResponse;
 import com.ohgiraffers.comprehensive.product.dto.response.CustomerProductResponse;
@@ -85,10 +86,28 @@ public class ProductController {
         return ResponseEntity.created(URI.create("/api/v1/products-management/" + productCode)).build();
     }
 
+    /* 상품 수정 */
+    @PutMapping("/products/{productCode}")
+    public ResponseEntity<Void> modify(
+            @PathVariable final Long productCode,
+            @RequestPart @Valid final ProductUpdateRequest productRequest,
+            @RequestPart(required = false) final MultipartFile productImg
+    ) {
 
+        productService.modify(productCode, productRequest, productImg);
 
+        return ResponseEntity.created(URI.create("/api/v1/products-management/" + productCode)).build();
 
+    }
 
+    /* 상품 삭제 */
+    @DeleteMapping("/products/{productCode}")
+    public ResponseEntity<Void> remove(@PathVariable final Long productCode) {
+
+        productService.remove(productCode);
+
+        return ResponseEntity.noContent().build();
+    }
 
 
 
