@@ -1,23 +1,25 @@
-import {useParams} from "react-router-dom";
+import {useSearchParams} from "react-router-dom";
 import {useEffect, useState} from "react";
 import {useDispatch, useSelector} from "react-redux";
-import {callProductCategoryListAPI} from "../../apis/ProductAPICalls";
+import {callProductSearchListAPI} from "../../apis/ProductAPICalls";
 import ProductList from "../../components/lists/ProductList";
 import PagingBar from "../../components/common/PagingBar";
 
-function CategoryMain() {
+function SearchMain() {
 
     const dispatch = useDispatch();
-    const { categoryCode } = useParams();
+    const [searchParams] = useSearchParams();
+    const productName = searchParams.get('value');
     const { products } = useSelector(state => state.productReducer);
     const [currentPage, setCurrentPage] = useState(1);
 
     useEffect(() => {
-        dispatch(callProductCategoryListAPI({categoryCode, currentPage}));
-    }, [categoryCode, currentPage]);
+        dispatch(callProductSearchListAPI({productName, currentPage}));
+    }, [productName, currentPage]);
 
     return (
         <>
+            <h3>[{productName}] 검색 결과</h3>
             { products
                 &&
                 <>
@@ -30,4 +32,4 @@ function CategoryMain() {
 
 }
 
-export default CategoryMain;
+export default SearchMain;

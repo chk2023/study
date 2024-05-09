@@ -1,21 +1,34 @@
 package com.ohgiraffers.comprehensive.auth.config;
 
+import com.ohgiraffers.comprehensive.auth.filter.CustomAuthenticationFilter;
+import com.ohgiraffers.comprehensive.auth.handler.LoginFailureHandler;
+import com.ohgiraffers.comprehensive.auth.handler.LoginSuccessHandler;
+import com.ohgiraffers.comprehensive.auth.service.AuthService;
+import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;
+import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.authentication.ProviderManager;
+import org.springframework.security.authentication.dao.DaoAuthenticationProvider;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configurers.AbstractHttpConfigurer;
-import org.springframework.security.config.annotation.web.configurers.CorsConfigurer;
 import org.springframework.security.config.http.SessionCreationPolicy;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
+import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.CorsConfigurationSource;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 
 import java.util.Arrays;
 
+@RequiredArgsConstructor
 @Configuration
 public class SecurityConfig {
+
+    private final PasswordEncoder passwordEncoder;
+    private final AuthService authService;
 
     @Bean
     SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
@@ -34,8 +47,11 @@ public class SecurityConfig {
                     auth.requestMatchers(HttpMethod.OPTIONS, "/**").permitAll();
                     auth.requestMatchers(HttpMethod.GET, "/productimgs/**").permitAll();
                     auth.requestMatchers(HttpMethod.GET, "/api/v1/products/**").permitAll();
+                    auth.requestMatchers(HttpMethod.POST, "/api/v1/members/signup", "/api/v1/members/login").permitAll();
                     auth.anyRequest().authenticated();
                 })
+                /* 기본적으로 동작하는 로그인 필터 이전에 커스텀 로그인 필터를 설정한다. */
+                .addFilterBefore(customAuthenticationFilter(), UsernamePasswordAuthenticationFilter.class)
                 .cors(cors -> cors.configurationSource(corsConfigurationSource()))
                 .build();
     }
@@ -56,5 +72,44 @@ public class SecurityConfig {
         source.registerCorsConfiguration("/**", corsConfiguration);
         return source;
     }
+
+    @Bean
+    AuthenticationManager authenticationManager() {
+        DaoAuthenticationProvider provider = new DaoAuthenticationProvider();
+        provider.setPasswordEncoder(passwordEncoder);
+        provider.setUserDetailsService(authService);
+        return new ProviderManager(provider);
+    }
+
+    /* 로그인 실패 핸들러 빈 등록 */
+    @Bean
+    LoginFailureHandler loginFailureHandler() {
+        return new LoginFailureHandler();
+    }
+
+    /* 로그인 성공 핸들러 빈 등록 */
+    @Bean
+    LoginSuccessHandler loginSuccessHandler() {
+        return new LoginSuccessHandler(authService);
+    }
+
+    /* 로그인 시 동작할 CustomFilter Bean 등록 */
+    @Bean
+     CustomAuthenticationFilter customAuthenticationFilter() {
+
+        CustomAuthenticationFilter customAuthenticationFilter = new CustomAuthenticationFilter();
+        /* AuthenticationManager 설정 */
+        customAuthenticationFilter.setAuthenticationManager(authenticationManager());
+        /* Login Fail Handler 설정 */
+        customAuthenticationFilter.setAuthenticationFailureHandler(loginFailureHandler());
+        /* Login Success Handler 설정 */
+        customAuthenticationFilter.setAuthenticationSuccessHandler(loginSuccessHandler());
+
+        return customAuthenticationFilter;
+    }
+
+
+
+
 
 }
