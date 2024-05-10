@@ -17,7 +17,7 @@ function SignupForm() {
     }
 
     const onClickSignupHandler = () => {
-        dispatch(callSignupAPI({signupRequest : form}))
+        dispatch(callSignupAPI({signupRequest : form }))
     }
 
     const onClickBackHandler = () => {

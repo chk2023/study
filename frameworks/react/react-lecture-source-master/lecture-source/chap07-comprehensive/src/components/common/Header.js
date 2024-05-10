@@ -1,10 +1,15 @@
 import {useNavigate} from "react-router-dom";
-import {useState} from "react";
+import {useEffect, useState} from "react";
+import {isLogin} from "../../utils/TokenUtils";
+import {useDispatch, useSelector} from "react-redux";
+import {callLogoutAPI} from "../../apis/MemberAPICalls";
+import {reset} from "../../modules/MemberModules";
 
 function Header() {
 
     const navigate = useNavigate();
     const [search, setSearch] = useState('');
+    const dispatch = useDispatch();
 
 
     /* 로고 클릭 시 메인 페이지로 이동 */
@@ -18,6 +23,7 @@ function Header() {
             <div>
                 <button
                     className="header-btn"
+                    onClick={ () => navigate(`/member/login`) }
                 >
                     로그인
                 </button>
@@ -33,6 +39,16 @@ function Header() {
     }
 
     function AfterLogin() {
+
+        const { success } = useSelector(state => state.memberReducer);
+
+        useEffect(() => {
+            if(success === true) {
+                navigate(`/`);
+                dispatch(reset());
+            }
+        }, [success]);
+
         return (
             <div>
                 <button
@@ -43,6 +59,7 @@ function Header() {
                 |
                 <button
                     className="header-btn"
+                    onClick={ () => dispatch(callLogoutAPI()) }
                 >
                     로그아웃
                 </button>
@@ -66,7 +83,7 @@ function Header() {
                 onKeyUp={ onEnterKeyHandler }
                 value={ search }
             />
-            { false ? <AfterLogin/> : <BeforeLogin/> }
+            { isLogin() ? <AfterLogin/> : <BeforeLogin/> }
         </div>
     );
 }

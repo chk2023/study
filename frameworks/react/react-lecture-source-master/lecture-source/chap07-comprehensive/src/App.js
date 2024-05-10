@@ -7,6 +7,8 @@ import CategoryMain from "./pages/products/CategoryMain";
 import SearchMain from "./pages/products/SearchMain";
 import ProductDetail from "./pages/products/ProductDetail";
 import Signup from "./pages/member/Signup";
+import Login from "./pages/member/Login";
+import ProtectedRoute from "./components/router/ProtectedRoute";
 
 function App() {
   return (
@@ -21,8 +23,8 @@ function App() {
             </Route>
         </Route>
           <Route path="/member">
-              <Route path="signup" element={<Signup/>}>
-              </Route>
+              <Route path="signup" element={<ProtectedRoute loginCheck={false}><Signup/></ProtectedRoute>}/>
+              <Route path="login" element={<ProtectedRoute loginCheck={false}><Login/></ProtectedRoute>}/>
           </Route>
       </Routes>
     </BrowserRouter>
