@@ -1,13 +1,20 @@
 package com.ohgiraffers.comprehensive.auth.service;
 
 import com.ohgiraffers.comprehensive.auth.dto.LoginDto;
+import com.ohgiraffers.comprehensive.auth.dto.TokenDto;
+import com.ohgiraffers.comprehensive.auth.util.TokenUtils;
 import com.ohgiraffers.comprehensive.member.service.MemberService;
 import lombok.RequiredArgsConstructor;
+import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
+
+import java.util.Map;
 
 @Service
 @RequiredArgsConstructor
@@ -30,4 +37,43 @@ public class AuthService implements UserDetailsService {
     public void updateRefreshToken(String memberId, String refreshToken) {
         memberService.updateRefreshToken(memberId, refreshToken);
     }
+
+    public TokenDto checkRefreshTokenAndReIssueToken(String refreshToken) {
+
+        LoginDto loginDto = memberService.findByRefreshToken(refreshToken);
+        String reIssuedRefreshToken = TokenUtils.createRefreshToken();
+        String reIssuedAccessToken = TokenUtils.createAccessToken(getMemberInfo(loginDto));
+        memberService.updateRefreshToken(loginDto.getMemberId(), reIssuedRefreshToken);
+        return TokenDto.of(reIssuedAccessToken, reIssuedRefreshToken);
+    }
+
+    private Map<String,Object> getMemberInfo(LoginDto loginDto) {
+        return Map.of(
+                "memberId", loginDto.getMemberId(),
+                "memberRole", loginDto.getMemberRole()
+        );
+    }
+
+    public void saveAuthentication(String memberId) {
+
+        LoginDto loginDto = memberService.findByMemberId(memberId);
+
+        UserDetails user = User.builder()
+            .username(loginDto.getMemberId())
+            .password(loginDto.getMemberPassword())
+            .roles(loginDto.getMemberRole().name())
+            .build();
+
+        Authentication authentication
+                = new UsernamePasswordAuthenticationToken(user, null, user.getAuthorities());
+        SecurityContextHolder.getContext().setAuthentication(authentication);
+    }
+
+
+
+
+
+
+
+
 }

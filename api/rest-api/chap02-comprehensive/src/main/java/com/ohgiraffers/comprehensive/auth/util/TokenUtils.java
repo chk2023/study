@@ -5,6 +5,7 @@ import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 import io.jsonwebtoken.io.Decoders;
 import io.jsonwebtoken.security.Keys;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
@@ -13,12 +14,24 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
+@Slf4j
 @Component
 public class TokenUtils {
 
     private static String jwtSecretKey;
     private static Long accessTokenExpiration;
     private static Long refreshTokenExpiration;
+
+    private static final String BEARER = "Bearer ";
+
+    public static String getMemberId(String accessToken) {
+        return Jwts.parserBuilder()
+                .setSigningKey(createSignature())
+                .build()
+                .parseClaimsJws(accessToken)
+                .getBody()
+                .get("memberId").toString();
+    }
 
     @Value("${jwt.secret}")
     public  void setJwtSecretKey(String jwtSecretKey) {
@@ -69,5 +82,22 @@ public class TokenUtils {
         header.put("type", "jwt");
         header.put("date", System.currentTimeMillis());
         return header;
+    }
+
+    public static String getToken(String token) {
+        if(token != null && token.startsWith(BEARER)) {
+            return token.replace(BEARER, "");
+        }
+        return null;
+    }
+
+    public static boolean isValidToken(String token) {
+        try {
+            Jwts.parserBuilder().setSigningKey(createSignature()).build().parseClaimsJws(token);
+            return true;
+        } catch(Exception e) {
+            log.error("유효하지 않은 토큰입니다. {}", e.getMessage());
+            return false;
+        }
     }
 }

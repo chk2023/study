@@ -13,6 +13,43 @@ function Header() {
         if(e.key === 'Enter') navigate(`/product/search?value=${search}`);
     }
 
+    function BeforeLogin() {
+        return (
+            <div>
+                <button
+                    className="header-btn"
+                >
+                    로그인
+                </button>
+                |
+                <button
+                    className="header-btn"
+                    onClick={ () => navigate(`/member/signup`) }
+                >
+                    회원가입
+                </button>
+            </div>
+        );
+    }
+
+    function AfterLogin() {
+        return (
+            <div>
+                <button
+                    className="header-btn"
+                >
+                    마이페이지
+                </button>
+                |
+                <button
+                    className="header-btn"
+                >
+                    로그아웃
+                </button>
+            </div>
+        );
+    }
+
     return (
         <div className="header-div">
             <button
@@ -29,6 +66,7 @@ function Header() {
                 onKeyUp={ onEnterKeyHandler }
                 value={ search }
             />
+            { false ? <AfterLogin/> : <BeforeLogin/> }
         </div>
     );
 }
