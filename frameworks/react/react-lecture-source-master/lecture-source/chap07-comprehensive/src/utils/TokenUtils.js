@@ -18,10 +18,19 @@ const getRefreshToken = () => localStorage.getItem('refresh-token');
 export const getAccessTokenHeader = () => BEARER + getAccessToken();
 export const getRefreshTokenHeader = () => BEARER + getRefreshToken();
 
+const getDecodeAccessToken = () => jwtDecode(getAccessToken());
 const getDecodeRefreshToken = () => jwtDecode(getRefreshToken());
 
 export const isLogin = () => {
     return getAccessToken() && getRefreshToken() && (Date.now() < getDecodeRefreshToken().exp * 1000);
+}
+
+export const isAdmin = () => {
+    return isLogin() && getDecodeAccessToken().memberRole === 'ROLE_ADMIN'
+}
+
+export const getMemberId = () => {
+    return getDecodeAccessToken().memberId;
 }
 
 

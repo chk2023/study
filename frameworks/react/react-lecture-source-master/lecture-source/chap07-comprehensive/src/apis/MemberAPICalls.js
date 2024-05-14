@@ -1,8 +1,8 @@
 import {authRequest, request} from "./api";
 import {toast} from "react-toastify";
-import {removeToken, saveToken} from "../utils/TokenUtils";
+import {getMemberId, removeToken, saveToken} from "../utils/TokenUtils";
 import {useNavigate} from "react-router-dom";
-import {success} from "../modules/MemberModules";
+import {getProfile, success} from "../modules/MemberModules";
 
 export const callSignupAPI = ({signupRequest}) => {
 
@@ -63,6 +63,19 @@ export const callLogoutAPI = () => {
             dispatch(success());
         }
 
+    }
+}
+
+export const callProfileAPI = () => {
+
+    return async (dispatch, getState) => {
+
+        const result = await authRequest.get(`/api/v1/members/${getMemberId()}`);
+        console.log('callProfileAPI result : ', result);
+
+        if(result.status === 200) {
+            dispatch(getProfile(result));
+        }
     }
 }
 

@@ -2,6 +2,7 @@ package com.ohgiraffers.comprehensive.auth.service;
 
 import com.ohgiraffers.comprehensive.auth.dto.LoginDto;
 import com.ohgiraffers.comprehensive.auth.dto.TokenDto;
+import com.ohgiraffers.comprehensive.auth.type.CustomUser;
 import com.ohgiraffers.comprehensive.auth.util.TokenUtils;
 import com.ohgiraffers.comprehensive.member.service.MemberService;
 import lombok.RequiredArgsConstructor;
@@ -50,7 +51,7 @@ public class AuthService implements UserDetailsService {
     private Map<String,Object> getMemberInfo(LoginDto loginDto) {
         return Map.of(
                 "memberId", loginDto.getMemberId(),
-                "memberRole", loginDto.getMemberRole()
+                "memberRole", "ROLE_" + loginDto.getMemberRole()
         );
     }
 
@@ -64,8 +65,10 @@ public class AuthService implements UserDetailsService {
             .roles(loginDto.getMemberRole().name())
             .build();
 
+        CustomUser customUser = new CustomUser(loginDto.getMemberCode(), user);
+
         Authentication authentication
-                = new UsernamePasswordAuthenticationToken(user, null, user.getAuthorities());
+                = new UsernamePasswordAuthenticationToken(customUser, null, customUser.getAuthorities());
         SecurityContextHolder.getContext().setAuthentication(authentication);
     }
 

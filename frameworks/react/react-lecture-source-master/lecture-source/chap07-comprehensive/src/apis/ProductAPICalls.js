@@ -1,5 +1,5 @@
-import {request} from "./api";
-import {getProduct, getProducts} from "../modules/ProductModules";
+import {authRequest, request} from "./api";
+import {getProduct, getProducts, success} from "../modules/ProductModules";
 
 export const callProductListAPI = ({ currentPage = 1}) => {
 
@@ -56,8 +56,62 @@ export const callProductDetailAPI = ({ productCode }) => {
     }
 };
 
+export const callAdminProductListAPI = ({ currentPage = 1}) => {
 
+    return async (dispatch, getState) => {
+        const result = await authRequest.get(`/api/v1/products-management?page=${currentPage}`);
+        console.log('callAdminProductListAPI result : ',result);
 
+        if(result.status === 200) {
+            dispatch(getProducts(result));
+        }
+    }
+};
 
+export const callAdminProductRegistAPI = ({ registRequest }) => {
 
+    return async (dispatch, getState) => {
+        const result = await authRequest.post(`/api/v1/products`, registRequest);
+        console.log('callAdminProductRegistAPI result : ',result);
 
+        if(result.status === 201) {
+            dispatch(success());
+        }
+    }
+};
+
+export const callAdminProductAPI = ({ productCode }) => {
+
+    return async (dispatch, getState) => {
+        const result = await authRequest.get(`/api/v1/products-management/${productCode}`);
+        console.log('callAdminProductAPI result : ',result);
+
+        if(result.status === 200) {
+            dispatch(getProduct(result));
+        }
+    }
+};
+
+export const callAdminProductModifyAPI = ({ productCode, modifyRequest }) => {
+
+    return async (dispatch, getState) => {
+        const result = await authRequest.put(`/api/v1/products/${productCode}`, modifyRequest);
+        console.log('callAdminProductModifyAPI result : ',result);
+
+        if(result.status === 201) {
+            dispatch(success());
+        }
+    }
+};
+
+export const callAdminProductRemoveAPI = ({ productCode }) => {
+
+    return async (dispatch, getState) => {
+        const result = await authRequest.delete(`/api/v1/products/${productCode}`);
+        console.log('callAdminProductRemoveAPI result : ',result);
+
+        if(result.status === 204) {
+            dispatch(success());
+        }
+    }
+};

@@ -1,5 +1,6 @@
 package com.ohgiraffers.comprehensive.product.service;
 
+import com.ohgiraffers.comprehensive.common.exception.ConflictException;
 import com.ohgiraffers.comprehensive.common.exception.NotFoundException;
 import com.ohgiraffers.comprehensive.common.exception.type.ExceptionCode;
 import com.ohgiraffers.comprehensive.common.util.FileUploadUtils;
@@ -26,7 +27,9 @@ import org.springframework.web.multipart.MultipartFile;
 
 import java.util.UUID;
 
+import static com.ohgiraffers.comprehensive.common.exception.type.ExceptionCode.NOT_ENOUGH_STOCK;
 import static com.ohgiraffers.comprehensive.product.domain.type.ProductStatusType.DELETED;
+import static com.ohgiraffers.comprehensive.product.domain.type.ProductStatusType.USABLE;
 
 
 @Service
@@ -156,4 +159,21 @@ public class ProductService {
         productRepository.deleteById(productCode);
 
     }
+
+    public void updateStock(Long productCode, Long orderAmount) {
+
+        Product product = productRepository.findByProductCodeAndStatus(productCode, USABLE)
+                .orElseThrow(() -> new NotFoundException(ExceptionCode.NOT_FOUND_PRODUCT_CODE));
+
+        verifyEnoughStock(product.getProductStock(), orderAmount);
+
+        product.changeStock(orderAmount);
+
+    }
+
+    private void verifyEnoughStock(Long productStock, Long orderAmount) {
+        if(productStock < orderAmount) throw new ConflictException(NOT_ENOUGH_STOCK);
+    }
+
+
 }

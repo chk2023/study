@@ -77,4 +77,8 @@ public class Product {
     public void modifyProductImageUrl(String productImageUrl) {
         this.productImageUrl = productImageUrl;
     }
+
+    public void changeStock(Long orderAmount) {
+        this.productStock -= orderAmount;
+    }
 }

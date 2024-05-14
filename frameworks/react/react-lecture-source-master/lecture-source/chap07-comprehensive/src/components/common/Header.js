@@ -53,6 +53,7 @@ function Header() {
             <div>
                 <button
                     className="header-btn"
+                    onClick={ () => navigate('/member/mypage') }
                 >
                     마이페이지
                 </button>

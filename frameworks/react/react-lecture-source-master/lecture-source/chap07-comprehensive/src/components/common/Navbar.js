@@ -1,4 +1,5 @@
 import {NavLink} from "react-router-dom";
+import {isAdmin} from "../../utils/TokenUtils";
 
 function Navbar() {
     return (
@@ -16,6 +17,11 @@ function Navbar() {
                 <li>
                     <NavLink to="/product/categories/3">음료</NavLink>
                 </li>
+                { isAdmin() &&
+                    <li>
+                        <NavLink to="/product-management">상품관리</NavLink>
+                    </li>
+                }
             </ul>
         </div>
     );

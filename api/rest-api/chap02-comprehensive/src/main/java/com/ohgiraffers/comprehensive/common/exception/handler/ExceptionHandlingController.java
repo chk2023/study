@@ -1,5 +1,6 @@
 package com.ohgiraffers.comprehensive.common.exception.handler;
 
+import com.ohgiraffers.comprehensive.common.exception.ConflictException;
 import com.ohgiraffers.comprehensive.common.exception.NotFoundException;
 import com.ohgiraffers.comprehensive.common.exception.ServerInternalException;
 import com.ohgiraffers.comprehensive.common.exception.dto.response.ExceptionResponse;
@@ -28,6 +29,15 @@ public class ExceptionHandlingController {
         final ExceptionResponse exceptionResponse = ExceptionResponse.of(e.getCode(), e.getMessage());
 
         return ResponseEntity.internalServerError().body(exceptionResponse);
+    }
+
+    /* Conflict : 충돌 (논리적으로 수행할 수 없을 경우 처리) 409 */
+    @ExceptionHandler(ConflictException.class)
+    public ResponseEntity<ExceptionResponse> conflictException(ConflictException e) {
+
+        final ExceptionResponse exceptionResponse = ExceptionResponse.of(e.getCode(), e.getMessage());
+
+        return ResponseEntity.status(HttpStatus.CONFLICT).body(exceptionResponse);
     }
 
     /* Valid Exception */

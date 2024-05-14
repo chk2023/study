@@ -1,5 +1,15 @@
+import {useNavigate} from "react-router-dom";
+import {useState} from "react";
 
 function ProductItem ({ product }) {
+
+    const navigate = useNavigate();
+    const [amount, setAmount] = useState(1);
+
+    /* 구매하기 버튼 이벤트 */
+    const onclickOrderHandler = () => {
+        navigate('/order', { state : { product, amount }});
+    }
 
     return (
         <>
@@ -36,12 +46,14 @@ function ProductItem ({ product }) {
                     </tr>
                     <tr>
                         <th>구매 수량</th>
-                        <td><input type="number" min="1"/></td>
+                        <td><input type="number" min="1" value={amount}
+                                   onChange={e => setAmount(e.target.value)}/></td>
                     </tr>
                     </tbody>
                 </table>
                 <button
                     className="product-buy-btn"
+                    onClick={ onclickOrderHandler }
                 >
                     구매 하기
                 </button>

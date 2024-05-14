@@ -57,6 +57,7 @@ public class SecurityConfig {
                     auth.requestMatchers(HttpMethod.GET, "/productimgs/**").permitAll();
                     auth.requestMatchers(HttpMethod.GET, "/api/v1/products/**").permitAll();
                     auth.requestMatchers(HttpMethod.POST, "/api/v1/members/signup", "/api/v1/members/login").permitAll();
+                    auth.requestMatchers("/api/v1/products/*/reviews/**").authenticated();
                     auth.requestMatchers("/api/v1/products-management/**", "/api/v1/products/**").hasRole("ADMIN");
                     auth.anyRequest().authenticated();
                 })
@@ -141,6 +142,11 @@ public class SecurityConfig {
     JwtAccessDeniedHandler jwtAccessDeniedHandler() {
         return new JwtAccessDeniedHandler();
     }
+
+
+
+
+
 
 
 }

@@ -41,26 +41,3 @@ Access-Token: Bearer eyJkYXRlIjoxNzE1MzA5NTc3MjcyLCJ0eXBlIjoiand0IiwiYWxnIjoiSFM
 ### 로그아웃
 POST http://localhost:8001/api/v1/members/logout
 Access-Token: Bearer eyJkYXRlIjoxNzE1MzEwMzczMzk4LCJ0eXBlIjoiand0IiwiYWxnIjoiSFM1MTIifQ.eyJzdWIiOiJBY2Nlc3NUb2tlbiIsIm1lbWJlclJvbGUiOiJST0xFX1VTRVIiLCJtZW1iZXJJZCI6InVzZXIwMiIsImV4cCI6MTcxNTMxMzk3M30.RSBA_4ZnXRAwyv2LKQvESDRVVuVIq9fo6BnyFBMIrFAnMOp4rZ6w1k8eEbrJplPUXM3kEZe756GdPQ-iwoSYzA
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
