@@ -1,7 +1,6 @@
 import {authRequest, request} from "./api";
 import {toast} from "react-toastify";
 import {getMemberId, removeToken, saveToken} from "../utils/TokenUtils";
-import {useNavigate} from "react-router-dom";
 import {getProfile, success} from "../modules/MemberModules";
 
 export const callSignupAPI = ({signupRequest}) => {

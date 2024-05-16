@@ -65,6 +65,7 @@ export const callAdminProductListAPI = ({ currentPage = 1}) => {
         if(result.status === 200) {
             dispatch(getProducts(result));
         }
+
     }
 };
 

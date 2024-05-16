@@ -3,14 +3,12 @@ import {useEffect, useState} from "react";
 import {isLogin} from "../../utils/TokenUtils";
 import {useDispatch, useSelector} from "react-redux";
 import {callLogoutAPI} from "../../apis/MemberAPICalls";
-import {reset} from "../../modules/MemberModules";
 
 function Header() {
 
     const navigate = useNavigate();
     const [search, setSearch] = useState('');
     const dispatch = useDispatch();
-
 
     /* 로고 클릭 시 메인 페이지로 이동 */
     const onClickHandler = () => navigate("/");
@@ -44,8 +42,7 @@ function Header() {
 
         useEffect(() => {
             if(success === true) {
-                navigate(`/`);
-                dispatch(reset());
+                window.location.replace('/');
             }
         }, [success]);
 

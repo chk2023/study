@@ -7,8 +7,13 @@ function ProductItem ({ product }) {
     const [amount, setAmount] = useState(1);
 
     /* 구매하기 버튼 이벤트 */
-    const onclickOrderHandler = () => {
+    const onClickOrderHandler = () => {
         navigate('/order', { state : { product, amount }});
+    }
+
+    /* 리뷰보기 버튼 이벤트 */
+    const onClickReviewHandler = () => {
+        navigate(`/product/${product.productCode}/review`);
     }
 
     return (
@@ -17,6 +22,7 @@ function ProductItem ({ product }) {
                 <img src={product.productImageUrl} alt={product.productName}/>
                 <button
                     className="review-btn"
+                    onClick={ onClickReviewHandler }
                 >
                     리뷰보기
                 </button>
@@ -46,14 +52,20 @@ function ProductItem ({ product }) {
                     </tr>
                     <tr>
                         <th>구매 수량</th>
-                        <td><input type="number" min="1" value={amount}
-                                   onChange={e => setAmount(e.target.value)}/></td>
+                        <td>
+                            <input
+                                type="number"
+                                min="1"
+                                value={amount}
+                                onChange={e => setAmount(e.target.value)}
+                            />
+                        </td>
                     </tr>
                     </tbody>
                 </table>
                 <button
                     className="product-buy-btn"
-                    onClick={ onclickOrderHandler }
+                    onClick={ onClickOrderHandler }
                 >
                     구매 하기
                 </button>
