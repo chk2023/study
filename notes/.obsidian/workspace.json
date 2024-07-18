@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "개발노트/Untitled.md",
+                "file": "개발노트/깃허브 프로젝트 생성.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "개발노트/Untitled.md",
+                "file": "개발노트/깃허브 프로젝트 생성.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "개발노트/Untitled.md",
+                "file": "개발노트/깃허브 프로젝트 생성.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "개발노트/Untitled.md"
+                "file": "개발노트/깃허브 프로젝트 생성.md"
               }
             }
           }
@@ -150,7 +150,7 @@
   "active": "745a7610c6ea3565",
   "lastOpenFiles": [
     "인텔리제이 단축키.md",
-    "개발노트/Untitled.md",
+    "개발노트/깃허브 프로젝트 생성.md",
     "priavte static 메소드.md",
     "개발노트",
     "강의/인프런 강의/스프링 핵심 원리 (기본편)/04 스프링 컨테이너와 스프링 빈.md",
