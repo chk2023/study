@@ -1,1 +1,1 @@
-### 1. Goal and Learnin
+### 1. Goal and Learning Objectives
