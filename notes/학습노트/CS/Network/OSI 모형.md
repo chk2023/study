@@ -25,4 +25,4 @@
 대표 장치: L2 Switch, 모뎀, 기지국, AP
 프로토콜: CSMA/CD, CSMA/CA, Slott Aloha, DAC/ADC, Multiplexer, Demultiplexer, MAC 주소 관리 등
 
-데이터 
+데이터 링크 계층은 포인트 투 포인트(단말기 대 단말기, 점대점 통신) 간 디지털화된 데이터들에 대해 비트 단위로 신호화 및 동기화 하여 최대한 신뢰성 있느 
