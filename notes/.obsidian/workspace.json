@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "학습노트/CS/Network/TCP.md",
+                "file": "학습노트/CS/Network/UDP.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "학습노트/CS/Network/TCP.md",
+                "file": "학습노트/CS/Network/UDP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "학습노트/CS/Network/TCP.md",
+                "file": "학습노트/CS/Network/UDP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "학습노트/CS/Network/TCP.md"
+                "file": "학습노트/CS/Network/UDP.md"
               }
             }
           }
@@ -148,10 +148,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "745a7610c6ea3565",
+  "active": "1c0057bca8d9013b",
   "lastOpenFiles": [
-    "학습노트/CS/Network/UDP.md",
     "학습노트/CS/Network/TCP.md",
+    "학습노트/CS/Network/OSI 7 Layer.md",
+    "학습노트/CS/Network/UDP.md",
     "학습노트/Python/0731.md",
     "학습노트/CS/Network",
     "개발노트/깃허브 프로젝트 생성.md",
@@ -194,7 +195,6 @@
     "강의/자바의 정석/chapter 08.md",
     "강의/국비지원/DevOps/1. AWS 배포 기본 지식 학습.md",
     "강의/국비지원/풀스택",
-    "이미지/screenshot/국비지원/DevOps",
-    "강의/인프런 강의/스프링 핵심 원리 (기본편)/05 싱글톤 컨테이너.md"
+    "이미지/screenshot/국비지원/DevOps"
   ]
 }
