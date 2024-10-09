@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "학습노트/CS/Network/Untitled.md",
+                "file": "학습노트/CS/Network/BitTrickle File Sharing System.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "학습노트/CS/Network/Untitled.md",
+                "file": "학습노트/CS/Network/BitTrickle File Sharing System.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "학습노트/CS/Network/Untitled.md",
+                "file": "학습노트/CS/Network/BitTrickle File Sharing System.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "학습노트/CS/Network/Untitled.md"
+                "file": "학습노트/CS/Network/BitTrickle File Sharing System.md"
               }
             }
           }
@@ -152,7 +152,7 @@
   "active": "745a7610c6ea3565",
   "lastOpenFiles": [
     "학습노트/Python/0731.md",
-    "학습노트/CS/Network/Untitled.md",
+    "학습노트/CS/Network/BitTrickle File Sharing System.md",
     "학습노트/CS/Network",
     "개발노트/깃허브 프로젝트 생성.md",
     "학습노트/Python",
