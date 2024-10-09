@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "학습노트/Python/0731.md",
+                "file": "학습노트/CS/Network/Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 273.5
+    "width": 273.5,
+    "collapsed": true
   },
   "right": {
     "id": "a557dd975c09f315",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "학습노트/Python/0731.md",
+                "file": "학습노트/CS/Network/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "학습노트/Python/0731.md",
+                "file": "학습노트/CS/Network/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,15 +126,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "학습노트/Python/0731.md"
+                "file": "학습노트/CS/Network/Untitled.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -146,11 +149,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1c0057bca8d9013b",
+  "active": "745a7610c6ea3565",
   "lastOpenFiles": [
+    "학습노트/Python/0731.md",
+    "학습노트/CS/Network/Untitled.md",
     "학습노트/CS/Network",
     "개발노트/깃허브 프로젝트 생성.md",
-    "학습노트/Python/0731.md",
     "학습노트/Python",
     "인텔리제이 단축키.md",
     "priavte static 메소드.md",
@@ -191,7 +195,6 @@
     "강의/국비지원/DevOps/1. AWS 배포 기본 지식 학습.md",
     "강의/국비지원/풀스택",
     "이미지/screenshot/국비지원/DevOps",
-    "이미지/screenshot/국비지원",
     "강의/인프런 강의/스프링 핵심 원리 (기본편)/05 싱글톤 컨테이너.md",
     "취업노트/국비지원/풀스택.md"
   ]
