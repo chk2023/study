@@ -22,4 +22,7 @@
 
 ### 계층 2: 데이터 링크 계층 (Data link layer)
 전송 단위: frame
-대표 장치: L2 Switch, 모뎀, ㄱ
+대표 장치: L2 Switch, 모뎀, 기지국, AP
+프로토콜: CSMA/CD, CSMA/CA, Slott Aloha, DAC/ADC, Multiplexer, Demultiplexer, MAC 주소 관리 등
+
+데이터 
