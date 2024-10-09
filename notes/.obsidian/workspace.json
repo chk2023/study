@@ -146,8 +146,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "745a7610c6ea3565",
+  "active": "1c0057bca8d9013b",
   "lastOpenFiles": [
+    "학습노트/CS/Network",
     "개발노트/깃허브 프로젝트 생성.md",
     "학습노트/Python/0731.md",
     "학습노트/Python",
@@ -192,7 +193,6 @@
     "이미지/screenshot/국비지원/DevOps",
     "이미지/screenshot/국비지원",
     "강의/인프런 강의/스프링 핵심 원리 (기본편)/05 싱글톤 컨테이너.md",
-    "취업노트/국비지원/풀스택.md",
-    "취업노트/국비지원/Node.js.md"
+    "취업노트/국비지원/풀스택.md"
   ]
 }
