@@ -65,4 +65,4 @@
 대표 장치: L7 Switch, 방화벽
 프로토콜: FTP, HTTP, HTTPS, XML, Telnet, SSH 등
 
-TCP/IP 4계층일 경우 하위 3계층 
+TCP/IP 4계층일 경우 하위 3계층 TCP/IP 프로토콜 스택을 통해 전달받은 패킷을 다시 파싱해 응용S/W를 통해 최종적으로 사용자까지 데이터를 전달한다.
