@@ -61,3 +61,8 @@
 이 계층은 코드간의 번역을 담당하며 사용자 시스템에서 데이터의 형식상 차이를 다루는 부담을 응용 계층으로부터 덜어준다.
 
 ### 계층 7: 응용 계층 (Application layer)
+전송 단위: Message 또는 Data
+대표 장치: L7 Switch, 방화벽
+프로토콜: FTP, HTTP, HTTPS, XML, Telnet, SSH 등
+
+TCP/IP 4계층일 경우 하위 3계층 
